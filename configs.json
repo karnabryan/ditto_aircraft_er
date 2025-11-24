@@ -1,5 +1,87 @@
 [
   {
+    "name": "Structured/aircraft",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/aircraft/train.txt",
+    "validset": "data/er_magellan/Structured/aircraft/test.txt",
+    "testset": "data/er_magellan/Structured/aircraft/valid.txt"
+  },
+
+  {
+    "name": "Structured/faa_registry",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/faa_registry/train.txt",
+    "validset": "data/er_magellan/Structured/faa_registry/test.txt",
+    "testset": "data/er_magellan/Structured/faa_registry/valid.txt"
+  },
+  
+    {
+    "name": "Structured/faa_registry_1",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/faa_registry_1/train.txt",
+    "validset": "data/er_magellan/Structured/faa_registry_1/test.txt",
+    "testset": "data/er_magellan/Structured/faa_registry_1/valid.txt"
+  },
+  
+  
+  {
+    "name": "Structured/ditto_aircraft",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/ditto_aircraft/train.txt",
+    "validset": "data/er_magellan/Structured/ditto_aircraft/test.txt",
+    "testset": "data/er_magellan/Structured/ditto_aircraft/valid.txt"
+  },
+
+  {
+    "name": "Structured/baseline",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/baseline/train.txt",
+    "validset": "data/er_magellan/Structured/baseline/test.txt",
+    "testset": "data/er_magellan/Structured/baseline/valid.txt"
+  },
+  
+  {
+    "name": "aircraft_er/baseline_1",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/baseline_1/train.txt",
+    "validset": "data/aircraft_er/baseline_1/test.txt",
+    "testset": "data/aircraft_er/baseline_1/valid.txt"
+  },
+  
+  {
+    "name": "aircraft_er/baseline_2",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/baseline_2/train.txt",
+    "validset": "data/aircraft_er/baseline_2/test.txt",
+    "testset": "data/aircraft_er/baseline_2/valid.txt"
+  },
+  
+  {
+    "name": "aircraft_er/baseline",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/baseline/train.txt",
+    "validset": "data/aircraft_er/baseline/test.txt",
+    "testset": "data/aircraft_er/baseline/valid.txt"
+  },
+
+  {
+    "name": "Structured/make_model",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/er_magellan/Structured/make_model/train.txt",
+    "validset": "data/er_magellan/Structured/make_model/test.txt",
+    "testset": "data/er_magellan/Structured/make_model/valid.txt"
+  },
+
+  {
     "name": "wdc_all_small",
     "task_type": "classification",
     "vocab": ["0", "1"],

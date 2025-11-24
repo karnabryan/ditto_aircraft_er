@@ -1,0 +1,736 @@
+COL cictt_make VAL BELL COL cictt_model VAL 206 COL cictt_series VAL A1 	COL make VAL B COL model VAL 737 COL series VAL 209 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 33 COL cictt_series VAL G33 	COL make VAL BE COL model VAL 33 COL series VAL G33 	1
+COL cictt_make VAL PZL BIELSKO COL cictt_model VAL SZD41 COL cictt_series VAL A 	COL make VAL B COL model VAL 720 COL series VAL 059B 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA18 COL cictt_series VAL 125 	COL make VAL PA COL model VAL 18 COL series VAL 125 	1
+COL cictt_make VAL WACO COL cictt_model VAL DJC COL cictt_series VAL 6 	COL make VAL LR COL model VAL 23 COL series VAL 	0
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL SA3180 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SA COL model VAL 318 COL series VAL O 	1
+COL cictt_make VAL MOONEY COL cictt_model VAL M20K COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 737 COL series VAL 55S 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA36 COL cictt_series VAL 300 	COL make VAL B COL model VAL 737 COL series VAL 282C 	0
+COL cictt_make VAL DIAMOND COL cictt_model VAL DA62 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL DA COL model VAL 62 COL series VAL 	1
+COL cictt_make VAL MCDONNELL DOUGLAS COL cictt_model VAL MD11 COL cictt_series VAL F 	COL make VAL MD COL model VAL 11 COL series VAL 11F 	1
+COL cictt_make VAL HAWKER SIDDELEY COL cictt_model VAL HS125 COL cictt_series VAL 1B 	COL make VAL LET COL model VAL 13 COL series VAL 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL SNJ COL cictt_series VAL 5 	COL make VAL T COL model VAL 6 COL series VAL SNJ5 	1
+COL cictt_make VAL LOCKHEED COL cictt_model VAL P2V COL cictt_series VAL 7 	COL make VAL B COL model VAL 747 COL series VAL 422 	0
+COL cictt_make VAL SCHWEIZER COL cictt_model VAL SGU22 2 COL cictt_series VAL CK 	COL make VAL DGA COL model VAL 15 COL series VAL J 	0
+COL cictt_make VAL LEARJET COL cictt_model VAL 24 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL LR COL model VAL 24 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 254 	COL make VAL GRTLKS COL model VAL 2T1 COL series VAL E 	0
+COL cictt_make VAL TRAVEL AIR COL cictt_model VAL 4000 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CURTIS COL model VAL TRVAIR COL series VAL B4000 	1
+COL cictt_make VAL GRUMMAN COL cictt_model VAL F7F COL cictt_series VAL 3 	COL make VAL DC COL model VAL 8 COL series VAL 62F 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL C54 COL cictt_series VAL A 	COL make VAL DC COL model VAL 4 COL series VAL C54A 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 33 COL cictt_series VAL E33 	COL make VAL BE COL model VAL 33 COL series VAL E33 	1
+COL cictt_make VAL LOCKHEED COL cictt_model VAL VEGA COL cictt_series VAL 5 	COL make VAL LKHEED COL model VAL VEGA5 COL series VAL 	1
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL SA365 COL cictt_series VAL C1 	COL make VAL CL COL model VAL 215 COL series VAL 1A10 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 550 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CE COL model VAL 500 COL series VAL 550 	1
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S58 COL cictt_series VAL C 	COL make VAL A COL model VAL 300 COL series VAL B4622 	0
+COL cictt_make VAL BELLANCA COL cictt_model VAL 14 13 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 206 COL series VAL TU206F 	0
+COL cictt_make VAL PIPER COL cictt_model VAL L14 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PA COL model VAL L14 COL series VAL 	1
+COL cictt_make VAL GLASFLUGEL COL cictt_model VAL 304 COL cictt_series VAL C 	COL make VAL DC COL model VAL 9 COL series VAL 82 	0
+COL cictt_make VAL AIRBUS COL cictt_model VAL A330 COL cictt_series VAL 323 	COL make VAL BH COL model VAL 125 COL series VAL 400A 	0
+COL cictt_make VAL AERO COMMANDER COL cictt_model VAL 695 COL cictt_series VAL A 	COL make VAL AIRCRN COL model VAL HU16 COL series VAL A 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 758 	COL make VAL INLAND COL model VAL R400 COL series VAL 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 1900 COL cictt_series VAL C 	COL make VAL ROLSCH COL model VAL LS COL series VAL 4 	0
+COL cictt_make VAL BELL COL cictt_model VAL 47D COL cictt_series VAL 1 	COL make VAL BHT COL model VAL 47 COL series VAL D1 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 3T7 	COL make VAL BUHL COL model VAL LA1 COL series VAL 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 18 COL cictt_series VAL D 	COL make VAL AGUSTA COL model VAL A109 COL series VAL A2 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 777 COL cictt_series VAL 223 	COL make VAL B COL model VAL 777 COL series VAL 223 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 707 COL cictt_series VAL 328C 	COL make VAL B COL model VAL 707 COL series VAL 328C 	1
+COL cictt_make VAL KAMAN COL cictt_model VAL HOK1 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL K COL model VAL 600 COL series VAL HOK1 	1
+COL cictt_make VAL GAF COL cictt_model VAL N22 COL cictt_series VAL B 	COL make VAL A COL model VAL 310 COL series VAL 304 	0
+COL cictt_make VAL AMC COL cictt_model VAL TEXAS BULLET 205 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL GEM COL model VAL 205 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 48EF 	COL make VAL PA COL model VAL J4 COL series VAL 	0
+COL cictt_make VAL LOCKHEED COL cictt_model VAL 14 COL cictt_series VAL H 	COL make VAL LKHEED COL model VAL 14 COL series VAL H 	1
+COL cictt_make VAL CASA COL cictt_model VAL CN235 COL cictt_series VAL 200 	COL make VAL CN COL model VAL 235 COL series VAL 200 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 18 COL cictt_series VAL E18S9700 	COL make VAL BE COL model VAL 18 COL series VAL E18S9700 	1
+COL cictt_make VAL PIPER COL cictt_model VAL J4 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL PA COL model VAL J4 COL series VAL 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 33 COL cictt_series VAL 35C33 	COL make VAL BE COL model VAL 35 COL series VAL C33 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL P172 COL cictt_series VAL D 	COL make VAL CE COL model VAL 172 COL series VAL P172D 	1
+COL cictt_make VAL BELLANCA COL cictt_model VAL 14 9 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BL COL model VAL 149 COL series VAL 	1
+COL cictt_make VAL EMBRAER COL cictt_model VAL EMB145 COL cictt_series VAL EP 	COL make VAL EMB COL model VAL 145 COL series VAL EP 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 41 	COL make VAL CE COL model VAL 337 COL series VAL F 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 346 	COL make VAL B COL model VAL 747 COL series VAL 346 	1
+COL cictt_make VAL BELL COL cictt_model VAL TH1 COL cictt_series VAL L 	COL make VAL OREGON COL model VAL TH1 COL series VAL L 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 310 COL cictt_series VAL L 	COL make VAL CALFOR COL model VAL UH1F COL series VAL 	0
+COL cictt_make VAL PHEASANT COL cictt_model VAL H10 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PHESNT COL model VAL H10 COL series VAL 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 421 COL cictt_series VAL B 	COL make VAL CE COL model VAL 421 COL series VAL B 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL TU206 COL cictt_series VAL B 	COL make VAL BE COL model VAL 18 COL series VAL B18S 	0
+COL cictt_make VAL HAWKER SIDDELEY COL cictt_model VAL HS125 COL cictt_series VAL 403AC 	COL make VAL DC COL model VAL 9 COL series VAL 30 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 185 COL cictt_series VAL C 	COL make VAL PR COL model VAL G1 COL series VAL TG32 	0
+COL cictt_make VAL EMBRAER COL cictt_model VAL ERJ170 COL cictt_series VAL 200STD 	COL make VAL B COL model VAL 747 COL series VAL 212F 	0
+COL cictt_make VAL ALEXANDER COL cictt_model VAL EAGLEROCK COL cictt_series VAL A1 	COL make VAL ZLTZEP LZ COL model VAL N07 COL series VAL 101 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7BJ 	COL make VAL FH COL model VAL 27 COL series VAL J 	0
+COL cictt_make VAL AERMACCHI COL cictt_model VAL F260 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL MRCHTI COL model VAL F260 COL series VAL 	1
+COL cictt_make VAL TRAVEL AIR COL cictt_model VAL B9 4000 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PB COL model VAL Y5 COL series VAL OA10 	0
+COL cictt_make VAL LAKE COL cictt_model VAL LA4 COL cictt_series VAL 200 	COL make VAL LA COL model VAL 4 COL series VAL 200 	1
+COL cictt_make VAL NATIONAL BALLOONING COL cictt_model VAL 755 COL cictt_series VAL 12 	COL make VAL BE COL model VAL 35 COL series VAL G35 	0
+COL cictt_make VAL GREAT LAKES COL cictt_model VAL 2T COL cictt_series VAL 1A 	COL make VAL GRTLKS COL model VAL 2T1 COL series VAL A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 116 	COL make VAL B COL model VAL 737 COL series VAL 34S 	0
+COL cictt_make VAL PROCAER COL cictt_model VAL F15 COL cictt_series VAL B 	COL make VAL PROCER COL model VAL F15 COL series VAL B 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 182 COL cictt_series VAL M 	COL make VAL CE COL model VAL 182 COL series VAL M 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 4J6 	COL make VAL SR COL model VAL 9 COL series VAL F 	0
+COL cictt_make VAL FORD COL cictt_model VAL 4AT COL cictt_series VAL B 	COL make VAL FBA COL model VAL 2 COL series VAL C2 	0
+COL cictt_make VAL BELL COL cictt_model VAL UH1 COL cictt_series VAL F 	COL make VAL CVAC COL model VAL B24 COL series VAL B24J 	0
+COL cictt_make VAL AYRES COL cictt_model VAL S2R COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 727 COL series VAL 269 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 100 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 100 COL series VAL 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA36 COL cictt_series VAL 285 	COL make VAL PA COL model VAL 36 COL series VAL 285RESTD 	1
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL AS350 COL cictt_series VAL D 	COL make VAL AS COL model VAL 350D COL series VAL 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 180 COL cictt_series VAL D 	COL make VAL CIRRUS COL model VAL SR20 COL series VAL 	0
+COL cictt_make VAL BELL COL cictt_model VAL 47G COL cictt_series VAL 3B 	COL make VAL BHT COL model VAL 47 COL series VAL G3B 	1
+COL cictt_make VAL VERTOL COL cictt_model VAL CH47 COL cictt_series VAL D 	COL make VAL CH COL model VAL 47 COL series VAL D 	1
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL C123 COL cictt_series VAL K 	COL make VAL BLUMEN COL model VAL C123 COL series VAL KRESTD 	1
+COL cictt_make VAL GULFSTREAM COL cictt_model VAL GIV COL cictt_series VAL X 	COL make VAL GIV COL model VAL X COL series VAL None 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 2A1 	COL make VAL A COL model VAL 340 COL series VAL 313 	0
+COL cictt_make VAL BRITTEN NORMAN COL cictt_model VAL BN2A COL cictt_series VAL 27 	COL make VAL B COL model VAL 737 COL series VAL 2H5 	0
+COL cictt_make VAL LOCKHEED COL cictt_model VAL C121 COL cictt_series VAL A 	COL make VAL L COL model VAL 49 COL series VAL C121A 	1
+COL cictt_make VAL MCDONNELL DOUGLAS COL cictt_model VAL DC10 COL cictt_series VAL 10F 	COL make VAL PA COL model VAL 22 COL series VAL 108 	0
+COL cictt_make VAL INTERSTATE COL cictt_model VAL S1B COL cictt_series VAL 1 	COL make VAL REIMS COL model VAL F182 COL series VAL P 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7ET 	COL make VAL B COL model VAL 737 COL series VAL 7ET 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL SP31 	COL make VAL B COL model VAL 747 COL series VAL SP31 	1
+COL cictt_make VAL GROB COL cictt_model VAL G520 COL cictt_series VAL T 	COL make VAL GA COL model VAL 695 COL series VAL 	0
+COL cictt_make VAL PROCAER COL cictt_model VAL F15 COL cictt_series VAL B 	COL make VAL EAA COL model VAL 90 COL series VAL AF100 	0
+COL cictt_make VAL ERCOUPE COL cictt_model VAL G COL cictt_series VAL NO SERIES EXISTS 	COL make VAL ERCO COL model VAL 415 COL series VAL G 	1
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL HS 	COL make VAL HU COL model VAL 369 COL series VAL HS 	1
+COL cictt_make VAL GULFSTREAM COL cictt_model VAL G1159A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL ARROWF COL model VAL UH COL series VAL 1H 	0
+COL cictt_make VAL AERONCA COL cictt_model VAL 11AC COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AR COL model VAL 11 COL series VAL AC 	1
+COL cictt_make VAL CHAMPION COL cictt_model VAL 7KCAB COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SUPAC COL model VAL 14 COL series VAL PQ14B 	0
+COL cictt_make VAL BELL COL cictt_model VAL 47G COL cictt_series VAL 5A 	COL make VAL BHT COL model VAL 47 COL series VAL G5A 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL M337 COL cictt_series VAL B 	COL make VAL B COL model VAL 747 COL series VAL SR46 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC8 COL cictt_series VAL 73F 	COL make VAL WACO COL model VAL QC6 COL series VAL DQC6 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 222 	COL make VAL B COL model VAL 737 COL series VAL 222 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 400 COL cictt_series VAL A 	COL make VAL BE COL model VAL 65 COL series VAL A901RU21A 	0
+COL cictt_make VAL ATR COL cictt_model VAL ATR72 COL cictt_series VAL 212A 	COL make VAL CURTIS COL model VAL SEDAN COL series VAL 15C 	0
+COL cictt_make VAL MITSUBISHI COL cictt_model VAL MU2B COL cictt_series VAL 10 	COL make VAL FRCHLD COL model VAL 24 COL series VAL C8B 	0
+COL cictt_make VAL GLASFLUGEL COL cictt_model VAL KESTREL COL cictt_series VAL NO SERIES EXISTS 	COL make VAL GLASFL COL model VAL KESTRL COL series VAL 	1
+COL cictt_make VAL KAMAN COL cictt_model VAL K190 COL cictt_series VAL A 	COL make VAL CENTRL COL model VAL L26 COL series VAL 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL F337 COL cictt_series VAL H 	COL make VAL SPHRTH COL model VAL CIRRUS COL series VAL 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 310 COL cictt_series VAL L 	COL make VAL CE COL model VAL 310 COL series VAL L 	1
+COL cictt_make VAL GRUMMAN COL cictt_model VAL G21 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL G COL model VAL 21 COL series VAL 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA18 COL cictt_series VAL 135 	COL make VAL CP COL model VAL 40 COL series VAL 	0
+COL cictt_make VAL AERO COMMANDER COL cictt_model VAL 681 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL GA COL model VAL 681 COL series VAL 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC8 COL cictt_series VAL 53 	COL make VAL DC COL model VAL 8 COL series VAL 53 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 210 COL cictt_series VAL A 	COL make VAL CE COL model VAL 210 COL series VAL A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 273C 	COL make VAL B COL model VAL 747 COL series VAL 273C 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 320 COL cictt_series VAL D 	COL make VAL CE COL model VAL 320 COL series VAL D 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 707 COL cictt_series VAL 3J6B 	COL make VAL B COL model VAL 707 COL series VAL 3J6B 	1
+COL cictt_make VAL YAKOVLEV COL cictt_model VAL YAK40 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 206 COL series VAL P206D 	0
+COL cictt_make VAL BELL COL cictt_model VAL 47G COL cictt_series VAL 2 	COL make VAL PA COL model VAL 46R COL series VAL 350T 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 177 COL cictt_series VAL B 	COL make VAL WM COL model VAL UH COL series VAL 1H 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2P6 	COL make VAL B COL model VAL 737 COL series VAL 2P6 	1
+COL cictt_make VAL ERICKSON AIR CRANE COL cictt_model VAL S64 COL cictt_series VAL E 	COL make VAL SK COL model VAL 64 COL series VAL E 	1
+COL cictt_make VAL AIR TRACTOR COL cictt_model VAL AT602 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AT COL model VAL 602 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 777 COL cictt_series VAL 2Q8 	COL make VAL B COL model VAL 777 COL series VAL 2Q8 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 182 COL cictt_series VAL E 	COL make VAL BE COL model VAL 300 COL series VAL B300 	0
+COL cictt_make VAL FAIRCHILD HILLER COL cictt_model VAL FH227 COL cictt_series VAL D 	COL make VAL FH COL model VAL 227 COL series VAL D 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL SR81 	COL make VAL B COL model VAL 747 COL series VAL SR81 	1
+COL cictt_make VAL CURTISS WRIGHT COL cictt_model VAL O52 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CURTIS COL model VAL O52 COL series VAL 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL FRA150 COL cictt_series VAL L 	COL make VAL REIMS COL model VAL FRA150 COL series VAL L 	1
+COL cictt_make VAL CONVAIR COL cictt_model VAL 240 COL cictt_series VAL 7 	COL make VAL AS COL model VAL 355 COL series VAL F 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 4R7F 	COL make VAL PA COL model VAL 28R COL series VAL 201 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 90 COL cictt_series VAL 65A90 	COL make VAL BE COL model VAL 65 COL series VAL A90 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 49R 	COL make VAL B COL model VAL 737 COL series VAL 49R 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 357 	COL make VAL B COL model VAL 727 COL series VAL 1H2 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 375 	COL make VAL SK COL model VAL 58 COL series VAL BT 	0
+COL cictt_make VAL TRAVEL AIR COL cictt_model VAL 4 COL cictt_series VAL D 	COL make VAL CURTIS COL model VAL TRVAIR COL series VAL 4D 	1
+COL cictt_make VAL GRUMMAN COL cictt_model VAL GA7 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL P COL model VAL 2V COL series VAL 5F 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 152 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CE COL model VAL 152 COL series VAL 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC9 COL cictt_series VAL 12 	COL make VAL SCBFLG COL model VAL III COL series VAL B 	0
+COL cictt_make VAL MAULE COL cictt_model VAL M5 COL cictt_series VAL 220C 	COL make VAL M COL model VAL 5 COL series VAL 220C 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 650 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL A COL model VAL 300 COL series VAL B21C 	0
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL D 	COL make VAL MD COL model VAL 369 COL series VAL D 	1
+COL cictt_make VAL MBB COL cictt_model VAL BO105 COL cictt_series VAL CBS5 	COL make VAL BO COL model VAL 105S COL series VAL CBS5 	1
+COL cictt_make VAL AIRBUS COL cictt_model VAL A300 COL cictt_series VAL F4 605R 	COL make VAL GC COL model VAL 1 COL series VAL B 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 284B 	COL make VAL B COL model VAL 747 COL series VAL 284B 	1
+COL cictt_make VAL AEROSTAR INTERNATIONAL COL cictt_model VAL S55A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 737 COL series VAL 8K2 	0
+COL cictt_make VAL LOCKHEED COL cictt_model VAL 14 COL cictt_series VAL H2 	COL make VAL DH COL model VAL 104 COL series VAL 6A 	0
+COL cictt_make VAL HOWARD COL cictt_model VAL DGA15 COL cictt_series VAL J 	COL make VAL DGA COL model VAL 15 COL series VAL J 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 58 COL cictt_series VAL P 	COL make VAL PITTS COL model VAL S1 COL series VAL T 	0
+COL cictt_make VAL SCHLEICHER COL cictt_model VAL ASW28 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 720 COL series VAL 051B 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2U4 	COL make VAL B COL model VAL 737 COL series VAL 2U4 	1
+COL cictt_make VAL SCHLEICHER COL cictt_model VAL ASW12 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL SCHLER COL model VAL ASW12 COL series VAL 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL U3 COL cictt_series VAL A 	COL make VAL LL COL model VAL 11A COL series VAL 	0
+COL cictt_make VAL SPARTAN COL cictt_model VAL C2 COL cictt_series VAL 60 	COL make VAL SPARTN COL model VAL C2 COL series VAL 60 	1
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL SA365 COL cictt_series VAL N1 	COL make VAL SA COL model VAL 365 COL series VAL N1 	1
+COL cictt_make VAL SABRELINER COL cictt_model VAL NA265 COL cictt_series VAL 80 	COL make VAL NA COL model VAL 265 COL series VAL 80 	1
+COL cictt_make VAL DASSAULT COL cictt_model VAL FANJET FALCON COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL AMD COL model VAL 20 COL series VAL 	1
+COL cictt_make VAL PARTENAVIA COL cictt_model VAL AP68 COL cictt_series VAL TP300 	COL make VAL AP COL model VAL 68TP COL series VAL 300 	1
+COL cictt_make VAL AYRES COL cictt_model VAL S2R COL cictt_series VAL T11 	COL make VAL AYRES COL model VAL S2 COL series VAL RT11RESTD 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 180C 	COL make VAL GARLIK COL model VAL UH COL series VAL 1B 	0
+COL cictt_make VAL WACO COL cictt_model VAL VPF COL cictt_series VAL 7 	COL make VAL CHAMP COL model VAL 7 COL series VAL S7EC 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 151 	COL make VAL B COL model VAL 747 COL series VAL 151 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL A24 COL cictt_series VAL A 	COL make VAL DC COL model VAL A24 COL series VAL A 	1
+COL cictt_make VAL AERONCA COL cictt_model VAL YO58 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AR COL model VAL 65 COL series VAL YO58 	1
+COL cictt_make VAL BAC COL cictt_model VAL ONE ELEVEN COL cictt_series VAL 412EB 	COL make VAL BAC COL model VAL 111 COL series VAL 412AEB 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL R6D COL cictt_series VAL 1 	COL make VAL H COL model VAL 19 COL series VAL G 	0
+COL cictt_make VAL VERVILLE COL cictt_model VAL AT COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 767 COL series VAL 241 	0
+COL cictt_make VAL NZA COL cictt_model VAL FU24 COL cictt_series VAL 954 	COL make VAL BE COL model VAL 45 COL series VAL D45 	0
+COL cictt_make VAL AIR TRACTOR COL cictt_model VAL AT400 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL AT COL model VAL 400 COL series VAL 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA28R COL cictt_series VAL 201 	COL make VAL PA COL model VAL 28R COL series VAL 201 	1
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL 22 COL cictt_series VAL C7D 	COL make VAL AR COL model VAL 7 COL series VAL EC 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PAE23 COL cictt_series VAL 250 	COL make VAL DC COL model VAL 6 COL series VAL B 	0
+COL cictt_make VAL GROB COL cictt_model VAL G103 COL cictt_series VAL TWIN II 	COL make VAL GROB COL model VAL G103 COL series VAL TWIN2 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 705 	COL make VAL BL COL model VAL 7 COL series VAL CCM 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 404 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL SR COL model VAL 8 COL series VAL C 	0
+COL cictt_make VAL PIPER COL cictt_model VAL J3C COL cictt_series VAL 65S 	COL make VAL T COL model VAL 6 COL series VAL AT6C 	0
+COL cictt_make VAL CONVAIR COL cictt_model VAL 240 COL cictt_series VAL 8 	COL make VAL PA COL model VAL 44 COL series VAL 180 	0
+COL cictt_make VAL WACO COL cictt_model VAL HRE COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PA COL model VAL J3 COL series VAL F50 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 58 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BE COL model VAL 58 COL series VAL 	1
+COL cictt_make VAL AERONCA COL cictt_model VAL O58 COL cictt_series VAL A 	COL make VAL PA COL model VAL 42 COL series VAL 720 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 200 COL cictt_series VAL B200C 	COL make VAL BE COL model VAL 200 COL series VAL B200C 	1
+COL cictt_make VAL GULFSTREAM COL cictt_model VAL G280 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL G COL model VAL 280 COL series VAL G280 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL C54 COL cictt_series VAL B 	COL make VAL DC COL model VAL 4 COL series VAL C54B 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 4Q8 	COL make VAL BE COL model VAL 17 COL series VAL D17A 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 2D3B 	COL make VAL GEM COL model VAL 205 COL series VAL 	0
+COL cictt_make VAL PORTERFIELD COL cictt_model VAL CP55 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 737 COL series VAL 524 	0
+COL cictt_make VAL AEROSTAR INTERNATIONAL COL cictt_model VAL S60A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL A COL model VAL 300 COL series VAL F4608ST 	0
+COL cictt_make VAL PORTERFIELD COL cictt_model VAL 35 COL cictt_series VAL W 	COL make VAL DC COL model VAL 3 COL series VAL G202A 	0
+COL cictt_make VAL CONVAIR COL cictt_model VAL 340 COL cictt_series VAL 30 	COL make VAL CV COL model VAL 340 COL series VAL 31 	1
+COL cictt_make VAL BRITTEN NORMAN COL cictt_model VAL BN2 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL ACA COL model VAL 8GCBC COL series VAL 	0
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL BCS12 COL cictt_series VAL D1 	COL make VAL TCRAFT COL model VAL BC COL series VAL S12D1 	1
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 727 COL series VAL 2J7 	0
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL BFS12 COL cictt_series VAL 65 	COL make VAL B COL model VAL 747 COL series VAL 48EF 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA32R COL cictt_series VAL 301T 	COL make VAL PA COL model VAL 32R COL series VAL 301T 	1
+COL cictt_make VAL AERO COMMANDER COL cictt_model VAL 680 COL cictt_series VAL E 	COL make VAL PA COL model VAL 22 COL series VAL S160 	0
+COL cictt_make VAL WACO COL cictt_model VAL RBA COL cictt_series VAL NO SERIES EXISTS 	COL make VAL WACO COL model VAL R COL series VAL BA 	1
+COL cictt_make VAL SLINGSBY COL cictt_model VAL T51 COL cictt_series VAL 15 	COL make VAL ST COL model VAL A COL series VAL 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA46 COL cictt_series VAL 600TP 	COL make VAL DASALT COL model VAL FALCON COL series VAL 2000EX 	0
+COL cictt_make VAL DE HAVILLAND COL cictt_model VAL DH104 COL cictt_series VAL 6A 	COL make VAL DH COL model VAL 104 COL series VAL 6A 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 200 COL cictt_series VAL B200CT 	COL make VAL DETROT COL model VAL VEGA COL series VAL DL1SPECIAL 	0
+COL cictt_make VAL SWEARINGEN COL cictt_model VAL SA227 COL cictt_series VAL AT 	COL make VAL B COL model VAL 737 COL series VAL 924 	0
+COL cictt_make VAL CAMAIR COL cictt_model VAL 480 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CAMAIR COL model VAL 480 COL series VAL 	1
+COL cictt_make VAL AIRBUS COL cictt_model VAL A340 COL cictt_series VAL 312 	COL make VAL A COL model VAL 340 COL series VAL 312 	1
+COL cictt_make VAL GULFSTREAM COL cictt_model VAL GIV COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL GA COL model VAL 1159 COL series VAL IV 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL U206 COL cictt_series VAL D 	COL make VAL M COL model VAL 202 COL series VAL A 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 150 COL cictt_series VAL F 	COL make VAL CE COL model VAL 150 COL series VAL F 	1
+COL cictt_make VAL AGUSTA COL cictt_model VAL A109 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL AGUSTA COL model VAL A109 COL series VAL 	1
+COL cictt_make VAL MONOCOUPE COL cictt_model VAL 90 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL EAA COL model VAL 90 COL series VAL 	1
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL AS350 COL cictt_series VAL B1 	COL make VAL AS COL model VAL 350B1 COL series VAL 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA31P COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL PA COL model VAL 31 COL series VAL P 	1
+COL cictt_make VAL RYAN COL cictt_model VAL B1 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SCHLER COL model VAL KA6 COL series VAL CRPE 	0
+COL cictt_make VAL WACO COL cictt_model VAL UC72 COL cictt_series VAL C 	COL make VAL WACO COL model VAL RE COL series VAL UC72 	1
+COL cictt_make VAL BAE COL cictt_model VAL JETSTREAM 3100 COL cictt_series VAL 3101 	COL make VAL BA COL model VAL JETSTM COL series VAL 3101 	1
+COL cictt_make VAL PIPER COL cictt_model VAL J3C COL cictt_series VAL 65S 	COL make VAL PA COL model VAL J3 COL series VAL C65S 	1
+COL cictt_make VAL FUNK COL cictt_model VAL B85C COL cictt_series VAL NO SERIES EXISTS 	COL make VAL WACO COL model VAL 9 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 357 	COL make VAL B COL model VAL 747 COL series VAL 357 	1
+COL cictt_make VAL DASSAULT COL cictt_model VAL MYSTERE FALCON 900 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PA COL model VAL 34 COL series VAL 200 	0
+COL cictt_make VAL LOCKHEED COL cictt_model VAL C130 COL cictt_series VAL B 	COL make VAL L COL model VAL 282 COL series VAL C130B 	1
+COL cictt_make VAL BELL COL cictt_model VAL UH1 COL cictt_series VAL B 	COL make VAL B COL model VAL 747 COL series VAL 329 	0
+COL cictt_make VAL AIR AND SPACE COL cictt_model VAL 18 COL cictt_series VAL A 	COL make VAL AIRSPC COL model VAL 18 COL series VAL A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2M8 	COL make VAL B COL model VAL 737 COL series VAL 2M8 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 2X3 	COL make VAL WACO COL model VAL QC6 COL series VAL ZQC6 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 8LD 	COL make VAL B COL model VAL 727 COL series VAL 41 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2K2 	COL make VAL B COL model VAL 737 COL series VAL 2K2 	1
+COL cictt_make VAL GROB COL cictt_model VAL G103A COL cictt_series VAL TWIN II ACRO 	COL make VAL GROB COL model VAL G103 COL series VAL A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 707 COL cictt_series VAL 344B 	COL make VAL B COL model VAL 707 COL series VAL 344B 	1
+COL cictt_make VAL HILLER COL cictt_model VAL UH12 COL cictt_series VAL L 	COL make VAL HILLER COL model VAL UH12 COL series VAL L 	1
+COL cictt_make VAL SHINN COL cictt_model VAL 2150 COL cictt_series VAL A 	COL make VAL WACO COL model VAL UKS COL series VAL VKS7F 	0
+COL cictt_make VAL NAVAL AIRCRAFT COL cictt_model VAL N3N COL cictt_series VAL 3 	COL make VAL BL COL model VAL PACMKR COL series VAL 3142FLOAT 	0
+COL cictt_make VAL HEATH COL cictt_model VAL CNA40 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SUPAC COL model VAL 14 COL series VAL PQ14A 	0
+COL cictt_make VAL WACO COL cictt_model VAL UC72 COL cictt_series VAL D 	COL make VAL WACO COL model VAL UKS COL series VAL UC72D 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 18 COL cictt_series VAL A 	COL make VAL BE COL model VAL 18 COL series VAL A 	1
+COL cictt_make VAL PIPER COL cictt_model VAL J3C COL cictt_series VAL 50S 	COL make VAL PA COL model VAL J3 COL series VAL C50S 	1
+COL cictt_make VAL FOKKER COL cictt_model VAL F27 COL cictt_series VAL 200 	COL make VAL MODEL 408 COL model VAL None COL series VAL 	0
+COL cictt_make VAL DORNIER COL cictt_model VAL 228 COL cictt_series VAL 200 	COL make VAL SA COL model VAL 9 COL series VAL A 	0
+COL cictt_make VAL MCKINNON COL cictt_model VAL G21 COL cictt_series VAL G 	COL make VAL BE COL model VAL 200 COL series VAL B200GT 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC9 COL cictt_series VAL 12 	COL make VAL DC COL model VAL 9 COL series VAL 12 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 86N 	COL make VAL ECD COL model VAL EC135 COL series VAL P1 	0
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL C123 COL cictt_series VAL K 	COL make VAL REAGAN COL model VAL C123 COL series VAL K 	1
+COL cictt_make VAL AEROSTAR INTERNATIONAL COL cictt_model VAL RXS8 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AERSTR COL model VAL RXS COL series VAL 8 	1
+COL cictt_make VAL ENSTROM COL cictt_model VAL F28 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL DGA COL model VAL 15 COL series VAL P 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 245F 	COL make VAL B COL model VAL 747 COL series VAL 245F 	1
+COL cictt_make VAL NORTHROP COL cictt_model VAL P61 COL cictt_series VAL B 	COL make VAL BB COL model VAL 37 COL series VAL Z 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 162 	COL make VAL LR COL model VAL 25 COL series VAL 	0
+COL cictt_make VAL PILATUS COL cictt_model VAL PC12 COL cictt_series VAL 47E 	COL make VAL AR COL model VAL 65 COL series VAL TAF 	0
+COL cictt_make VAL GRUMMAN COL cictt_model VAL F6F COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL GRUMAN COL model VAL F6F COL series VAL 	1
+COL cictt_make VAL SWEARINGEN COL cictt_model VAL SA227 COL cictt_series VAL CC 	COL make VAL FRCACF COL model VAL SA227 COL series VAL CC 	1
+COL cictt_make VAL BELL COL cictt_model VAL 206 COL cictt_series VAL L 	COL make VAL BHT COL model VAL 206 COL series VAL L 	1
+COL cictt_make VAL TRAVEL AIR COL cictt_model VAL E4000 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SR COL model VAL 5 COL series VAL 	0
+COL cictt_make VAL AERMACCHI COL cictt_model VAL F260 COL cictt_series VAL C 	COL make VAL MRCHTI COL model VAL F260 COL series VAL C 	1
+COL cictt_make VAL KAMAN COL cictt_model VAL HOK1 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SA COL model VAL 26 COL series VAL T 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 790 	COL make VAL B COL model VAL 737 COL series VAL 790 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 720 COL cictt_series VAL 030B 	COL make VAL AYRES COL model VAL S2 COL series VAL RT34 	0
+COL cictt_make VAL CANADAIR COL cictt_model VAL CL44 COL cictt_series VAL J 	COL make VAL T COL model VAL 6 COL series VAL SNJ7 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2H4C 	COL make VAL B COL model VAL 737 COL series VAL 2H4C 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 3P6 	COL make VAL BE COL model VAL 300 COL series VAL LW 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 777 COL cictt_series VAL FHT 	COL make VAL B COL model VAL 777 COL series VAL FHT 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 525 COL cictt_series VAL A 	COL make VAL CE COL model VAL 525 COL series VAL 525A 	1
+COL cictt_make VAL PIPER COL cictt_model VAL AE1 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PA COL model VAL J5 COL series VAL AE1 	1
+COL cictt_make VAL AIRBUS HELICOPTERS COL cictt_model VAL EC135 COL cictt_series VAL P3 	COL make VAL EC COL model VAL 135 COL series VAL P3 	1
+COL cictt_make VAL EMBRAER COL cictt_model VAL EMB110 COL cictt_series VAL P2 	COL make VAL AERORS COL model VAL J2 COL series VAL 	0
+COL cictt_make VAL CIRRUS COL cictt_model VAL SR20 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL LR COL model VAL 31 COL series VAL A 	0
+COL cictt_make VAL SCHLEICHER COL cictt_model VAL KA4 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SCHLER COL model VAL II COL series VAL RHONLERCHE 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL U206 COL cictt_series VAL C 	COL make VAL BE COL model VAL 65 COL series VAL A808800 	0
+COL cictt_make VAL CAPRONI COL cictt_model VAL CALIF A21 COL cictt_series VAL S 	COL make VAL HH COL model VAL 43 COL series VAL F 	0
+COL cictt_make VAL PORTERFIELD COL cictt_model VAL LP65 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 747 COL series VAL 146 	0
+COL cictt_make VAL GRUMMAN COL cictt_model VAL J2F COL cictt_series VAL 6 	COL make VAL B COL model VAL 747 COL series VAL 4F6 	0
+COL cictt_make VAL VIKING COL cictt_model VAL KITTYHAWK B4 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL TCRAFK COL model VAL BF COL series VAL 1265 	0
+COL cictt_make VAL AIRBUS COL cictt_model VAL A318 COL cictt_series VAL 111 	COL make VAL PA COL model VAL 32R COL series VAL 301T 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 259 	COL make VAL FORNEY COL model VAL 415 COL series VAL F1A 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA31T COL cictt_series VAL 3 	COL make VAL BE COL model VAL 35 COL series VAL 33 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2K2 	COL make VAL B COL model VAL 767 COL series VAL 330 	0
+COL cictt_make VAL STINSON COL cictt_model VAL A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 747 COL series VAL 4HQF 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL C53 COL cictt_series VAL B 	COL make VAL B COL model VAL 737 COL series VAL 752 	0
+COL cictt_make VAL REARWIN COL cictt_model VAL 185 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL COMWTH COL model VAL 185 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 757 COL cictt_series VAL 24APF 	COL make VAL PA COL model VAL 28RT COL series VAL 201T 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 200 COL cictt_series VAL B200CGT 	COL make VAL BE COL model VAL 200 COL series VAL B200CGT 	1
+COL cictt_make VAL DASSAULT COL cictt_model VAL MYSTERE FALCON 200 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL BE COL model VAL 18 COL series VAL D18C 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 757 COL cictt_series VAL 2S7 	COL make VAL DC COL model VAL 7 COL series VAL C 	0
+COL cictt_make VAL BELL COL cictt_model VAL 47B COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BHT COL model VAL 47 COL series VAL B 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 35 COL cictt_series VAL J35 	COL make VAL BE COL model VAL 35 COL series VAL J35 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 277 	COL make VAL THNDCT COL model VAL COLT COL series VAL 56A 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 90C 	COL make VAL B COL model VAL 727 COL series VAL 90C 	1
+COL cictt_make VAL STEARMAN COL cictt_model VAL A75 COL cictt_series VAL N1 	COL make VAL B COL model VAL 727 COL series VAL 259 	0
+COL cictt_make VAL HAWKER SIDDELEY COL cictt_model VAL DH125 COL cictt_series VAL 3AR 	COL make VAL DH COL model VAL 125 COL series VAL 3AR 	1
+COL cictt_make VAL EMBRAER COL cictt_model VAL EMB110 COL cictt_series VAL P1 	COL make VAL EMB COL model VAL 110 COL series VAL P1 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 45R 	COL make VAL T COL model VAL 6 COL series VAL AT6B 	0
+COL cictt_make VAL LEARJET COL cictt_model VAL 45 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL LR COL model VAL 45 COL series VAL 40 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 3T7 	COL make VAL B COL model VAL 767 COL series VAL 3T7 	1
+COL cictt_make VAL LOCKHEED COL cictt_model VAL 10 COL cictt_series VAL E 	COL make VAL LKHEED COL model VAL 10 COL series VAL E 	1
+COL cictt_make VAL SLINGSBY COL cictt_model VAL T59 COL cictt_series VAL D 	COL make VAL YAK COL model VAL COL series VAL 18T 	0
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL MD COL model VAL 369 COL series VAL 	1
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL B25 COL cictt_series VAL H 	COL make VAL NA COL model VAL B25 COL series VAL H 	1
+COL cictt_make VAL EMAIR COL cictt_model VAL MA1 COL cictt_series VAL B 	COL make VAL MA COL model VAL 1 COL series VAL B 	1
+COL cictt_make VAL NAVION COL cictt_model VAL COL cictt_series VAL D 	COL make VAL PA COL model VAL L14 COL series VAL 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 23 COL cictt_series VAL C23 	COL make VAL WACO COL model VAL R COL series VAL BA 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 65 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 750 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 8B6 	COL make VAL B COL model VAL 737 COL series VAL 8B6 	1
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S55 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL SK COL model VAL 55 COL series VAL 	1
+COL cictt_make VAL LOCKHEED COL cictt_model VAL VEGA COL cictt_series VAL 1 	COL make VAL LKHEED COL model VAL VEGA1 COL series VAL 	1
+COL cictt_make VAL HAWKER SIDDELEY COL cictt_model VAL HS125 COL cictt_series VAL 400B 	COL make VAL MS COL model VAL RALLYE COL series VAL 235E 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA31T COL cictt_series VAL 2 	COL make VAL PA COL model VAL 31 COL series VAL T2 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 36N 	COL make VAL B COL model VAL 737 COL series VAL 36N 	1
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL AS350 COL cictt_series VAL B1 	COL make VAL AS COL model VAL 350D COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 260 	COL make VAL G COL model VAL 280 COL series VAL G280 	0
+COL cictt_make VAL MARTIN COL cictt_model VAL 202 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL SK COL model VAL 92 COL series VAL A 	0
+COL cictt_make VAL STINSON COL cictt_model VAL L5 COL cictt_series VAL E1 	COL make VAL PA COL model VAL 18 COL series VAL A 	0
+COL cictt_make VAL CHAMPION COL cictt_model VAL 7GCAA COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CHAMP COL model VAL 7 COL series VAL GCAA 	1
+COL cictt_make VAL ROCKWELL COL cictt_model VAL 112 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL COMNDR COL model VAL 112 COL series VAL 	1
+COL cictt_make VAL DE HAVILLAND COL cictt_model VAL DHC8 COL cictt_series VAL 201 	COL make VAL DHC COL model VAL 8 COL series VAL 201 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 287 	COL make VAL FRCHLD COL model VAL 22 COL series VAL C7AM 	0
+COL cictt_make VAL MAULE COL cictt_model VAL M4 COL cictt_series VAL 210S 	COL make VAL PIGMAN COL model VAL REARWN COL series VAL 8135T 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL FA150 COL cictt_series VAL L 	COL make VAL FRCHLD COL model VAL 22 COL series VAL C7D 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 2Q8 	COL make VAL DGA COL model VAL 15 COL series VAL GH2 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 320 COL cictt_series VAL E 	COL make VAL CE COL model VAL 320 COL series VAL E 	1
+COL cictt_make VAL BUHL COL cictt_model VAL CA3 COL cictt_series VAL C 	COL make VAL DH COL model VAL 125 COL series VAL 1A522 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL TO1 COL cictt_series VAL D 	COL make VAL DC COL model VAL 8 COL series VAL 31 	0
+COL cictt_make VAL CURTISS WRIGHT COL cictt_model VAL ROBIN COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CURTIS COL model VAL ROBIN COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7W0 	COL make VAL PA COL model VAL 36 COL series VAL 300 	0
+COL cictt_make VAL AIRBUS COL cictt_model VAL A300 COL cictt_series VAL F4 605R 	COL make VAL A COL model VAL 300 COL series VAL F4605R 	1
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL BF COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL TCRAFK COL model VAL BF COL series VAL 	1
+COL cictt_make VAL GULFSTREAM COL cictt_model VAL GVI COL cictt_series VAL NO SERIES EXISTS 	COL make VAL MONOCP COL model VAL 90 COL series VAL None 	0
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL AS350 COL cictt_series VAL D1 	COL make VAL BHT COL model VAL 206 COL series VAL A 	0
+COL cictt_make VAL BAE COL cictt_model VAL BAE125 COL cictt_series VAL 800B 	COL make VAL BAE COL model VAL 125 COL series VAL 800B 	1
+COL cictt_make VAL CALLAIR COL cictt_model VAL A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL P COL model VAL 38 COL series VAL E 	0
+COL cictt_make VAL AGUSTA COL cictt_model VAL A109 COL cictt_series VAL A 	COL make VAL AGUSTA COL model VAL A109 COL series VAL A 	1
+COL cictt_make VAL CONVAIR COL cictt_model VAL C131 COL cictt_series VAL B 	COL make VAL CV COL model VAL 640 COL series VAL 440DSTC 	1
+COL cictt_make VAL KUBICEK COL cictt_model VAL BB37 COL cictt_series VAL Z 	COL make VAL BB COL model VAL 37 COL series VAL Z 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC8 COL cictt_series VAL 62F 	COL make VAL DC COL model VAL 8 COL series VAL 62F 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2S5C 	COL make VAL BE COL model VAL 33 COL series VAL E33A 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC8 COL cictt_series VAL 62F 	COL make VAL DAVIS COL model VAL D1 COL series VAL W 	0
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S51 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SK COL model VAL 51 COL series VAL 	1
+COL cictt_make VAL AERO COMMANDER COL cictt_model VAL 1121 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL IA COL model VAL 1121 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7AV 	COL make VAL LUSCMB COL model VAL 4 COL series VAL 	0
+COL cictt_make VAL WACO COL cictt_model VAL ZVN COL cictt_series VAL 8 	COL make VAL WACO COL model VAL ZVN8 COL series VAL 	1
+COL cictt_make VAL STINSON COL cictt_model VAL 10 COL cictt_series VAL A 	COL make VAL STNSON COL model VAL 10 COL series VAL A 	1
+COL cictt_make VAL SCHWEIZER COL cictt_model VAL SGS2 32 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL FLEET COL model VAL 10 COL series VAL 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL U206 COL cictt_series VAL G 	COL make VAL SGS COL model VAL 1 COL series VAL 23D 	0
+COL cictt_make VAL DORNIER COL cictt_model VAL DO28D COL cictt_series VAL 1 	COL make VAL DO COL model VAL 28 COL series VAL D1 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 191 	COL make VAL WCFAB COL model VAL C97 COL series VAL GRESTD 	0
+COL cictt_make VAL AIRBUS COL cictt_model VAL A300 COL cictt_series VAL B4 622 	COL make VAL CE COL model VAL 305 COL series VAL D 	0
+COL cictt_make VAL ROCKWELL COL cictt_model VAL 114 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL WACO COL model VAL 125 COL series VAL 	0
+COL cictt_make VAL CUB CRAFTERS COL cictt_model VAL CC19 COL cictt_series VAL 180 	COL make VAL FRCHLD COL model VAL 22 COL series VAL C7B 	0
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL BF COL cictt_series VAL 65 	COL make VAL BV COL model VAL 42 COL series VAL B 	0
+COL cictt_make VAL TEMCO COL cictt_model VAL D16 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BN COL model VAL 2 COL series VAL B26 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 414 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 414 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 8 	COL make VAL CE COL model VAL 210 COL series VAL T210R 	0
+COL cictt_make VAL LEARJET COL cictt_model VAL 23 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL GA COL model VAL AA COL series VAL 5 	0
+COL cictt_make VAL AEROSTAR INTERNATIONAL COL cictt_model VAL S57A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AERSTR COL model VAL S57 COL series VAL S57A 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 206 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL PA COL model VAL 18 COL series VAL S 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 524 	COL make VAL DC COL model VAL 8 COL series VAL 72 	0
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL HE 	COL make VAL MD COL model VAL 369 COL series VAL HE 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 76N 	COL make VAL TCRAFK COL model VAL 15A COL series VAL 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL B18 COL cictt_series VAL A 	COL make VAL DC COL model VAL B18 COL series VAL A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 146 	COL make VAL DH COL model VAL 104 COL series VAL 5A 	0
+COL cictt_make VAL DASSAULT COL cictt_model VAL MYSTERE FALCON 50 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AMD COL model VAL 50 COL series VAL 50EX 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 500 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL NA COL model VAL B25 COL series VAL TB25 	0
+COL cictt_make VAL DE HAVILLAND COL cictt_model VAL DH80 COL cictt_series VAL A 	COL make VAL DH COL model VAL 80 COL series VAL A 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 150 COL cictt_series VAL M 	COL make VAL CE COL model VAL 150 COL series VAL M 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL U206 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 206 COL series VAL U206 	1
+COL cictt_make VAL GULFSTREAM COL cictt_model VAL GVII COL cictt_series VAL G500 	COL make VAL GA COL model VAL VII COL series VAL G500 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 320 COL cictt_series VAL E 	COL make VAL CE COL model VAL 177 COL series VAL RG 	0
+COL cictt_make VAL AERONCA COL cictt_model VAL S11AC COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CE COL model VAL 172 COL series VAL R172J 	0
+COL cictt_make VAL HAWKER COL cictt_model VAL 800 COL cictt_series VAL XP 	COL make VAL AT COL model VAL 250 COL series VAL 	0
+COL cictt_make VAL PIPER COL cictt_model VAL J3L COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 737 COL series VAL 3S3 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 2AX 	COL make VAL BB COL model VAL 22 COL series VAL XR 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 33A 	COL make VAL B COL model VAL 737 COL series VAL 2Z6 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL SNJ COL cictt_series VAL 7 	COL make VAL BB COL model VAL 30 COL series VAL XR 	0
+COL cictt_make VAL EUROCOPTER COL cictt_model VAL BO105 COL cictt_series VAL S 	COL make VAL CAMBAL COL model VAL A COL series VAL 250 	0
+COL cictt_make VAL HELIO COL cictt_model VAL H295 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PA COL model VAL 24 COL series VAL 260 	0
+COL cictt_make VAL SCHLEICHER COL cictt_model VAL ASW19 COL cictt_series VAL B 	COL make VAL B COL model VAL 727 COL series VAL 225 	0
+COL cictt_make VAL THUNDER COL cictt_model VAL AX7 77 COL cictt_series VAL Z 	COL make VAL THUNDR COL model VAL AX7 COL series VAL 77Z 	1
+COL cictt_make VAL AYRES COL cictt_model VAL S2R COL cictt_series VAL T34 	COL make VAL AYRES COL model VAL S2 COL series VAL RT34 	1
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S43 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL AGUSTA COL model VAL AB139 COL series VAL 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 200 COL cictt_series VAL A200C 	COL make VAL BE COL model VAL 200 COL series VAL A200C 	1
+COL cictt_make VAL BELL COL cictt_model VAL UH1 COL cictt_series VAL F 	COL make VAL RDC COL model VAL UH COL series VAL 1F 	1
+COL cictt_make VAL CURTISS WRIGHT COL cictt_model VAL CW1 COL cictt_series VAL NO SERIES EXIST 	COL make VAL CURTIS COL model VAL JR COL series VAL CW1 	1
+COL cictt_make VAL CURTISS WRIGHT COL cictt_model VAL SB2C COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 727 COL series VAL 77C 	0
+COL cictt_make VAL STINSON COL cictt_model VAL SR9 COL cictt_series VAL EM 	COL make VAL CE COL model VAL 305 COL series VAL TO1D 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA18 COL cictt_series VAL 105 SPECIAL 	COL make VAL SK COL model VAL 58 COL series VAL D 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL P210 COL cictt_series VAL N 	COL make VAL DC COL model VAL 3 COL series VAL C53D 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL T337 COL cictt_series VAL B 	COL make VAL CE COL model VAL 310 COL series VAL D 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 95 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BE COL model VAL 95 COL series VAL 	1
+COL cictt_make VAL PILATUS COL cictt_model VAL B4 COL cictt_series VAL PC11AF 	COL make VAL BE COL model VAL 58 COL series VAL TC 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 210 COL cictt_series VAL A 	COL make VAL CE COL model VAL 210 COL series VAL 5A(205A) 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7BD 	COL make VAL B COL model VAL 737 COL series VAL 7BD 	1
+COL cictt_make VAL AERO COMMANDER COL cictt_model VAL 100 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL ACMNDR COL model VAL 100 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 3H6 	COL make VAL B COL model VAL 747 COL series VAL 3H6 	1
+COL cictt_make VAL WACO COL cictt_model VAL YKC COL cictt_series VAL S 	COL make VAL AR COL model VAL 7 COL series VAL DC 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL TP206 COL cictt_series VAL D 	COL make VAL CE COL model VAL 206 COL series VAL TP206D 	1
+COL cictt_make VAL AEROSTAR COL cictt_model VAL M20F COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 737 COL series VAL 7K5 	0
+COL cictt_make VAL CALLAIR COL cictt_model VAL S1A COL cictt_series VAL 85F 	COL make VAL ARCTIC COL model VAL S1A COL series VAL 85F 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 707 COL cictt_series VAL 355C 	COL make VAL P COL model VAL 2V COL series VAL SP2HBLKHLS 	0
+COL cictt_make VAL WACO COL cictt_model VAL AVN COL cictt_series VAL 8 	COL make VAL ECLPS COL model VAL EA500 COL series VAL 	0
+COL cictt_make VAL SCHLEICHER COL cictt_model VAL KA6 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BE COL model VAL 23 COL series VAL A2319 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL C38 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 737 COL series VAL 322 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 238 	COL make VAL DHC COL model VAL 2 COL series VAL MKI 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL A188 COL cictt_series VAL B 	COL make VAL CE COL model VAL 188 COL series VAL A188B 	1
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL A36 COL cictt_series VAL A 	COL make VAL NA COL model VAL A36 COL series VAL A 	1
+COL cictt_make VAL AIRBUS COL cictt_model VAL A330 COL cictt_series VAL 243F 	COL make VAL T COL model VAL 6 COL series VAL SNJ5 	0
+COL cictt_make VAL PITCAIRN COL cictt_model VAL PA7 COL cictt_series VAL S 	COL make VAL B COL model VAL 737 COL series VAL 230C 	0
+COL cictt_make VAL EUROCOPTER COL cictt_model VAL EC120 COL cictt_series VAL B 	COL make VAL BE COL model VAL 58 COL series VAL P 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL AT6 COL cictt_series VAL C 	COL make VAL DC COL model VAL 3 COL series VAL C48 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 707 COL cictt_series VAL 373C 	COL make VAL B COL model VAL 75 COL series VAL PT13A 	0
+COL cictt_make VAL ROCKWELL COL cictt_model VAL 112 COL cictt_series VAL TC 	COL make VAL GA COL model VAL 112 COL series VAL TC 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 86J 	COL make VAL B COL model VAL 737 COL series VAL 86J 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2T7 	COL make VAL B COL model VAL 737 COL series VAL 2T7 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 282 	COL make VAL B COL model VAL 727 COL series VAL 282 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 510 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CE COL model VAL 510 COL series VAL 	1
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S61 COL cictt_series VAL NM 	COL make VAL DH COL model VAL 125 COL series VAL 1A 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 170 COL cictt_series VAL B 	COL make VAL CE COL model VAL 170 COL series VAL B 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7K9 	COL make VAL B COL model VAL 737 COL series VAL 7K9 	1
+COL cictt_make VAL DIAMOND COL cictt_model VAL DA62 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 727 COL series VAL 2Q9 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 182 COL cictt_series VAL S 	COL make VAL CE COL model VAL 182 COL series VAL S 	1
+COL cictt_make VAL AIRBUS COL cictt_model VAL A300 COL cictt_series VAL F4 622R 	COL make VAL A COL model VAL 300 COL series VAL F4622R 	1
+COL cictt_make VAL SCHEMPP HIRTH COL cictt_model VAL CIRRUS COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL SPHRTH COL model VAL CIRRUS COL series VAL 	1
+COL cictt_make VAL LAIRD COL cictt_model VAL LC COL cictt_series VAL 1B300 	COL make VAL BE COL model VAL 95 COL series VAL B95A 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 266 	COL make VAL B COL model VAL 737 COL series VAL 266 	1
+COL cictt_make VAL STINSON COL cictt_model VAL JUNIOR COL cictt_series VAL SR2 	COL make VAL A COL model VAL 320 COL series VAL 211 	0
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL A 	COL make VAL SK COL model VAL 64 COL series VAL A 	0
+COL cictt_make VAL MCDONNELL DOUGLAS HELICOPTER COL cictt_model VAL 500 COL cictt_series VAL N 	COL make VAL HU COL model VAL 500 COL series VAL N 	1
+COL cictt_make VAL DAVIS COL cictt_model VAL D1 COL cictt_series VAL K 	COL make VAL DAVIS COL model VAL D1 COL series VAL K 	1
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL BCS12 COL cictt_series VAL D485 	COL make VAL B COL model VAL 737 COL series VAL 3S1 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2R4C 	COL make VAL BE COL model VAL 18 COL series VAL AT7A 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 291 	COL make VAL B COL model VAL 727 COL series VAL 90C 	0
+COL cictt_make VAL BIRD COL cictt_model VAL A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL BH COL model VAL 125 COL series VAL 600A 	0
+COL cictt_make VAL CONVAIR COL cictt_model VAL 30 COL cictt_series VAL A 	COL make VAL CV COL model VAL 30 COL series VAL A 	1
+COL cictt_make VAL AEROMOT COL cictt_model VAL AMT300 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL AMT COL model VAL 300 COL series VAL 	1
+COL cictt_make VAL COLT COL cictt_model VAL GA42 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL THNDCT COL model VAL COLT COL series VAL GA42 	1
+COL cictt_make VAL MCDONNELL DOUGLAS COL cictt_model VAL DC10 COL cictt_series VAL 30F 	COL make VAL STRMAN COL model VAL C3 COL series VAL BSPCL 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL AT6 COL cictt_series VAL B 	COL make VAL T COL model VAL 6 COL series VAL AT6B 	1
+COL cictt_make VAL BRITTEN NORMAN COL cictt_model VAL BN2A COL cictt_series VAL 26 	COL make VAL BN COL model VAL 2 COL series VAL B26 	1
+COL cictt_make VAL GROB COL cictt_model VAL G103 COL cictt_series VAL TWIN II 	COL make VAL B COL model VAL 737 COL series VAL 45R 	0
+COL cictt_make VAL KUBICEK COL cictt_model VAL BB26 COL cictt_series VAL ED 	COL make VAL BB COL model VAL 22 COL series VAL ED 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL FRA150 COL cictt_series VAL L 	COL make VAL CE COL model VAL 414 COL series VAL 	0
+COL cictt_make VAL BOLKOW COL cictt_model VAL BO208 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BOLKOW COL model VAL JR COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 316F 	COL make VAL B COL model VAL 737 COL series VAL 54K 	0
+COL cictt_make VAL PIAGGIO COL cictt_model VAL P166 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BAC COL model VAL 111 COL series VAL 204AF 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2M8 	COL make VAL LL COL model VAL 8 COL series VAL E 	0
+COL cictt_make VAL HAWKER COL cictt_model VAL 900 COL cictt_series VAL XP 	COL make VAL HAWKER COL model VAL 900XP COL series VAL 	1
+COL cictt_make VAL THURSTON COL cictt_model VAL TSC1A COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 737 COL series VAL 219 	0
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL AS350 COL cictt_series VAL BA 	COL make VAL B COL model VAL 727 COL series VAL 270 	0
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL SUPER 71 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 737 COL series VAL 248C 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL O47 COL cictt_series VAL B 	COL make VAL NA COL model VAL O47 COL series VAL NA047B 	1
+COL cictt_make VAL PARTENAVIA COL cictt_model VAL P68 COL cictt_series VAL C 	COL make VAL SA COL model VAL 365 COL series VAL N1 	0
+COL cictt_make VAL CHAMPION COL cictt_model VAL 7KC COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SGS COL model VAL 1 COL series VAL 34 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 277 	COL make VAL B COL model VAL 767 COL series VAL 277 	1
+COL cictt_make VAL WACO COL cictt_model VAL YQC COL cictt_series VAL 6 	COL make VAL WACO COL model VAL YPF COL series VAL 6 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2Q8 	COL make VAL BE COL model VAL 65 COL series VAL 	0
+COL cictt_make VAL LOCKHEED COL cictt_model VAL PV2 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL DH COL model VAL 114 COL series VAL 2X 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 61 	COL make VAL B COL model VAL 737 COL series VAL 2X2 	0
+COL cictt_make VAL LINDSTRAND COL cictt_model VAL 77A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CE COL model VAL 188 COL series VAL A188 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 90 COL cictt_series VAL B90 	COL make VAL WSK COL model VAL PZL COL series VAL 104 	0
+COL cictt_make VAL DASSAULT COL cictt_model VAL FALCON 10 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 737 COL series VAL 301 	0
+COL cictt_make VAL COLT COL cictt_model VAL GA42 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL SA COL model VAL 226 COL series VAL T 	0
+COL cictt_make VAL THRUSH COL cictt_model VAL S2R COL cictt_series VAL H80 	COL make VAL GOVT COL model VAL N24 COL series VAL A 	0
+COL cictt_make VAL TECNAM COL cictt_model VAL P MENTOR COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CATS COL model VAL TECNAM COL series VAL PMENTOR 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 337 COL cictt_series VAL H 	COL make VAL BE COL model VAL 18 COL series VAL TC45G 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 172 COL cictt_series VAL P 	COL make VAL B COL model VAL 737 COL series VAL 4Y0 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 85P 	COL make VAL B COL model VAL 737 COL series VAL 85P 	1
+COL cictt_make VAL HAWKER SIDDELEY COL cictt_model VAL HS125 COL cictt_series VAL 600A 	COL make VAL DHC COL model VAL 2 COL series VAL MKIII 	0
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL F22 COL cictt_series VAL C 	COL make VAL TCRAFT COL model VAL 22 COL series VAL F22C 	1
+COL cictt_make VAL SLINGSBY COL cictt_model VAL T49 COL cictt_series VAL B 	COL make VAL B COL model VAL 707 COL series VAL 3K1C 	0
+COL cictt_make VAL PIPER COL cictt_model VAL L4 COL cictt_series VAL H 	COL make VAL PA COL model VAL J3 COL series VAL L4H 	1
+COL cictt_make VAL MARTIN COL cictt_model VAL 404 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL MD COL model VAL 11 COL series VAL 	0
+COL cictt_make VAL CONVAIR COL cictt_model VAL 30 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL T COL model VAL 1 COL series VAL 	0
+COL cictt_make VAL MAULE COL cictt_model VAL M4 COL cictt_series VAL 210C 	COL make VAL START COL model VAL H101 COL series VAL 	0
+COL cictt_make VAL BELL COL cictt_model VAL 47G COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BHT COL model VAL 47 COL series VAL G 	1
+COL cictt_make VAL DIAMOND COL cictt_model VAL DA42 COL cictt_series VAL NG 	COL make VAL DA COL model VAL 42 COL series VAL 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA18 COL cictt_series VAL 125 	COL make VAL STNSON COL model VAL L5 COL series VAL 	0
+COL cictt_make VAL MONOCOUPE COL cictt_model VAL 90A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL MONOCP COL model VAL 90A COL series VAL None 	1
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL TB25 COL cictt_series VAL N 	COL make VAL CHAMP COL model VAL 7 COL series VAL L16B 	0
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL C119 COL cictt_series VAL G3E 	COL make VAL HAWKIN COL model VAL C119 COL series VAL G3E 	1
+COL cictt_make VAL HAWKER SIDDELEY COL cictt_model VAL HS125 COL cictt_series VAL 700A 	COL make VAL BAE COL model VAL 125 COL series VAL 700A 	1
+COL cictt_make VAL STEARMAN COL cictt_model VAL A75 COL cictt_series VAL L3 	COL make VAL B COL model VAL 75 COL series VAL A75L3 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2N8 	COL make VAL DC COL model VAL 3 COL series VAL C47B 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 72T 	COL make VAL B COL model VAL 737 COL series VAL 72T 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 21C 	COL make VAL CE COL model VAL 210 COL series VAL F 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 525 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 525 COL series VAL 525BE 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 182 COL cictt_series VAL L 	COL make VAL CE COL model VAL 182 COL series VAL L 	1
+COL cictt_make VAL SWEARINGEN COL cictt_model VAL SA227 COL cictt_series VAL DC 	COL make VAL SA COL model VAL 227 COL series VAL DC 	1
+COL cictt_make VAL AYRES COL cictt_model VAL S2R COL cictt_series VAL T11 	COL make VAL AYRES COL model VAL S2 COL series VAL RT11 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 680 COL cictt_series VAL A 	COL make VAL CE COL model VAL 680 COL series VAL 680A 	1
+COL cictt_make VAL LUSCOMBE COL cictt_model VAL PHANTOM 1 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL LUSCMB COL model VAL 1 COL series VAL PHANTOM1 	1
+COL cictt_make VAL SCHLEICHER COL cictt_model VAL ASW15 COL cictt_series VAL B 	COL make VAL SCHLER COL model VAL ASW15 COL series VAL B 	1
+COL cictt_make VAL TRAVEL AIR COL cictt_model VAL D4 COL cictt_series VAL D 	COL make VAL CURTIS COL model VAL TRVAIR COL series VAL D4D 	1
+COL cictt_make VAL DE HAVILLAND COL cictt_model VAL DHC6 COL cictt_series VAL 300 	COL make VAL DHC COL model VAL 6 COL series VAL 300 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 777 COL cictt_series VAL 212 	COL make VAL B COL model VAL 777 COL series VAL 212 	1
+COL cictt_make VAL AERONCA COL cictt_model VAL YO58 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CE COL model VAL 180 COL series VAL C 	0
+COL cictt_make VAL CULVER COL cictt_model VAL LAR COL cictt_series VAL 90 	COL make VAL B COL model VAL 767 COL series VAL 35D 	0
+COL cictt_make VAL DORNIER COL cictt_model VAL DO28B COL cictt_series VAL 1 	COL make VAL SLNSBY COL model VAL T45 COL series VAL 	0
+COL cictt_make VAL LAVIASA COL cictt_model VAL PA25 COL cictt_series VAL 235 	COL make VAL PA COL model VAL 25 COL series VAL 235 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA30 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PA COL model VAL 30 COL series VAL 	1
+COL cictt_make VAL LUSCOMBE COL cictt_model VAL 8 COL cictt_series VAL B 	COL make VAL LL COL model VAL 8 COL series VAL B 	1
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL A 	COL make VAL HU COL model VAL 369 COL series VAL A 	1
+COL cictt_make VAL GLASER DIRKS COL cictt_model VAL DG500M COL cictt_series VAL B 	COL make VAL A COL model VAL 350 COL series VAL 941 	0
+COL cictt_make VAL TRAVEL AIR COL cictt_model VAL A14 COL cictt_series VAL D 	COL make VAL B COL model VAL 75 COL series VAL E75 	0
+COL cictt_make VAL DASSAULT COL cictt_model VAL FALCON 900EX COL cictt_series VAL NO SERIES EXISTS 	COL make VAL DC COL model VAL A26 COL series VAL C 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL C53 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 737 COL series VAL 8B6 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7L9 	COL make VAL B COL model VAL 737 COL series VAL 7L9 	1
+COL cictt_make VAL BELL COL cictt_model VAL 47K COL cictt_series VAL NO SERIES EXISTS 	COL make VAL BHT COL model VAL 47 COL series VAL K 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 269 	COL make VAL B COL model VAL 727 COL series VAL 269 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 7K9 	COL make VAL B COL model VAL 737 COL series VAL 7K5 	1
+COL cictt_make VAL EMBRAER COL cictt_model VAL ERJ170 COL cictt_series VAL 100SU 	COL make VAL BE COL model VAL 50 COL series VAL D50C 	0
+COL cictt_make VAL CONVAIR COL cictt_model VAL 600 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CE COL model VAL 310 COL series VAL N 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA22S COL cictt_series VAL 160 	COL make VAL MU COL model VAL 2B COL series VAL 25 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL P51 COL cictt_series VAL K 	COL make VAL NA COL model VAL P51 COL series VAL K 	1
+COL cictt_make VAL AIR TRACTOR COL cictt_model VAL AT802 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 737 COL series VAL 724 	0
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S43 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL SK COL model VAL 43 COL series VAL 	1
+COL cictt_make VAL MOONEY COL cictt_model VAL M18 COL cictt_series VAL L 	COL make VAL MOONEY COL model VAL 18 COL series VAL L 	1
+COL cictt_make VAL CONVAIR COL cictt_model VAL 440 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CV COL model VAL 440 COL series VAL 580STC 	1
+COL cictt_make VAL DASSAULT COL cictt_model VAL MYSTERE FALCON 20 COL cictt_series VAL D5 	COL make VAL AMD COL model VAL 20 COL series VAL D5 	1
+COL cictt_make VAL KUBICEK COL cictt_model VAL BB60 COL cictt_series VAL Z 	COL make VAL BB COL model VAL 60 COL series VAL Z 	1
+COL cictt_make VAL AVIAN COL cictt_model VAL TURBO 8 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL DC COL model VAL 4 COL series VAL C54BDC 	0
+COL cictt_make VAL LOCKHEED COL cictt_model VAL UC36 COL cictt_series VAL A 	COL make VAL LA COL model VAL 4 COL series VAL 200 	0
+COL cictt_make VAL GRUMMAN COL cictt_model VAL HU16 COL cictt_series VAL A 	COL make VAL STAR COL model VAL CAVALR COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 3Z9 	COL make VAL B COL model VAL 767 COL series VAL 3Z9 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 310 COL cictt_series VAL C 	COL make VAL CE COL model VAL 310 COL series VAL C 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 172 COL cictt_series VAL P 	COL make VAL CE COL model VAL 172 COL series VAL P 	1
+COL cictt_make VAL FUNK COL cictt_model VAL B COL cictt_series VAL NO SERIES EXISTS 	COL make VAL BE COL model VAL 33 COL series VAL E33C 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL SNJ COL cictt_series VAL 4 	COL make VAL BHT COL model VAL 47 COL series VAL G4A 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 24C 	COL make VAL B COL model VAL 727 COL series VAL 24C 	1
+COL cictt_make VAL NAVION COL cictt_model VAL COL cictt_series VAL G 	COL make VAL NAVION COL model VAL COL series VAL G 	1
+COL cictt_make VAL GUIMBAL COL cictt_model VAL CABRI COL cictt_series VAL G2 	COL make VAL CV COL model VAL 440 COL series VAL 5800STC 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 100 COL cictt_series VAL B100 	COL make VAL BE COL model VAL 100 COL series VAL B100 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA28 COL cictt_series VAL 140 	COL make VAL PA COL model VAL 28 COL series VAL 140 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 74V 	COL make VAL B COL model VAL 737 COL series VAL 74V 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 172C 	COL make VAL SM COL model VAL 6000 COL series VAL B 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 248C 	COL make VAL STRMAN COL model VAL C3 COL series VAL R 	0
+COL cictt_make VAL LOCKHEED COL cictt_model VAL UC36 COL cictt_series VAL A 	COL make VAL LKHEED COL model VAL 10 COL series VAL UC36A 	1
+COL cictt_make VAL BAC COL cictt_model VAL ONE ELEVEN COL cictt_series VAL 410AQ 	COL make VAL MX COL model VAL 7 COL series VAL 180 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 29 	COL make VAL B COL model VAL 727 COL series VAL 29 	1
+COL cictt_make VAL GRUMMAN COL cictt_model VAL G164 COL cictt_series VAL B34T 	COL make VAL SCWZER COL model VAL 269 COL series VAL C 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 134C 	COL make VAL B COL model VAL 727 COL series VAL 134C 	1
+COL cictt_make VAL BEECH COL cictt_model VAL AT10 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CV COL model VAL 240 COL series VAL 14 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 340 COL cictt_series VAL A 	COL make VAL CE COL model VAL 340 COL series VAL A 	1
+COL cictt_make VAL AER PEGASO COL cictt_model VAL M100 COL cictt_series VAL S 	COL make VAL AERPEG COL model VAL M100S COL series VAL 	1
+COL cictt_make VAL LAIRD COL cictt_model VAL LC COL cictt_series VAL B200 	COL make VAL LAIRD COL model VAL LCB COL series VAL 200 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2T7 	COL make VAL A COL model VAL 340 COL series VAL 642 	0
+COL cictt_make VAL BELL COL cictt_model VAL OH58 COL cictt_series VAL A 	COL make VAL BE COL model VAL A45 COL series VAL B45 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL C54 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL DC COL model VAL 4 COL series VAL C54 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 3M8 	COL make VAL YS COL model VAL 11A COL series VAL 	0
+COL cictt_make VAL BELL COL cictt_model VAL UH1 COL cictt_series VAL F 	COL make VAL UH COL model VAL 1F COL series VAL TAM 	1
+COL cictt_make VAL ROBINSON COL cictt_model VAL R22 COL cictt_series VAL ALPHA 	COL make VAL R COL model VAL 22 COL series VAL ALPHA 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 23B 	COL make VAL B COL model VAL 767 COL series VAL 23B 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC2 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 747 COL series VAL 357 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 185 COL cictt_series VAL B 	COL make VAL WACO COL model VAL YK COL series VAL S7 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 182 COL cictt_series VAL K 	COL make VAL BE COL model VAL 33 COL series VAL C33A 	0
+COL cictt_make VAL BELL COL cictt_model VAL 47G COL cictt_series VAL 4 	COL make VAL BAC COL model VAL 111 COL series VAL 201AC 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 172 COL cictt_series VAL R 	COL make VAL CE COL model VAL 172 COL series VAL R 	1
+COL cictt_make VAL KAMAN COL cictt_model VAL H43 COL cictt_series VAL A 	COL make VAL SR COL model VAL 6 COL series VAL B 	0
+COL cictt_make VAL HUGHES COL cictt_model VAL 269A COL cictt_series VAL 2 	COL make VAL BE COL model VAL 35 COL series VAL C33 	0
+COL cictt_make VAL SCHEIBE COL cictt_model VAL SF26 COL cictt_series VAL A 	COL make VAL SCHLER COL model VAL KA6 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 724 	COL make VAL CE COL model VAL 210 COL series VAL C 	0
+COL cictt_make VAL IAR BRASOV COL cictt_model VAL IS29 COL cictt_series VAL D2 	COL make VAL L COL model VAL 382 COL series VAL B 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 338 	COL make VAL B COL model VAL 747 COL series VAL 338 	1
+COL cictt_make VAL WACO COL cictt_model VAL UKC COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 727 COL series VAL 232 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL A24 COL cictt_series VAL B 	COL make VAL DC COL model VAL A24 COL series VAL B 	1
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL F22 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL TCRAFT COL model VAL 22 COL series VAL F22 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 150 COL cictt_series VAL D 	COL make VAL CE COL model VAL 150 COL series VAL D 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 381F 	COL make VAL L COL model VAL 1329 COL series VAL 23D 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 128 	COL make VAL B COL model VAL 737 COL series VAL 3Z0 	0
+COL cictt_make VAL CIRRUS COL cictt_model VAL SR22 COL cictt_series VAL T 	COL make VAL WACO COL model VAL UKC COL series VAL UKS6 	0
+COL cictt_make VAL ALL AMERICAN COL cictt_model VAL 10A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL ALAMER COL model VAL 10 COL series VAL A 	1
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL AS350 COL cictt_series VAL B 	COL make VAL NA COL model VAL 265 COL series VAL 20 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 235 	COL make VAL IS COL model VAL 28 COL series VAL B2 	0
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL HM 	COL make VAL BE COL model VAL 200 COL series VAL A200 	0
+COL cictt_make VAL PILATUS COL cictt_model VAL PC12 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL PC COL model VAL 12 COL series VAL 	1
+COL cictt_make VAL GRUMMAN COL cictt_model VAL TBM1 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL GRUMAN COL model VAL TBM COL series VAL 1 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 136 	COL make VAL AMD COL model VAL 20 COL series VAL C5 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 320 COL cictt_series VAL B 	COL make VAL CE COL model VAL 320 COL series VAL B 	1
+COL cictt_make VAL EMBRAER COL cictt_model VAL EMB120 COL cictt_series VAL ER 	COL make VAL EMB COL model VAL 120 COL series VAL ER 	1
+COL cictt_make VAL RAWDON COL cictt_model VAL T1 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL PA COL model VAL J5 COL series VAL B 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 200 COL cictt_series VAL T 	COL make VAL BE COL model VAL 200 COL series VAL T 	1
+COL cictt_make VAL STEARMAN COL cictt_model VAL A75 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL H COL model VAL 37 COL series VAL CH37B 	0
+COL cictt_make VAL BELL COL cictt_model VAL UH1 COL cictt_series VAL E 	COL make VAL PA COL model VAL 24 COL series VAL 	0
+COL cictt_make VAL BELLANCA COL cictt_model VAL CH300 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL BL COL model VAL PACMKR COL series VAL CH300 	1
+COL cictt_make VAL FOKKER COL cictt_model VAL F27 COL cictt_series VAL 500 	COL make VAL F COL model VAL 27 COL series VAL MK500 	1
+COL cictt_make VAL STINSON COL cictt_model VAL 108 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL STNSON COL model VAL 108 COL series VAL 	1
+COL cictt_make VAL SCHLEICHER COL cictt_model VAL KA6 COL cictt_series VAL B 	COL make VAL SCHLER COL model VAL KA6 COL series VAL B 	1
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S76 COL cictt_series VAL D 	COL make VAL SW204 COL model VAL UH1B COL series VAL 	0
+COL cictt_make VAL EXTRA COL cictt_model VAL EA300 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL SK COL model VAL 76 COL series VAL B 	0
+COL cictt_make VAL COMMAND AIRE COL cictt_model VAL 3C3 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL COAIRE COL model VAL 3C COL series VAL 3 	1
+COL cictt_make VAL SCHWEIZER COL cictt_model VAL SGS1 35 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 727 COL series VAL 2B7 	0
+COL cictt_make VAL AIRBUS COL cictt_model VAL A319 COL cictt_series VAL 112 	COL make VAL A COL model VAL 319 COL series VAL 112 	1
+COL cictt_make VAL WACO COL cictt_model VAL ZPF COL cictt_series VAL 7 	COL make VAL WACO COL model VAL YPF COL series VAL ZPFF7 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 45R 	COL make VAL B COL model VAL 737 COL series VAL 45R 	1
+COL cictt_make VAL STINSON COL cictt_model VAL SR6 COL cictt_series VAL B 	COL make VAL SR COL model VAL 6 COL series VAL B 	1
+COL cictt_make VAL FUNK COL cictt_model VAL C COL cictt_series VAL NO SERIES EXISTS 	COL make VAL FUNK COL model VAL FUNKC COL series VAL 	1
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S58 COL cictt_series VAL JT 	COL make VAL SK COL model VAL 58 COL series VAL JT 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL C54 COL cictt_series VAL DC 	COL make VAL B COL model VAL 727 COL series VAL 81 	0
+COL cictt_make VAL LEARJET COL cictt_model VAL 24 COL cictt_series VAL BA 	COL make VAL B COL model VAL 777 COL series VAL 21B 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 3S3 	COL make VAL GIPPS COL model VAL GA COL series VAL 8 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 75V 	COL make VAL B COL model VAL 737 COL series VAL 75V 	1
+COL cictt_make VAL FUJI COL cictt_model VAL FA200 COL cictt_series VAL 160 	COL make VAL FA COL model VAL 200 COL series VAL 160 	1
+COL cictt_make VAL CHAMPION COL cictt_model VAL 7FC COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CHAMP COL model VAL 7 COL series VAL FC 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 757 COL cictt_series VAL 28A 	COL make VAL CHAMP COL model VAL 8 COL series VAL KCAB 	0
+COL cictt_make VAL SIKORSKY COL cictt_model VAL S92 COL cictt_series VAL A 	COL make VAL SK COL model VAL 92 COL series VAL A 	1
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL SUPER 71 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL FRCHLD COL model VAL 71 COL series VAL 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA18 COL cictt_series VAL A135 	COL make VAL PA COL model VAL 18 COL series VAL A135RESTD 	1
+COL cictt_make VAL GLASFLUGEL COL cictt_model VAL CLUB LIBELLE COL cictt_series VAL 205 	COL make VAL SPARTN COL model VAL C3 COL series VAL 165 	0
+COL cictt_make VAL PILATUS COL cictt_model VAL PC6 COL cictt_series VAL CH2 	COL make VAL CALAIR COL model VAL A COL series VAL 5T 	0
+COL cictt_make VAL LAKE COL cictt_model VAL 250 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL FH COL model VAL 27 COL series VAL 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL C54 COL cictt_series VAL BDC 	COL make VAL DC COL model VAL 4 COL series VAL C54BDC 	1
+COL cictt_make VAL KUBICEK COL cictt_model VAL BB30 COL cictt_series VAL D 	COL make VAL BB COL model VAL 30 COL series VAL D 	1
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL AT6 COL cictt_series VAL F 	COL make VAL T COL model VAL 6 COL series VAL AT6F 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 757 COL cictt_series VAL 24APF 	COL make VAL B COL model VAL 757 COL series VAL 24A 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 55 COL cictt_series VAL 95C55 	COL make VAL BE COL model VAL 95 COL series VAL C55 	1
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL 24 COL cictt_series VAL C8F 	COL make VAL FRCHLD COL model VAL 24 COL series VAL C8F 	1
+COL cictt_make VAL BAC COL cictt_model VAL ONE ELEVEN COL cictt_series VAL 400 	COL make VAL BAC COL model VAL 111 COL series VAL 400 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 150 COL cictt_series VAL A 	COL make VAL CE COL model VAL 150 COL series VAL A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 406 	COL make VAL PA COL model VAL 28 COL series VAL 140 	0
+COL cictt_make VAL BELL COL cictt_model VAL 222 COL cictt_series VAL B 	COL make VAL BHT COL model VAL 205 COL series VAL A 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL B25 COL cictt_series VAL C 	COL make VAL GIPPS COL model VAL GA200 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 757 COL cictt_series VAL 2J4 	COL make VAL DH COL model VAL 106 COL series VAL COMET4C 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2A6 	COL make VAL B COL model VAL 737 COL series VAL 205 	0
+COL cictt_make VAL FAIRCHILD COL cictt_model VAL M62A COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL FRCHLD COL model VAL M62 COL series VAL M62A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 707 COL cictt_series VAL 341C 	COL make VAL SR COL model VAL 7 COL series VAL C 	0
+COL cictt_make VAL MONOCOUPE COL cictt_model VAL 90A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL EAA COL model VAL 90 COL series VAL A 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL FR182 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL B COL model VAL 767 COL series VAL 223 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 188 COL cictt_series VAL B 	COL make VAL CE COL model VAL 188 COL series VAL B 	1
+COL cictt_make VAL TECNAM COL cictt_model VAL P MENTOR COL cictt_series VAL NO SERIES EXISTS 	COL make VAL PA COL model VAL E2 COL series VAL 	0
+COL cictt_make VAL EMBRAER COL cictt_model VAL EMB145 COL cictt_series VAL EP 	COL make VAL P COL model VAL V1 COL series VAL 	0
+COL cictt_make VAL AEROSTAR INTERNATIONAL COL cictt_model VAL S49A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CV COL model VAL 240 COL series VAL T29B 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL T310 COL cictt_series VAL Q 	COL make VAL CE COL model VAL 182 COL series VAL F 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 45 COL cictt_series VAL D45 	COL make VAL B COL model VAL 707 COL series VAL 323B 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 17 COL cictt_series VAL C17L 	COL make VAL BE COL model VAL 17 COL series VAL C17L 	1
+COL cictt_make VAL PIPER COL cictt_model VAL PA17 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL EMB COL model VAL 145 COL series VAL XR 	0
+COL cictt_make VAL CURTISS WRIGHT COL cictt_model VAL SEDAN COL cictt_series VAL 15D 	COL make VAL A COL model VAL 320 COL series VAL 232 	0
+COL cictt_make VAL BEECH COL cictt_model VAL 45 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL BE COL model VAL 45 COL series VAL 	1
+COL cictt_make VAL STINSON COL cictt_model VAL SM7 COL cictt_series VAL A 	COL make VAL SM COL model VAL 7 COL series VAL A 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL F177RG COL cictt_series VAL NO SERIES EXISTS 	COL make VAL A COL model VAL 300 COL series VAL F4622R 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 2B5F 	COL make VAL AT COL model VAL 502 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 322 	COL make VAL B COL model VAL 737 COL series VAL 322 	1
+COL cictt_make VAL GROB COL cictt_model VAL G102 COL cictt_series VAL CLUB ASTIR IIIB 	COL make VAL BHT COL model VAL 47 COL series VAL G3B2A 	0
+COL cictt_make VAL AERO COMMANDER COL cictt_model VAL 600S2D COL cictt_series VAL NO SERIES EXISTS 	COL make VAL LUSCMB COL model VAL 1 COL series VAL PHANTOM1 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 188 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 188 COL series VAL 	1
+COL cictt_make VAL AGUSTA COL cictt_model VAL AB139 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AGUSTA COL model VAL AB139 COL series VAL 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 337 COL cictt_series VAL A 	COL make VAL TCRAFT COL model VAL 19 COL series VAL F19 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA20 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL PA COL model VAL 20 COL series VAL 	1
+COL cictt_make VAL ATR COL cictt_model VAL ATR42 COL cictt_series VAL 500 	COL make VAL ATR COL model VAL 42 COL series VAL 500 	1
+COL cictt_make VAL VARGA COL cictt_model VAL 2180 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL VARGA COL model VAL 2180 COL series VAL 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 747 COL cictt_series VAL 282B 	COL make VAL B COL model VAL 747 COL series VAL 282B 	1
+COL cictt_make VAL BELL COL cictt_model VAL UH1 COL cictt_series VAL H 	COL make VAL A COL model VAL 330 COL series VAL 302 	0
+COL cictt_make VAL GROB COL cictt_model VAL G102 COL cictt_series VAL CLUB ASTIR III 	COL make VAL SCHLER COL model VAL ASW15 COL series VAL 	0
+COL cictt_make VAL EUROCOPTER COL cictt_model VAL BO105 COL cictt_series VAL C 	COL make VAL B COL model VAL 747 COL series VAL 227B 	0
+COL cictt_make VAL SIKORSKY COL cictt_model VAL CH54 COL cictt_series VAL B 	COL make VAL SK COL model VAL 64 COL series VAL CH54B 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 757 COL cictt_series VAL 324 	COL make VAL B COL model VAL 757 COL series VAL 324 	1
+COL cictt_make VAL CALLAIR COL cictt_model VAL A6 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CALAIR COL model VAL A COL series VAL 6 	1
+COL cictt_make VAL DE HAVILLAND COL cictt_model VAL DHC8 COL cictt_series VAL 301 	COL make VAL REIMS COL model VAL FR172 COL series VAL E 	0
+COL cictt_make VAL BEECH COL cictt_model VAL UC45 COL cictt_series VAL J 	COL make VAL BE COL model VAL 18 COL series VAL UC45J 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 180 COL cictt_series VAL J 	COL make VAL CE COL model VAL 180 COL series VAL J 	1
+COL cictt_make VAL KUBICEK COL cictt_model VAL BB20 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 401 COL series VAL 	0
+COL cictt_make VAL KODIAK COL cictt_model VAL 200 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL LET COL model VAL 410 COL series VAL UVP 	0
+COL cictt_make VAL GLASER DIRKS COL cictt_model VAL DG100 COL cictt_series VAL G 	COL make VAL DG COL model VAL 100 COL series VAL G 	1
+COL cictt_make VAL BELL COL cictt_model VAL UH1 COL cictt_series VAL B 	COL make VAL INTHEL COL model VAL UH1B COL series VAL 	1
+COL cictt_make VAL AVIAT COL cictt_model VAL A1 COL cictt_series VAL A 	COL make VAL EC COL model VAL 225 COL series VAL LP 	0
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL F22 COL cictt_series VAL B 	COL make VAL DH COL model VAL 104 COL series VAL 6BA 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL R172 COL cictt_series VAL H 	COL make VAL BE COL model VAL 99 COL series VAL B99 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 8JP 	COL make VAL B COL model VAL 737 COL series VAL 8JP 	1
+COL cictt_make VAL PORTERFIELD COL cictt_model VAL 35 COL cictt_series VAL V 	COL make VAL T COL model VAL 6 COL series VAL SNJ6 	0
+COL cictt_make VAL CHAMPION COL cictt_model VAL 8GCBC COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CHAMP COL model VAL 8 COL series VAL GCBC 	1
+COL cictt_make VAL GRUMMAN COL cictt_model VAL TBM3 COL cictt_series VAL E 	COL make VAL GRUMAN COL model VAL TBM COL series VAL 3E 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 411 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CE COL model VAL 411 COL series VAL 	1
+COL cictt_make VAL LUSCOMBE COL cictt_model VAL T8 COL cictt_series VAL F 	COL make VAL LL COL model VAL 8 COL series VAL T8F 	1
+COL cictt_make VAL DE HAVILLAND COL cictt_model VAL DH104 COL cictt_series VAL 6BA 	COL make VAL DH COL model VAL 104 COL series VAL 6BA 	1
+COL cictt_make VAL LEARJET COL cictt_model VAL 36 COL cictt_series VAL A 	COL make VAL LR COL model VAL 36 COL series VAL A 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC4 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL TIMM COL model VAL PT220 COL series VAL C 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL 411 COL cictt_series VAL A 	COL make VAL CE COL model VAL 411 COL series VAL A 	1
+COL cictt_make VAL MITSUBISHI COL cictt_model VAL MU2B COL cictt_series VAL 15 	COL make VAL SCHLER COL model VAL ASW27 COL series VAL 	0
+COL cictt_make VAL WACO COL cictt_model VAL UKS COL cictt_series VAL 7 	COL make VAL B COL model VAL 727 COL series VAL 2X3 	0
+COL cictt_make VAL WACO COL cictt_model VAL EQC COL cictt_series VAL 6 	COL make VAL B COL model VAL 737 COL series VAL 2A6 	0
+COL cictt_make VAL SCHWEIZER COL cictt_model VAL SGU22 2 COL cictt_series VAL C 	COL make VAL SGU COL model VAL 2 COL series VAL 22C 	1
+COL cictt_make VAL LEARJET COL cictt_model VAL 29 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL LR COL model VAL 29 COL series VAL 	1
+COL cictt_make VAL SIKORSKY COL cictt_model VAL UH34 COL cictt_series VAL D 	COL make VAL LN COL model VAL 77 COL series VAL A 	0
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL A 	COL make VAL HU COL model VAL 369 COL series VAL OH6A 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 284 	COL make VAL B COL model VAL 737 COL series VAL 284 	1
+COL cictt_make VAL HILLER COL cictt_model VAL UH12 COL cictt_series VAL D 	COL make VAL B COL model VAL 737 COL series VAL 2N8 	0
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL SA316 COL cictt_series VAL C 	COL make VAL SA COL model VAL 316 COL series VAL C 	1
+COL cictt_make VAL CURTISS WRIGHT COL cictt_model VAL SEDAN COL cictt_series VAL 15D 	COL make VAL CURTIS COL model VAL SEDAN COL series VAL 15D 	1
+COL cictt_make VAL DORNIER COL cictt_model VAL 228 COL cictt_series VAL 202 	COL make VAL CE COL model VAL 172 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 4B7 	COL make VAL B COL model VAL 737 COL series VAL 4B7 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 560 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL CHAMP COL model VAL 7 COL series VAL GCBC 	0
+COL cictt_make VAL MONOCOUPE COL cictt_model VAL 90AF COL cictt_series VAL 100 	COL make VAL EAA COL model VAL 90 COL series VAL AF100 	1
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL BC12 COL cictt_series VAL D 	COL make VAL BAE COL model VAL ATP COL series VAL 	0
+COL cictt_make VAL NORTH AMERICAN COL cictt_model VAL T28 COL cictt_series VAL B 	COL make VAL INLAND COL model VAL W500 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 720 COL cictt_series VAL 023B 	COL make VAL B COL model VAL 737 COL series VAL 85P 	0
+COL cictt_make VAL HILLER COL cictt_model VAL UH12 COL cictt_series VAL EL 	COL make VAL G COL model VAL 164 COL series VAL 	0
+COL cictt_make VAL CESSNA COL cictt_model VAL FR172 COL cictt_series VAL F 	COL make VAL REIMS COL model VAL FR172 COL series VAL F 	1
+COL cictt_make VAL LOCKHEED COL cictt_model VAL 1649 COL cictt_series VAL A98 	COL make VAL L COL model VAL 1649 COL series VAL A98 	1
+COL cictt_make VAL TAYLORCRAFT COL cictt_model VAL A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL CURTIS COL model VAL TRVAIR COL series VAL K4000 	0
+COL cictt_make VAL KUBICEK COL cictt_model VAL BB26 COL cictt_series VAL XR 	COL make VAL BB COL model VAL 22 COL series VAL XR 	1
+COL cictt_make VAL MAULE COL cictt_model VAL M4 COL cictt_series VAL BEE DEE 	COL make VAL AT COL model VAL 10 COL series VAL BH 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 757 COL cictt_series VAL 230 	COL make VAL CE COL model VAL 411 COL series VAL 	0
+COL cictt_make VAL BELL COL cictt_model VAL OH13 COL cictt_series VAL E 	COL make VAL CH COL model VAL 47D COL series VAL 	0
+COL cictt_make VAL PILATUS COL cictt_model VAL PC6 COL cictt_series VAL B1H2 	COL make VAL PC COL model VAL 6 COL series VAL B1H2 	1
+COL cictt_make VAL GLASFLUGEL COL cictt_model VAL STANDARD LIBELLE COL cictt_series VAL 201B 	COL make VAL GLASFL COL model VAL 201 COL series VAL B 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 191 	COL make VAL B COL model VAL 727 COL series VAL 191 	1
+COL cictt_make VAL COMMAND AIRE COL cictt_model VAL 3C3 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL B COL model VAL 737 COL series VAL 277 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 707 COL cictt_series VAL 373C 	COL make VAL B COL model VAL 707 COL series VAL 373C 	1
+COL cictt_make VAL LINDSTRAND COL cictt_model VAL 69A COL cictt_series VAL NO SERIES EXISTS 	COL make VAL LN COL model VAL 69 COL series VAL A 	1
+COL cictt_make VAL BEECH COL cictt_model VAL 1900 COL cictt_series VAL D 	COL make VAL AMD COL model VAL 20 COL series VAL E 	0
+COL cictt_make VAL HAWKER SIDDELEY COL cictt_model VAL DH125 COL cictt_series VAL 1A 	COL make VAL B COL model VAL 737 COL series VAL 36E 	0
+COL cictt_make VAL CONSOLIDATED VULTEE COL cictt_model VAL BT13 COL cictt_series VAL A 	COL make VAL BBAVIA COL model VAL 7 COL series VAL GCBC 	0
+COL cictt_make VAL BEECH COL cictt_model VAL JRB COL cictt_series VAL 4 	COL make VAL K COL model VAL 600 COL series VAL HUK1 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 2S3 	COL make VAL AMD COL model VAL 20 COL series VAL C 	0
+COL cictt_make VAL AERONCA COL cictt_model VAL 11CC COL cictt_series VAL NO SERIES EXISTS 	COL make VAL AR COL model VAL 11 COL series VAL CC 	1
+COL cictt_make VAL BOEING COL cictt_model VAL B17 COL cictt_series VAL G 	COL make VAL NAVION COL model VAL COL series VAL B 	0
+COL cictt_make VAL DOUGLAS COL cictt_model VAL DC8 COL cictt_series VAL 31 	COL make VAL B COL model VAL 75 COL series VAL N2S5 	0
+COL cictt_make VAL PIPER COL cictt_model VAL PA46 COL cictt_series VAL 310P 	COL make VAL PA COL model VAL 46 COL series VAL 310P 	1
+COL cictt_make VAL THURSTON COL cictt_model VAL TSC1A COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL TSC COL model VAL 1A COL series VAL 	1
+COL cictt_make VAL CESSNA COL cictt_model VAL 180 COL cictt_series VAL B 	COL make VAL CE COL model VAL 188 COL series VAL A188A 	0
+COL cictt_make VAL DE HAVILLAND COL cictt_model VAL DHC1 COL cictt_series VAL 22 	COL make VAL DHC COL model VAL 1 COL series VAL 22 	1
+COL cictt_make VAL AERO COMMANDER COL cictt_model VAL 560 COL cictt_series VAL F 	COL make VAL GA COL model VAL 560 COL series VAL F 	1
+COL cictt_make VAL PIK COL cictt_model VAL PIK20 COL cictt_series VAL UNDESIGNATED SERIES 	COL make VAL T COL model VAL 50 COL series VAL 	0
+COL cictt_make VAL CONVAIR COL cictt_model VAL 240 COL cictt_series VAL 4 	COL make VAL CV COL model VAL 240 COL series VAL 4 	1
+COL cictt_make VAL SAVOIA MARCHETTI COL cictt_model VAL S56 COL cictt_series VAL B 	COL make VAL AMERAN COL model VAL S56 COL series VAL B 	1
+COL cictt_make VAL DOUGLAS COL cictt_model VAL R6D COL cictt_series VAL 1 	COL make VAL DC COL model VAL 6 COL series VAL R6D1 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 8DC 	COL make VAL DC COL model VAL 8 COL series VAL 43 	0
+COL cictt_make VAL BAC COL cictt_model VAL ONE ELEVEN COL cictt_series VAL 215AU 	COL make VAL BAC COL model VAL 111 COL series VAL 215AU 	1
+COL cictt_make VAL HUGHES COL cictt_model VAL 369 COL cictt_series VAL D 	COL make VAL HU COL model VAL 369 COL series VAL D 	1
+COL cictt_make VAL COLONIAL COL cictt_model VAL C1 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL BE COL model VAL 90 COL series VAL C90A 	0
+COL cictt_make VAL WACO COL cictt_model VAL EGC COL cictt_series VAL 7 	COL make VAL PA COL model VAL J4 COL series VAL F 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 48E 	COL make VAL SCHLER COL model VAL KA6 COL series VAL CR 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 232 	COL make VAL BL COL model VAL 1412 COL series VAL F3 	0
+COL cictt_make VAL BRITTEN NORMAN COL cictt_model VAL BN2A COL cictt_series VAL 21 	COL make VAL PICARD COL model VAL AX6 COL series VAL 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 727 COL cictt_series VAL 151C 	COL make VAL B COL model VAL 727 COL series VAL 151C 	1
+COL cictt_make VAL AEROSPATIALE COL cictt_model VAL SA316 COL cictt_series VAL C 	COL make VAL AMERAN COL model VAL S56 COL series VAL B 	0
+COL cictt_make VAL SLINGSBY COL cictt_model VAL T43 COL cictt_series VAL D 	COL make VAL RHH COL model VAL UH COL series VAL 1H 	0
+COL cictt_make VAL AIRBUS COL cictt_model VAL A350 COL cictt_series VAL 941 	COL make VAL ENSTRM COL model VAL F28 COL series VAL 280FX 	0
+COL cictt_make VAL STINSON COL cictt_model VAL SM2 COL cictt_series VAL AC 	COL make VAL B COL model VAL 737 COL series VAL 4M0 	0
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 8F2 	COL make VAL CE COL model VAL 337 COL series VAL T337F 	0
+COL cictt_make VAL BOEING COL cictt_model VAL SA307 COL cictt_series VAL B 	COL make VAL AR COL model VAL K COL series VAL S 	0
+COL cictt_make VAL SIKORSKY COL cictt_model VAL UH19 COL cictt_series VAL F 	COL make VAL H COL model VAL 19 COL series VAL UH19F 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 3B7 	COL make VAL B COL model VAL 737 COL series VAL 3B7 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 767 COL cictt_series VAL 3W0 	COL make VAL CE COL model VAL 500 COL series VAL 552 	0
+COL cictt_make VAL CHAMPION COL cictt_model VAL 7FC COL cictt_series VAL NO SERIES EXISTS 	COL make VAL BL COL model VAL 7 COL series VAL FC 	1
+COL cictt_make VAL BOEING COL cictt_model VAL 737 COL cictt_series VAL 3Y0 	COL make VAL B COL model VAL 737 COL series VAL 3Y0 	1
+COL cictt_make VAL DIAMOND COL cictt_model VAL H36 COL cictt_series VAL NO SERIES EXISTS 	COL make VAL A COL model VAL 318 COL series VAL 111 	0
+COL cictt_make VAL ERCOUPE COL cictt_model VAL 415 COL cictt_series VAL D 	COL make VAL ERCO COL model VAL 415 COL series VAL D 	1
