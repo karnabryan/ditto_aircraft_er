@@ -150,3 +150,11 @@ aircraft_er/union_lm=distilbert_dk=False_su=False 0.949071
 aircraft_er/union_lm=distilbert_dk=False_su=False 9.510346
 aircraft_er/union_lm=distilbert_dk=False_su=False 0.956529
 aircraft_er/union_lm=distilbert_dk=False_su=False 1.003051
+aircraft_er/cictt_registry_lm=distilbert_dk=False_su=False 0.610364
+aircraft_er/cictt_registry_lm=distilbert_dk=False_su=False 4.876581
+aircraft_er/cictt_registry_lm=distilbert_dk=False_su=False 0.632149
+aircraft_er/cictt_registry_lm=distilbert_dk=False_su=False 0.593637
+aircraft_er/union_lm=distilbert_dk=False_su=False 0.955216
+aircraft_er/union_lm=distilbert_dk=False_su=False 11.633423
+aircraft_er/union_lm=distilbert_dk=False_su=False 0.946918
+aircraft_er/union_lm=distilbert_dk=False_su=False 0.958396
