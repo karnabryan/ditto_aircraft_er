@@ -71,7 +71,8 @@
     "validset": "data/aircraft_er/cictt_registry/test.txt",
     "testset": "data/aircraft_er/cictt_registry/valid.txt"
   },
-    {
+  
+  {
     "name": "aircraft_er/union",
     "task_type": "classification",
     "vocab": ["0", "1"],
@@ -80,7 +81,32 @@
     "testset": "data/aircraft_er/union/valid.txt"
   },
 
-  
+  {
+    "name": "aircraft_er/make_model_doc8643",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/make_model_doc8643/train.txt",
+    "validset": "data/aircraft_er/make_model_doc8643/test.txt",
+    "testset": "data/aircraft_er/make_model_doc8643/valid.txt"
+  },
+  {
+    "name": "aircraft_er/union_mm",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/union_mm/train.txt",
+    "validset": "data/aircraft_er/union_mm/test.txt",
+    "testset": "data/aircraft_er/union_mm/valid.txt"
+  },
+
+    {
+    "name": "aircraft_er/union_make_model",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/union_make_model/train.txt",
+    "validset": "data/aircraft_er/union_make_model/test.txt",
+    "testset": "data/aircraft_er/union_make_model/valid.txt"
+  },
+
   {
     "name": "aircraft_er/baseline",
     "task_type": "classification",

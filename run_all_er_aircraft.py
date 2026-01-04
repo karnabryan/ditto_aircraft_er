@@ -41,9 +41,11 @@ aircraft_er/baseline_2""".split('\n')
 datasets = """aircraft_er/cictt_registry
 aircraft_er/union""".split('\n')
 
+datasets = """aircraft_er/make_model_doc8643""".split('\n')
+
 lms = ['distilbert', 'distilbert']
 
-
+lms = ['distilbert']
 
 
 for dataset, lm in zip(datasets, lms):
