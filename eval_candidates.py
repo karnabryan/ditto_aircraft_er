@@ -45,6 +45,8 @@ datasets = """aircraft_er/make_model_icao_code""".split('\n')
 
 datasets = """aircraft_er/union_make_model_2""".split('\n')
 
+datasets = """aircraft_er/make_model_eval""".split('\n')
+
 lms = ['distilbert', 'distilbert']
 
 lms = ['distilbert']
@@ -70,25 +72,11 @@ for dataset, lm in zip(datasets, lms):
     
             #--run_id %d""" % (dataset, batch_size, lm, epochs, run_id)
     print(dataset)
-    ##Run DITTO
-    cmd = """CUDA_VISIBLE_DEVICES=0 python train_ditto.py \
-    --task %s \
-    --logdir results_ditto/ \
-    --batch_size %d \
-    --max_len %d \
-    --finetuning \ 
-    --lr 3e-5 \
-    --fp16 \
-    --lm %s \
-    --n_epochs %d \
-    --run_id %s \
-    --save_model""" % (dataset, batch_size, max_len, lm, epochs, run_id)
-    print(cmd)
-    os.system(cmd)
+
 
 
     #string variables for matcher.py
-    input_path = f"data/{dataset}/all_pairs.txt"
+    input_path = f"data/{dataset}/candidates.txt"
     dataset_name = dataset.rsplit("/", 1)[-1] 
     output_path = f"aircraft_er_predictions/{dataset_name}_predictions_all.tsv"
     #Run Matcher
