@@ -5,3 +5,4 @@ data/aircraft_er
 
 *eval_all.txt
 *eval_all.txt.jsonl
+aircraft_er_predictions/make_model_eval_all_matches.csv
