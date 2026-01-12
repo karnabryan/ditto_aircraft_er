@@ -45,7 +45,8 @@ datasets = """aircraft_er/make_model_icao_code""".split('\n')
 
 datasets = """aircraft_er/union_make_model_2""".split('\n')
 
-eval_dataset = "aircraft_er/make_model_eval"
+#eval_dataset = "aircraft_er/eval_make_model"
+eval_dataset = "aircraft_er/eval_make_model_v2"
 
 lms = ['distilbert', 'distilbert']
 
@@ -60,8 +61,7 @@ for dataset, lm in zip(datasets, lms):
     batch_size, max_len, epochs = 64, 64, 20
 
     #string variables for matcher.py
-    input_path = f"data/{dataset}/all_pairs.txt"
-    input_path = f"data/{eval_dataset}/candidates.txt"
+    input_path = f"data/{eval_dataset}/all_pairs.txt"
     dataset_name = dataset.rsplit("/", 1)[-1] 
     eval_dataset_name = eval_dataset.rsplit("/", 1)[-1] 
     output_path = f"aircraft_er_predictions/{eval_dataset_name}_predictions_all.tsv"

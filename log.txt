@@ -208,3 +208,9 @@ aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 3.745164
 aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 267.961503
 aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 3.802923
 aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 267.508134
+aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 5.891487
+aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 6.557640
+aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 8.516138
+aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 257.946951
+aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 3.858757
+aircraft_er/union_make_model_2_lm=distilbert_dk=False_su=False 124.085092
