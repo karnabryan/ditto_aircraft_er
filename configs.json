@@ -64,6 +64,31 @@
   },
 
   {
+    "name": "aircraft_er/baseline_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/baseline_lh/train.txt",
+    "validset": "data/aircraft_er/baseline_lh/test.txt",
+    "testset": "data/aircraft_er/baseline_lh/valid.txt"
+  },
+  {
+    "name": "aircraft_er/baseline_lh_2",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/baseline_lh_2/train.txt",
+    "validset": "data/aircraft_er/baseline_lh_2/test.txt",
+    "testset": "data/aircraft_er/baseline_lh_2/valid.txt"
+  },
+  {
+    "name": "aircraft_er/baseline_lh_3",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/baseline_lh_3/train.txt",
+    "validset": "data/aircraft_er/baseline_lh_3/test.txt",
+    "testset": "data/aircraft_er/baseline_lh_3/valid.txt"
+  },
+
+  {
     "name": "aircraft_er/cictt_registry",
     "task_type": "classification",
     "vocab": ["0", "1"],
@@ -98,7 +123,7 @@
     "testset": "data/aircraft_er/make_model_doc8643_3/valid.txt"
   },
 
-    {
+  {
     "name": "aircraft_er/make_model_icao_code",
     "task_type": "classification",
     "vocab": ["0", "1"],
@@ -107,8 +132,23 @@
     "testset": "data/aircraft_er/make_model_icao_code/valid.txt"
   },
 
+  {
+    "name": "aircraft_er/make_model_cictt_full",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/make_model_cictt_full/train.txt",
+    "validset": "data/aircraft_er/make_model_cictt_full/test.txt",
+    "testset": "data/aircraft_er/make_model_cictt_full/valid.txt"
+  },
 
-
+  {
+    "name": "aircraft_er/make_model_cictt_full_canadair",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/aircraft_er/make_model_cictt_full_canadair/train.txt",
+    "validset": "data/aircraft_er/make_model_cictt_full_canadair/test.txt",
+    "testset": "data/aircraft_er/make_model_cictt_full_canadair/valid.txt"
+  },
   {
     "name": "aircraft_er/union_mm",
     "task_type": "classification",

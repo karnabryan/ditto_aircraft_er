@@ -45,10 +45,24 @@ datasets = """aircraft_er/make_model_icao_code""".split('\n')
 
 datasets = """aircraft_er/union_make_model_2""".split('\n')
 
-lms = ['distilbert', 'distilbert']
+
+datasets = """aircraft_er/baseline_lh""".split('\n')
+
+datasets = """aircraft_er/baseline_lh_2""".split('\n')
+datasets = """aircraft_er/baseline_lh_3""".split('\n')
+
+datasets = """aircraft_er/baseline
+aircraft_er/baseline_lh
+aircraft_er/baseline_lh_2
+aircraft_er/baseline_lh_3""".split('\n')
+
+
+datasets = """aircraft_er/baseline_lh""".split('\n')
+
+lms = ['distilbert', 'distilbert', 'distilbert', 'distilbert']
+
 
 lms = ['distilbert']
-
 
 for dataset, lm in zip(datasets, lms):
     print(dataset)
@@ -76,7 +90,7 @@ for dataset, lm in zip(datasets, lms):
     --logdir results_ditto/ \
     --batch_size %d \
     --max_len %d \
-    --finetuning \ 
+    --finetuning \
     --lr 3e-5 \
     --fp16 \
     --lm %s \
