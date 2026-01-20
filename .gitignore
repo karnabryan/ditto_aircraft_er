@@ -8,3 +8,4 @@ data/aircraft_er
 aircraft_er_predictions/make_model_eval_all_matches.csv
 aircraft_er_predictions/eval_make_model_v2_all_matches.csv
 aircraft_er_predictions/eval_make_model_all_matches.csv
+/data

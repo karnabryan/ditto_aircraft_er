@@ -59,10 +59,14 @@ aircraft_er/baseline_lh_3""".split('\n')
 
 datasets = """aircraft_er/baseline_lh""".split('\n')
 
+datasets = """../aircraft_er_data/ditto_aircraft/baseline""".split('\n')
+
 lms = ['distilbert', 'distilbert', 'distilbert', 'distilbert']
 
 
 lms = ['distilbert']
+
+lms = ['distilbert', 'distilbert']
 
 for dataset, lm in zip(datasets, lms):
     print(dataset)

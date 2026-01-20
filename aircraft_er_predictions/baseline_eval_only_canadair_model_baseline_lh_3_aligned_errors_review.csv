@@ -1,0 +1,3 @@
+left_id,right_id,cictt_make,make,cictt_model,model,cictt_series,series,cictt_cert,cert,cictt_name,name,predicted,confidence,gold
+3579,CL-601-3A,CANADAIR,CL,CL600 2A12,601,601,3A,A-131,A21EA,CHALLENGER 601,,1,0.974267952224966,0
+3582,CL-600-2B16,CANADAIR,CL,CL600 2B16,600,604,2B16,A-131,A21EA,CHALLENGER 604,CHALLENGER,1,0.9991913347995495,0
