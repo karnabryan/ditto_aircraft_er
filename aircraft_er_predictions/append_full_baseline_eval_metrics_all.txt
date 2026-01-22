@@ -1,0 +1,44 @@
+Run name:  baseline_eval_only_model_baseline
+Predictions file created:  2026-01-22 00:09:43 
+
+Accuracy: 0.9890336799642542
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99   8986394
+           1       0.42      0.11      0.17     95504
+
+    accuracy                           0.99   9081898
+   macro avg       0.70      0.55      0.58   9081898
+weighted avg       0.98      0.99      0.99   9081898
+
+
+Confusion matrix:
+
+
+[[8972231   14163]
+ [  85432   10072]]
+Run name:  baseline_eval_only_model_baseline
+Predictions file created:  2026-01-22 00:09:43 
+
+Accuracy: 0.9890336799642542
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99   8986394
+           1       0.42      0.11      0.17     95504
+
+    accuracy                           0.99   9081898
+   macro avg       0.70      0.55      0.58   9081898
+weighted avg       0.98      0.99      0.99   9081898
+
+
+Confusion matrix:
+
+
+[[8972231   14163]
+ [  85432   10072]]

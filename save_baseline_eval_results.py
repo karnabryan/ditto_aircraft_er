@@ -10,7 +10,8 @@ baseline_run_names = ["baseline", "baseline_lh","baseline_lh_0","baseline_lh_1",
 
 # data_name is the evaluation dataset (eval data_name dataset against run_name model.pt)
 ####data_name = "baseline_eval_only_random_sample"
-data_name = "baseline_eval_only_canadair"
+####data_name = "baseline_eval_only_canadair"
+data_name = "baseline_eval_only"
 
 # predict_dir is the path of the model predictions (*_predictions_test.tsv and *_predictions_all.tsv json files)
 predict_dir = Path("aircraft_er_predictions")
@@ -57,7 +58,7 @@ for baseline_run_name in baseline_run_names:
         print(confusion_matrix(y_true, y_pred), file=f)
 
     # Append run metrics to global file
-    with open("aircraft_er_predictions/append_baseline_eval_metrics_all.txt", "a") as f:
+    with open("aircraft_er_predictions/append_full_baseline_eval_metrics_all.txt", "a") as f:
         print("Run name: ", run_name, file=f)
         print("Predictions file created: ", all_run_ts, "\n", file=f)
         print("Accuracy:", accuracy_score(y_true, y_pred), file=f)

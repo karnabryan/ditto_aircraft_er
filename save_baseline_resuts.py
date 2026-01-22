@@ -7,7 +7,6 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 
 # run_names is the array of the model runs to be evaluated
 run_names = ["baseline", "baseline_lh","baseline_lh_0","baseline_lh_1", "baseline_lh_b", "baseline_lh_2", "baseline_lh_3"]
-run_names = ["cictt_registry", "faa_registry", "union"]
 
 # global_append_filename is the name of the text file that stores metrics over all runs
 global_append_filename = "append_metrics"

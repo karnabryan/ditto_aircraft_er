@@ -60,12 +60,22 @@ aircraft_er/cictt_registry
 aircraft_er/faa_registry
 aircraft_er/union""".split('\n')
 
+datasets = """aircraft_er/baseline
+aircraft_er/baseline_lh
+aircraft_er/baseline_lh_0
+aircraft_er/baseline_lh_1
+aircraft_er/baseline_lh_2
+aircraft_er/baseline_lh_3
+aircraft_er/baseline_lh_b""".split('\n')
+
+
 eval_dataset = "ditto_aircraft/baseline_eval_only_random_sample"
 eval_dataset = "ditto_aircraft/baseline_eval_only_canadair"
+
 lms = ['distilbert', 'distilbert']
 
 lms = ['distilbert','distilbert','distilbert','distilbert']
-lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert']
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert'] #, 'distilbert', 'distilbert', 'distilbert']
 
 
 for dataset, lm in zip(datasets, lms):
