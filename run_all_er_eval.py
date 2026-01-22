@@ -34,9 +34,9 @@ del""".split('\n')
 # roberta""".split('\n')
 
 run_id = 0
-datasets = """aircraft_er/baseline
-aircraft_er/baseline_1
-aircraft_er/baseline_2""".split('\n')
+datasets = """ditto_aircraft/baseline
+ditto_aircraft/baseline_1
+ditto_aircraft/baseline_2""".split('\n')
 
 datasets = """aircraft_er/cictt_registry
 aircraft_er/union""".split('\n')
@@ -51,22 +51,22 @@ datasets = """aircraft_er/baseline""".split('\n')
 
 datasets = """aircraft_er/baseline
 aircraft_er/baseline_lh
+aircraft_er/baseline_lh_0
+aircraft_er/baseline_lh_1
 aircraft_er/baseline_lh_2
-aircraft_er/baseline_lh_3""".split('\n')
+aircraft_er/baseline_lh_3
+aircraft_er/baseline_lh_b
+aircraft_er/cictt_registry
+aircraft_er/faa_registry
+aircraft_er/union""".split('\n')
 
-datasets = """aircraft_er/baseline_lh_0
-aircraft_er/baseline_lh_1""".split('\n')
-
-
-#eval_dataset = "aircraft_er/eval_make_model"
-eval_dataset = "aircraft_er/eval_make_model_v2"
-
-eval_dataset = "aircraft_er/baseline_eval_only_canadair"
-
+eval_dataset = "ditto_aircraft/baseline_eval_only_random_sample"
+eval_dataset = "ditto_aircraft/baseline_eval_only_canadair"
 lms = ['distilbert', 'distilbert']
 
 lms = ['distilbert','distilbert','distilbert','distilbert']
-lms = ['distilbert', 'distilbert']
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert']
+
 
 for dataset, lm in zip(datasets, lms):
     print(dataset)
@@ -76,7 +76,7 @@ for dataset, lm in zip(datasets, lms):
     batch_size, max_len, epochs = 64, 64, 20
 
     #string variables for matcher.py
-    input_path = f"../aircraft_er_data/ditto_aircraft/{eval_dataset}/all_pairs.txt"
+    input_path = f"data/{eval_dataset}/all_pairs.txt"
     dataset_name = dataset.rsplit("/", 1)[-1] 
     eval_dataset_name = eval_dataset.rsplit("/", 1)[-1] 
     output_path = f"aircraft_er_predictions/{eval_dataset_name}_model_{dataset_name}_predictions_all.tsv"

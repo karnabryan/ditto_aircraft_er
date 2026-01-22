@@ -13,33 +13,34 @@ aircraft_er/baseline_2""".split('\n')
 datasets = """aircraft_er/cictt_registry
 aircraft_er/union""".split('\n')
 
-datasets = """aircraft_er/make_model_icao_code""".split('\n')
+datasets = """aircraft_er/cictt_registry
+aircraft_er/faa_registry""".split('\n')
 
-datasets = """aircraft_er/union_make_model_2""".split('\n')
+datasets = """aircraft_er/union""".split('\n')
 
-
-datasets = """aircraft_er/baseline_lh""".split('\n')
-
-datasets = """aircraft_er/baseline_lh_2""".split('\n')
-datasets = """aircraft_er/baseline_lh_3""".split('\n')
 
 datasets = """aircraft_er/baseline
 aircraft_er/baseline_lh
+aircraft_er/baseline_lh_0
+aircraft_er/baseline_lh_1
 aircraft_er/baseline_lh_2
-aircraft_er/baseline_lh_3""".split('\n')
+aircraft_er/baseline_lh_3
+aircraft_er/baseline_lh_b
+aircraft_er/cictt_registry
+aircraft_er/faa_registry
+aircraft_er/union""".split('\n')
 
 
-datasets = """aircraft_er/baseline_lh""".split('\n')
-
-datasets = """aircraft_er/baseline_lh_0
-aircraft_er/baseline_lh_1""".split('\n')
 
 lms = ['distilbert', 'distilbert', 'distilbert', 'distilbert']
 
 
+lms = ['distilbert', 'distilbert']
+
 lms = ['distilbert']
 
-lms = ['distilbert', 'distilbert']
+
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert']
 
 
 
@@ -49,7 +50,7 @@ file_exists = os.path.exists(log_path)
 
 def run_timed(cmd, name, extra=None, env=None):
     """
-    cmd: list[str] or str (if shell=True). We'll use list[str].
+    cmd: list[str] or str (if shell=True). Use list[str].
     name: label like "train", "match_all", "match_test"
     extra: dict of extra fields to log
     """
@@ -87,7 +88,7 @@ def run_timed(cmd, name, extra=None, env=None):
 
 
 for dataset, lm in zip(datasets, lms):
-    batch_size, max_len, epochs = 64, 64, 20
+    batch_size, max_len, epochs = 64, 64, 40
     run_id = 0  # set however you want
 
     dataset_name = dataset.rsplit("/", 1)[-1]
@@ -122,7 +123,7 @@ for dataset, lm in zip(datasets, lms):
         continue
 
     # ----- MATCH (all_pairs) -----
-    input_path = f"data/{dataset}/all_pairs.txt"
+    input_path = f"data/ditto_aircraft/{dataset_name}/all_pairs.txt"
     output_path = f"aircraft_er_predictions/{dataset_name}_predictions_all.tsv"
 
     match_all_cmd = [
@@ -138,7 +139,7 @@ for dataset, lm in zip(datasets, lms):
     run_timed(match_all_cmd, "match_all", extra={"dataset": dataset, "lm": lm, "run_id": run_id})
 
     # ----- MATCH (test) -----
-    input_path = f"data/{dataset}/test.txt"
+    input_path = f"data/ditto_aircraft/{dataset_name}/test.txt"
     output_path = f"aircraft_er_predictions/{dataset_name}_predictions_test.tsv"
 
     match_test_cmd = [

@@ -1,0 +1,147 @@
+Run name:  baseline_eval_only_canadair_model_baseline
+Predictions file created:  2026-01-21 14:10:50 
+
+Accuracy: 0.9971172325432415
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18725
+           1       0.11      1.00      0.21         7
+
+    accuracy                           1.00     18732
+   macro avg       0.56      1.00      0.60     18732
+weighted avg       1.00      1.00      1.00     18732
+
+
+Confusion matrix:
+
+[[18671    54]
+ [    0     7]]
+Run name:  baseline_eval_only_canadair_model_baseline_lh
+Predictions file created:  2026-01-21 14:11:11 
+
+Accuracy: 0.9972240017083066
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18725
+           1       0.12      1.00      0.21         7
+
+    accuracy                           1.00     18732
+   macro avg       0.56      1.00      0.61     18732
+weighted avg       1.00      1.00      1.00     18732
+
+
+Confusion matrix:
+
+[[18673    52]
+ [    0     7]]
+Run name:  baseline_eval_only_canadair_model_baseline_lh_0
+Predictions file created:  2026-01-21 14:11:29 
+
+Accuracy: 0.9974375400384369
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18725
+           1       0.13      1.00      0.23         7
+
+    accuracy                           1.00     18732
+   macro avg       0.56      1.00      0.61     18732
+weighted avg       1.00      1.00      1.00     18732
+
+
+Confusion matrix:
+
+[[18677    48]
+ [    0     7]]
+Run name:  baseline_eval_only_canadair_model_baseline_lh_1
+Predictions file created:  2026-01-21 14:11:50 
+
+Accuracy: 0.9963164638052531
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18725
+           1       0.09      1.00      0.17         7
+
+    accuracy                           1.00     18732
+   macro avg       0.55      1.00      0.58     18732
+weighted avg       1.00      1.00      1.00     18732
+
+
+Confusion matrix:
+
+[[18656    69]
+ [    0     7]]
+Run name:  baseline_eval_only_canadair_model_baseline_lh_b
+Predictions file created:  2026-01-21 14:13:20 
+
+Accuracy: 0.9974909246209694
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18725
+           1       0.13      1.00      0.23         7
+
+    accuracy                           1.00     18732
+   macro avg       0.56      1.00      0.61     18732
+weighted avg       1.00      1.00      1.00     18732
+
+
+Confusion matrix:
+
+[[18678    47]
+ [    0     7]]
+Run name:  baseline_eval_only_canadair_model_baseline_lh_2
+Predictions file created:  2026-01-21 14:12:25 
+
+Accuracy: 0.9996796925048046
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18725
+           1       0.54      1.00      0.70         7
+
+    accuracy                           1.00     18732
+   macro avg       0.77      1.00      0.85     18732
+weighted avg       1.00      1.00      1.00     18732
+
+
+Confusion matrix:
+
+[[18719     6]
+ [    0     7]]
+Run name:  baseline_eval_only_canadair_model_baseline_lh_3
+Predictions file created:  2026-01-21 14:13:01 
+
+Accuracy: 0.9993593850096092
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18725
+           1       0.37      1.00      0.54         7
+
+    accuracy                           1.00     18732
+   macro avg       0.68      1.00      0.77     18732
+weighted avg       1.00      1.00      1.00     18732
+
+
+Confusion matrix:
+
+[[18713    12]
+ [    0     7]]

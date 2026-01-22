@@ -53,20 +53,22 @@ datasets = """aircraft_er/baseline_lh_3""".split('\n')
 
 datasets = """aircraft_er/baseline
 aircraft_er/baseline_lh
+aircraft_er/baseline_lh_0
+aircraft_er/baseline_lh_1
 aircraft_er/baseline_lh_2
 aircraft_er/baseline_lh_3""".split('\n')
 
 
 datasets = """aircraft_er/baseline_lh""".split('\n')
 
-datasets = """../aircraft_er_data/ditto_aircraft/baseline""".split('\n')
+datasets = """aircraft_er/baseline""".split('\n')
 
 lms = ['distilbert', 'distilbert', 'distilbert', 'distilbert']
 
 
 lms = ['distilbert']
 
-lms = ['distilbert', 'distilbert']
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert']
 
 for dataset, lm in zip(datasets, lms):
     print(dataset)
@@ -102,12 +104,12 @@ for dataset, lm in zip(datasets, lms):
     --run_id %s \
     --save_model""" % (dataset, batch_size, max_len, lm, epochs, run_id)
     print(cmd)
-    os.system(cmd)
+   #os.system(cmd)
 
 
     #string variables for matcher.py
-    input_path = f"data/{dataset}/all_pairs.txt"
     dataset_name = dataset.rsplit("/", 1)[-1] 
+    input_path = f"data/ditto_aircraft/{dataset_name}/all_pairs.txt"
     output_path = f"aircraft_er_predictions/{dataset_name}_predictions_all.tsv"
     #Run Matcher
     cmd = """python matcher.py \
@@ -122,8 +124,8 @@ for dataset, lm in zip(datasets, lms):
     os.system(cmd)
 
     #string variables for matcher.py
-    input_path = f"data/{dataset}/test.txt"
     dataset_name = dataset.rsplit("/", 1)[-1] 
+    input_path = f"data/ditto_aircraft/{dataset_name}/test.txt"
     output_path = f"aircraft_er_predictions/{dataset_name}_predictions_test.tsv"
     #Run Matcher
     cmd = """python matcher.py \

@@ -22,6 +22,16 @@ except Exception:
     _HAS_APEX = False
 
 
+### added to reduce warnings
+import warnings
+warnings.filterwarnings(
+    "ignore",
+    message="An input tensor was not cuda.",
+    category=UserWarning,
+    module=r"apex\.amp\._initialize",
+)
+
+
 lm_mp = {'roberta': 'roberta-base',
          'distilbert': 'distilbert-base-uncased'}
 

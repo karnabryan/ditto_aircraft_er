@@ -1,0 +1,63 @@
+Run name:  cictt_registry
+Predictions file created:  2026-01-21 01:59:42 
+
+Accuracy: 0.9924352947533366
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00     15498
+           1       0.99      0.96      0.98      3009
+
+    accuracy                           0.99     18507
+   macro avg       0.99      0.98      0.99     18507
+weighted avg       0.99      0.99      0.99     18507
+
+
+Confusion matrix:
+
+[[15478    20]
+ [  120  2889]]
+Run name:  faa_registry
+Predictions file created:  2026-01-21 02:10:37 
+
+Accuracy: 0.9904399570773583
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99     17380
+           1       0.97      0.97      0.97      3122
+
+    accuracy                           0.99     20502
+   macro avg       0.98      0.98      0.98     20502
+weighted avg       0.99      0.99      0.99     20502
+
+
+Confusion matrix:
+
+[[17282    98]
+ [   98  3024]]
+Run name:  union
+Predictions file created:  2026-01-21 02:26:50 
+
+Accuracy: 0.9918297548926468
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00     30923
+           1       0.99      0.96      0.97      5918
+
+    accuracy                           0.99     36841
+   macro avg       0.99      0.98      0.98     36841
+weighted avg       0.99      0.99      0.99     36841
+
+
+Confusion matrix:
+
+[[30850    73]
+ [  228  5690]]
