@@ -1,0 +1,253 @@
+
+Run name:  make_model_cictt
+Predictions file created: 2026-01-22 15:04:50 
+
+Accuracy: 1.0
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3613
+           1       1.00      1.00      1.00       400
+
+    accuracy                           1.00      4013
+   macro avg       1.00      1.00      1.00      4013
+weighted avg       1.00      1.00      1.00      4013
+
+
+Confusion matrix:
+
+
+[[3613    0]
+ [   0  400]]
+
+Run name:  make_model_cictt_no_lh
+Predictions file created: 2026-01-22 15:24:07 
+
+Accuracy: 1.0
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3970
+           1       1.00      1.00      1.00       400
+
+    accuracy                           1.00      4370
+   macro avg       1.00      1.00      1.00      4370
+weighted avg       1.00      1.00      1.00      4370
+
+
+Confusion matrix:
+
+
+[[3970    0]
+ [   0  400]]
+
+Run name:  make_model_faa
+Predictions file created: 2026-01-22 15:40:36 
+
+Accuracy: 0.9894280292762266
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      3322
+           1       0.95      0.94      0.95       367
+
+    accuracy                           0.99      3689
+   macro avg       0.97      0.97      0.97      3689
+weighted avg       0.99      0.99      0.99      3689
+
+
+Confusion matrix:
+
+
+[[3305   17]
+ [  22  345]]
+
+Run name:  make_model_faa_no_lh
+Predictions file created: 2026-01-22 15:58:32 
+
+Accuracy: 0.9970067348465952
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3642
+           1       0.99      0.98      0.98       367
+
+    accuracy                           1.00      4009
+   macro avg       0.99      0.99      0.99      4009
+weighted avg       1.00      1.00      1.00      4009
+
+
+Confusion matrix:
+
+
+[[3637    5]
+ [   7  360]]
+
+Run name:  make_model_reg
+Predictions file created: 2026-01-22 16:14:25 
+
+Accuracy: 0.9918743228602384
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00      3325
+           1       0.96      0.95      0.96       367
+
+    accuracy                           0.99      3692
+   macro avg       0.98      0.97      0.98      3692
+weighted avg       0.99      0.99      0.99      3692
+
+
+Confusion matrix:
+
+
+[[3312   13]
+ [  17  350]]
+
+Run name:  make_model_doc8643
+Predictions file created: 2026-01-22 16:46:52 
+
+Accuracy: 0.9952830188679245
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      6588
+           1       0.98      0.98      0.98       832
+
+    accuracy                           1.00      7420
+   macro avg       0.99      0.99      0.99      7420
+weighted avg       1.00      1.00      1.00      7420
+
+
+Confusion matrix:
+
+
+[[6573   15]
+ [  20  812]]
+
+Run name:  make_model_doc8643_no_lh
+Predictions file created: 2026-01-22 17:27:15 
+
+Accuracy: 0.9954691126091281
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      8217
+           1       0.97      0.98      0.98       832
+
+    accuracy                           1.00      9049
+   macro avg       0.99      0.99      0.99      9049
+weighted avg       1.00      1.00      1.00      9049
+
+
+Confusion matrix:
+
+
+[[8196   21]
+ [  20  812]]
+
+Run name:  make_model_doc8643_with_drops
+Predictions file created: 2026-01-22 17:59:51 
+
+Accuracy: 0.9946018893387314
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      6578
+           1       0.98      0.97      0.98       832
+
+    accuracy                           0.99      7410
+   macro avg       0.99      0.98      0.99      7410
+weighted avg       0.99      0.99      0.99      7410
+
+
+Confusion matrix:
+
+
+[[6564   14]
+ [  26  806]]
+
+Run name:  make_model_doc8643_with_drops_no_lh
+Predictions file created: 2026-01-22 18:39:17 
+
+Accuracy: 0.9955796220576859
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      8217
+           1       0.99      0.96      0.98       832
+
+    accuracy                           1.00      9049
+   macro avg       0.99      0.98      0.99      9049
+weighted avg       1.00      1.00      1.00      9049
+
+
+Confusion matrix:
+
+
+[[8207   10]
+ [  30  802]]
+
+Run name:  make_model_doc8643_code
+Predictions file created: 2026-01-22 20:31:21 
+
+Accuracy: 0.9561538461538461
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98      1181
+           1       0.74      0.80      0.77       119
+
+    accuracy                           0.96      1300
+   macro avg       0.86      0.89      0.87      1300
+weighted avg       0.96      0.96      0.96      1300
+
+
+Confusion matrix:
+
+
+[[1148   33]
+ [  24   95]]
+
+Run name:  make_model_doc8643_description
+Predictions file created: 2026-01-22 21:09:12 
+
+Accuracy: 0.9913802630124876
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      8217
+           1       0.95      0.95      0.95       832
+
+    accuracy                           0.99      9049
+   macro avg       0.97      0.97      0.97      9049
+weighted avg       0.99      0.99      0.99      9049
+
+
+Confusion matrix:
+
+
+[[8178   39]
+ [  39  793]]

@@ -60,6 +60,122 @@
   },
 
   {
+    "name": "aircraft_er/make_model_cictt",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_cictt/train.txt",
+    "validset": "data/ditto_aircraft/make_model_cictt/test.txt",
+    "testset": "data/ditto_aircraft/make_model_cictt/valid.txt"
+  },
+
+  {
+    "name": "aircraft_er/make_model_faa",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_faa/train.txt",
+    "validset": "data/ditto_aircraft/make_model_faa/test.txt",
+    "testset": "data/ditto_aircraft/make_model_faa/valid.txt"
+  },
+
+
+  {
+    "name": "aircraft_er/make_model_cictt_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_cictt_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/make_model_cictt_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/make_model_cictt_no_lh/valid.txt"
+  },
+
+  {
+    "name": "aircraft_er/make_model_reg",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_reg/train.txt",
+    "validset": "data/ditto_aircraft/make_model_reg/test.txt",
+    "testset": "data/ditto_aircraft/make_model_reg/valid.txt"
+  },
+
+
+  {
+    "name": "aircraft_er/make_model_reg_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_reg_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/make_model_reg_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/make_model_reg_no_lh/valid.txt"
+  },
+
+
+
+  {
+    "name": "aircraft_er/make_model_faa_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_faa_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/make_model_faa_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/make_model_faa_no_lh/valid.txt"
+  },
+
+  {
+    "name": "aircraft_er/make_model_doc8643",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_doc8643/train.txt",
+    "validset": "data/ditto_aircraft/make_model_doc8643/test.txt",
+    "testset": "data/ditto_aircraft/make_model_doc8643/valid.txt"
+  },
+
+  {
+    "name": "aircraft_er/make_model_doc8643_code",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_doc8643_code/train.txt",
+    "validset": "data/ditto_aircraft/make_model_doc8643_code/test.txt",
+    "testset": "data/ditto_aircraft/make_model_doc8643_code/valid.txt"
+  },
+
+  {
+    "name": "aircraft_er/make_model_doc8643_description",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_doc8643_description/train.txt",
+    "validset": "data/ditto_aircraft/make_model_doc8643_description/test.txt",
+    "testset": "data/ditto_aircraft/make_model_doc8643_description/valid.txt"
+  },
+
+
+  {
+    "name": "aircraft_er/make_model_doc8643_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_doc8643_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/make_model_doc8643_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/make_model_doc8643_no_lh/valid.txt"
+  },
+
+
+  {
+    "name": "aircraft_er/make_model_doc8643_with_drops",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_doc8643_with_drops/train.txt",
+    "validset": "data/ditto_aircraft/make_model_doc8643_with_drops/test.txt",
+    "testset": "data/ditto_aircraft/make_model_doc8643_with_drops/valid.txt"
+  },
+
+
+  {
+    "name": "aircraft_er/make_model_doc8643_with_drops_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_doc8643_with_drops_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/make_model_doc8643_with_drops_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/make_model_doc8643_with_drops_no_lh/valid.txt"
+  },
+
+
+  {
     "name": "aircraft_er/cictt_registry",
     "task_type": "classification",
     "vocab": ["0", "1"],
