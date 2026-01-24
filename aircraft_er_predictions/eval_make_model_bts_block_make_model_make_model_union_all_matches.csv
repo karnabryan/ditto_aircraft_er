@@ -1,0 +1,469 @@
+left,right,match,match_confidence,left_id,right_id,description,left_kv,right_kv,match_confidence_max,left_ids,left_ids_count,is_max
+COL make VAL AEROSPATIALE COL model VAL AS350 COL name VAL ECUREUIL ASTAR,"COL description VAL Eurocompter AS350 B2 AStar
+",1,0.9817876630820153,AEROSPATIALE AS350,340.0,Eurocompter AS350 B2 AStar,"['make: AEROSPATIALE', 'model: AS350', 'name: ECUREUIL ASTAR']",['description: Eurocompter AS350 B2 AStar'],0.9843716972452982,['AEROSPATIALE AS350'],1.0,False
+COL make VAL AEROSPATIALE COL model VAL AS350 COL name VAL ECUREUIL,"COL description VAL Eurocompter AS350 B2 AStar
+",1,0.8974020396143042,AEROSPATIALE AS350,340.0,Eurocompter AS350 B2 AStar,"['make: AEROSPATIALE', 'model: AS350', 'name: ECUREUIL']",['description: Eurocompter AS350 B2 AStar'],0.9843716972452982,['AEROSPATIALE AS350'],1.0,False
+COL make VAL AEROSPATIALE COL model VAL AS350 COL name VAL ASTAR,"COL description VAL Eurocompter AS350 B2 AStar
+",1,0.9843716972452982,AEROSPATIALE AS350,340.0,Eurocompter AS350 B2 AStar,"['make: AEROSPATIALE', 'model: AS350', 'name: ASTAR']",['description: Eurocompter AS350 B2 AStar'],0.9843716972452982,['AEROSPATIALE AS350'],1.0,True
+COL make VAL AGUSTA COL model VAL AW139,"COL description VAL Agustawestland AW139
+",1,0.9999478324718418,AGUSTA AW139,393.0,Agustawestland AW139,"['make: AGUSTA', 'model: AW139']",['description: Agustawestland AW139'],0.9999478324718418,['AGUSTA AW139'],1.0,True
+COL make VAL AIRBUS COL model VAL A300 COL name VAL AIRBUS,"COL description VAL Airbus Industrie A300-600/R/CF/RCF
+",1,0.9996744927995065,AIRBUS A300,691.0,Airbus Industrie A300-600/R/CF/RCF,"['make: AIRBUS', 'model: A300', 'name: AIRBUS']",['description: Airbus Industrie A300-600/R/CF/RCF'],0.9996744927995065,['AIRBUS A300'],1.0,True
+COL make VAL AIRBUS COL model VAL A300 COL name VAL AIRBUS,"COL description VAL Airbus Industrie A300B/C/F-100/200
+",1,0.9164573439582077,AIRBUS A300,690.0,Airbus Industrie A300B/C/F-100/200,"['make: AIRBUS', 'model: A300', 'name: AIRBUS']",['description: Airbus Industrie A300B/C/F-100/200'],0.9164573439582077,['AIRBUS A300'],1.0,True
+COL make VAL AIRBUS COL model VAL A300 COL name VAL AIRBUS,"COL description VAL Airbus Industrie A300-B2
+",1,0.9999482537214427,AIRBUS A300,695.0,Airbus Industrie A300-B2,"['make: AIRBUS', 'model: A300', 'name: AIRBUS']",['description: Airbus Industrie A300-B2'],0.9999482537214427,['AIRBUS A300'],1.0,True
+COL make VAL AIRBUS COL model VAL A310 COL name VAL AIRBUS,"COL description VAL Airbus Industrie A310-200C/F
+",1,0.9999763872666231,AIRBUS A310,692.0,Airbus Industrie A310-200C/F,"['make: AIRBUS', 'model: A310', 'name: AIRBUS']",['description: Airbus Industrie A310-200C/F'],0.9999763872666231,['AIRBUS A310'],1.0,True
+COL make VAL AIRBUS COL model VAL A310 COL name VAL AIRBUS,"COL description VAL Airbus Industrie A310-300
+",1,0.9999795445398871,AIRBUS A310,693.0,Airbus Industrie A310-300,"['make: AIRBUS', 'model: A310', 'name: AIRBUS']",['description: Airbus Industrie A310-300'],0.9999795445398871,['AIRBUS A310'],1.0,True
+COL make VAL AIRBUS COL model VAL A318,"COL description VAL Airbus Industrie A318
+",1,0.999812535344096,AIRBUS A318,318.0,Airbus Industrie A318,"['make: AIRBUS', 'model: A318']",['description: Airbus Industrie A318'],0.999812535344096,['AIRBUS A318'],1.0,True
+COL make VAL AIRBUS COL model VAL A319,"COL description VAL Airbus Industrie A319
+",1,0.999966540886355,AIRBUS A319,698.0,Airbus Industrie A319,"['make: AIRBUS', 'model: A319']",['description: Airbus Industrie A319'],0.999966540886355,['AIRBUS A319'],1.0,True
+COL make VAL AIRBUS COL model VAL A320 COL name VAL AIRBUS,"COL description VAL Airbus Industrie A320-100/200
+",1,0.9999289696928647,AIRBUS A320,694.0,Airbus Industrie A320-100/200,"['make: AIRBUS', 'model: A320', 'name: AIRBUS']",['description: Airbus Industrie A320-100/200'],0.9999289696928647,['AIRBUS A320'],1.0,True
+COL make VAL AIRBUS COL model VAL A320 COL name VAL AIRBUS,"COL description VAL Airbus Industrie A320-200n
+",1,0.9999747479361221,AIRBUS A320,722.0,Airbus Industrie A320-200n,"['make: AIRBUS', 'model: A320', 'name: AIRBUS']",['description: Airbus Industrie A320-200n'],0.9999747479361221,['AIRBUS A320'],1.0,True
+COL make VAL AIRBUS COL model VAL A321,"COL description VAL Airbus Industrie A-318
+",1,0.8575074197718969,AIRBUS A321,644.0,Airbus Industrie A-318,"['make: AIRBUS', 'model: A321']",['description: Airbus Industrie A-318'],0.8575074197718969,['AIRBUS A321'],1.0,True
+COL make VAL AIRBUS COL model VAL A321,"COL description VAL Airbus Industrie A321/Lr
+",1,0.9999747778037563,AIRBUS A321,699.0,Airbus Industrie A321/Lr,"['make: AIRBUS', 'model: A321']",['description: Airbus Industrie A321/Lr'],0.9999747778037563,['AIRBUS A321'],1.0,True
+COL make VAL AIRBUS COL model VAL A321,"COL description VAL Airbus Industrie A321-200n
+",1,0.9999821805064599,AIRBUS A321,721.0,Airbus Industrie A321-200n,"['make: AIRBUS', 'model: A321']",['description: Airbus Industrie A321-200n'],0.9999821805064599,['AIRBUS A321'],1.0,True
+COL make VAL AIRBUS COL model VAL A330,"COL description VAL Airbus A330-900neo
+",1,0.9998705077847657,AIRBUS A330,824.0,Airbus A330-900neo,"['make: AIRBUS', 'model: A330']",['description: Airbus A330-900neo'],0.9998705077847657,['AIRBUS A330'],1.0,True
+COL make VAL AIRBUS COL model VAL A330,"COL description VAL Airbus Industrie A330-200
+",1,0.999768634880773,AIRBUS A330,696.0,Airbus Industrie A330-200,"['make: AIRBUS', 'model: A330']",['description: Airbus Industrie A330-200'],0.999768634880773,['AIRBUS A330'],1.0,True
+COL make VAL AIRBUS COL model VAL A330,"COL description VAL Airbus Industrie A330-300/333
+",1,0.9997320576181519,AIRBUS A330,687.0,Airbus Industrie A330-300/333,"['make: AIRBUS', 'model: A330']",['description: Airbus Industrie A330-300/333'],0.9997320576181519,['AIRBUS A330'],1.0,True
+COL make VAL AIRBUS COL model VAL A330,"COL description VAL Airbus Industrie A330-900
+",1,0.9997453173443231,AIRBUS A330,339.0,Airbus Industrie A330-900,"['make: AIRBUS', 'model: A330']",['description: Airbus Industrie A330-900'],0.9997453173443231,['AIRBUS A330'],1.0,True
+COL make VAL AIRBUS COL model VAL A340,"COL description VAL Airbus Industrie A340
+",1,0.9999528573376993,AIRBUS A340,697.0,Airbus Industrie A340,"['make: AIRBUS', 'model: A340']",['description: Airbus Industrie A340'],0.9999528573376993,['AIRBUS A340'],1.0,True
+COL make VAL AIRBUS COL model VAL A340,"COL description VAL Airbus Industrie A340-200
+",1,0.9998937022258033,AIRBUS A340,873.0,Airbus Industrie A340-200,"['make: AIRBUS', 'model: A340']",['description: Airbus Industrie A340-200'],0.9998937022258033,['AIRBUS A340'],1.0,True
+COL make VAL AIRBUS COL model VAL A340,"COL description VAL Airbus Industrie A340-300
+",1,0.9998777816559459,AIRBUS A340,871.0,Airbus Industrie A340-300,"['make: AIRBUS', 'model: A340']",['description: Airbus Industrie A340-300'],0.9998777816559459,['AIRBUS A340'],1.0,True
+COL make VAL AIRBUS COL model VAL A340,"COL description VAL Airbus Industrie A340-500
+",1,0.9993618267899627,AIRBUS A340,872.0,Airbus Industrie A340-500,"['make: AIRBUS', 'model: A340']",['description: Airbus Industrie A340-500'],0.9993618267899627,['AIRBUS A340'],1.0,True
+COL make VAL AIRBUS COL model VAL A340,"COL description VAL Airbus Industrie A340-600
+",1,0.999875405577421,AIRBUS A340,874.0,Airbus Industrie A340-600,"['make: AIRBUS', 'model: A340']",['description: Airbus Industrie A340-600'],0.999875405577421,['AIRBUS A340'],1.0,True
+COL make VAL AIRBUS COL model VAL A350,"COL description VAL Airbus 350-1000
+",1,0.994858438004888,AIRBUS A350,836.0,Airbus 350-1000,"['make: AIRBUS', 'model: A350']",['description: Airbus 350-1000'],0.994858438004888,['AIRBUS A350'],1.0,True
+COL make VAL AIRBUS COL model VAL A350,"COL description VAL Airbus Industrie A350-900
+",1,0.9998666597336103,AIRBUS A350,359.0,Airbus Industrie A350-900,"['make: AIRBUS', 'model: A350']",['description: Airbus Industrie A350-900'],0.9998666597336103,['AIRBUS A350'],1.0,True
+COL make VAL ATR COL model VAL ATR42,"COL description VAL Aerospatiale/Aeritalia ATR-42
+",1,0.9999210963084085,ATR ATR42,441.0,Aerospatiale/Aeritalia ATR-42,"['make: ATR', 'model: ATR42']",['description: Aerospatiale/Aeritalia ATR-42'],0.9999210963084085,['ATR ATR42'],1.0,True
+COL make VAL ATR COL model VAL ATR72,"COL description VAL Aerospatiale/Aeritalia ATR-72
+",1,0.7506551744368244,ATR ATR72,442.0,Aerospatiale/Aeritalia ATR-72,"['make: ATR', 'model: ATR72']",['description: Aerospatiale/Aeritalia ATR-72'],0.7506551744368244,['ATR ATR72'],1.0,True
+COL make VAL BAC COL model VAL ONE ELEVEN COL name VAL BAC 111,"COL description VAL British Aerospace BAC-111-200
+",1,0.9979032044049951,BAC ONE ELEVEN,605.0,British Aerospace BAC-111-200,"['make: BAC', 'model: ONE ELEVEN', 'name: BAC 111']",['description: British Aerospace BAC-111-200'],0.9979032044049951,['BAC ONE ELEVEN'],1.0,True
+COL make VAL BAE COL model VAL JETSTREAM 3100 COL name VAL JETSTREAM 3101 JETSTREAM 3201,"COL description VAL British Aerospace Jetstream 31
+",1,0.9992096815144075,BAE JETSTREAM 3100,469.0,British Aerospace Jetstream 31,"['make: BAE', 'model: JETSTREAM 3100', 'name: JETSTREAM 3101 JETSTREAM 3201']",['description: British Aerospace Jetstream 31'],0.9992096815144075,"['BAE JETSTREAM 3100', 'BAE JETSTREAM 4100']",2.0,True
+COL make VAL BAE COL model VAL JETSTREAM 3100 COL name VAL JETSTREAM 3101 JETSTREAM 3201,"COL description VAL British Aerospace Jetstream 41
+",1,0.9497735936346674,BAE JETSTREAM 3100,471.0,British Aerospace Jetstream 41,"['make: BAE', 'model: JETSTREAM 3100', 'name: JETSTREAM 3101 JETSTREAM 3201']",['description: British Aerospace Jetstream 41'],0.9998812358124489,"['BAE JETSTREAM 3100', 'BAE JETSTREAM 4100']",2.0,False
+COL make VAL BAE COL model VAL JETSTREAM 4100 COL name VAL JETSTREAM 4101,"COL description VAL British Aerospace Jetstream 31
+",1,0.9839017976037365,BAE JETSTREAM 4100,469.0,British Aerospace Jetstream 31,"['make: BAE', 'model: JETSTREAM 4100', 'name: JETSTREAM 4101']",['description: British Aerospace Jetstream 31'],0.9992096815144075,"['BAE JETSTREAM 3100', 'BAE JETSTREAM 4100']",2.0,False
+COL make VAL BAE COL model VAL JETSTREAM 4100 COL name VAL JETSTREAM 4101,"COL description VAL British Aerospace Jetstream 41
+",1,0.9998812358124489,BAE JETSTREAM 4100,471.0,British Aerospace Jetstream 41,"['make: BAE', 'model: JETSTREAM 4100', 'name: JETSTREAM 4101']",['description: British Aerospace Jetstream 41'],0.9998812358124489,"['BAE JETSTREAM 3100', 'BAE JETSTREAM 4100']",2.0,True
+COL make VAL BEECH COL model VAL 100 COL name VAL KING AIR,"COL description VAL Beechcraft King Air B100
+",1,0.9882082409761471,BEECH 100,409.0,Beechcraft King Air B100,"['make: BEECH', 'model: 100', 'name: KING AIR']",['description: Beechcraft King Air B100'],0.9883516399800772,"['BEECH 100', 'BEECH 200']",2.0,False
+COL make VAL BEECH COL model VAL 100 COL name VAL KING AIR,"COL description VAL Raytheon King Air A100
+",1,0.9809906596678389,BEECH 100,434.0,Raytheon King Air A100,"['make: BEECH', 'model: 100', 'name: KING AIR']",['description: Raytheon King Air A100'],0.9809906596678389,"['BEECH 100', 'BEECH 200', 'BEECH 300']",3.0,True
+COL make VAL BEECH COL model VAL 18 COL name VAL TWIN BEECH,"COL description VAL Beechcraft Beech 18 C-185
+",1,0.9563942459883361,BEECH 18,110.0,Beechcraft Beech 18 C-185,"['make: BEECH', 'model: 18', 'name: TWIN BEECH']",['description: Beechcraft Beech 18 C-185'],0.9563942459883361,['BEECH 18'],1.0,True
+COL make VAL BEECH COL model VAL 1900 COL name VAL AIRLINER,"COL description VAL Beech 1900 A/B/C/D
+",1,0.9999577740945544,BEECH 1900,405.0,Beech 1900 A/B/C/D,"['make: BEECH', 'model: 1900', 'name: AIRLINER']",['description: Beech 1900 A/B/C/D'],0.9999577740945544,['BEECH 1900'],1.0,True
+COL make VAL BEECH COL model VAL 200 COL name VAL SUPER KING AIR,"COL description VAL Beech 200 Super Kingair
+",1,0.964107133037313,BEECH 200,406.0,Beech 200 Super Kingair,"['make: BEECH', 'model: 200', 'name: SUPER KING AIR']",['description: Beech 200 Super Kingair'],0.964107133037313,"['BEECH 200', 'BEECH C12']",2.0,True
+COL make VAL BEECH COL model VAL 200 COL name VAL SUPER KING AIR,"COL description VAL Beechcraft King Air B100
+",1,0.9883516399800772,BEECH 200,409.0,Beechcraft King Air B100,"['make: BEECH', 'model: 200', 'name: SUPER KING AIR']",['description: Beechcraft King Air B100'],0.9883516399800772,"['BEECH 100', 'BEECH 200']",2.0,True
+COL make VAL BEECH COL model VAL 200 COL name VAL SUPER KING AIR,"COL description VAL Raytheon King Air A100
+",1,0.7760905458624967,BEECH 200,434.0,Raytheon King Air A100,"['make: BEECH', 'model: 200', 'name: SUPER KING AIR']",['description: Raytheon King Air A100'],0.9809906596678389,"['BEECH 100', 'BEECH 200', 'BEECH 300']",3.0,False
+COL make VAL BEECH COL model VAL 300 COL name VAL SUPER KING AIR,"COL description VAL Raytheon King Air A100
+",1,0.6410705500874715,BEECH 300,434.0,Raytheon King Air A100,"['make: BEECH', 'model: 300', 'name: SUPER KING AIR']",['description: Raytheon King Air A100'],0.9809906596678389,"['BEECH 100', 'BEECH 200', 'BEECH 300']",3.0,False
+COL make VAL BEECH COL model VAL 35 COL name VAL BONANZA DEBONAIR,"COL description VAL Beech Bonanza 35A/C/D/E/G/H/J/K/S/V/  36A
+",1,0.8933998444203582,BEECH 35,10.0,Beech Bonanza 35A/C/D/E/G/H/J/K/S/V/  36A,"['make: BEECH', 'model: 35', 'name: BONANZA DEBONAIR']",['description: Beech Bonanza 35A/C/D/E/G/H/J/K/S/V/  36A'],0.8933998444203582,['BEECH 35'],1.0,True
+COL make VAL BEECH COL model VAL 55 COL name VAL BARON,"COL description VAL Beech Baron (55 Series)
+",1,0.9999257332835931,BEECH 55,117.0,Beech Baron (55 Series),"['make: BEECH', 'model: 55', 'name: BARON']",['description: Beech Baron (55 Series)'],0.9999257332835931,['BEECH 55'],1.0,True
+COL make VAL BEECH COL model VAL 65 COL name VAL QUEEN AIR,"COL description VAL Beech 65/65A-80/65B-80 (Queen Air)
+",1,0.7866454138324462,BEECH 65,133.0,Beech 65/65A-80/65B-80 (Queen Air),"['make: BEECH', 'model: 65', 'name: QUEEN AIR']",['description: Beech 65/65A-80/65B-80 (Queen Air)'],0.9896738651143343,"['BEECH 65', 'BEECH 80']",2.0,False
+COL make VAL BEECH COL model VAL 80 COL name VAL QUEEN AIR,"COL description VAL Beech 65/65A-80/65B-80 (Queen Air)
+",1,0.9896738651143343,BEECH 80,133.0,Beech 65/65A-80/65B-80 (Queen Air),"['make: BEECH', 'model: 80', 'name: QUEEN AIR']",['description: Beech 65/65A-80/65B-80 (Queen Air)'],0.9896738651143343,"['BEECH 65', 'BEECH 80']",2.0,True
+COL make VAL BEECH COL model VAL 90 COL name VAL KING AIR,"COL description VAL Beech C99
+",1,0.9796405356576507,BEECH 90,404.0,Beech C99,"['make: BEECH', 'model: 90', 'name: KING AIR']",['description: Beech C99'],0.9986953840130689,"['BEECH 90', 'BEECH 95', 'BEECH 99']",3.0,False
+COL make VAL BEECH COL model VAL 90 COL name VAL KING AIR,"COL description VAL Beech King Air 90
+",1,0.9999701393350712,BEECH 90,111.0,Beech King Air 90,"['make: BEECH', 'model: 90', 'name: KING AIR']",['description: Beech King Air 90'],0.9999701393350712,['BEECH 90'],1.0,True
+COL make VAL BEECH COL model VAL 90 COL name VAL KING AIR,"COL description VAL Beech King Air C-90
+",1,0.9989321739918996,BEECH 90,457.0,Beech King Air C-90,"['make: BEECH', 'model: 90', 'name: KING AIR']",['description: Beech King Air C-90'],0.9989321739918996,"['BEECH 90', 'BEECH C12']",2.0,True
+COL make VAL BEECH COL model VAL 95 COL name VAL TRAVEL AIR,"COL description VAL Beech C99
+",1,0.9986953840130689,BEECH 95,404.0,Beech C99,"['make: BEECH', 'model: 95', 'name: TRAVEL AIR']",['description: Beech C99'],0.9986953840130689,"['BEECH 90', 'BEECH 95', 'BEECH 99']",3.0,True
+COL make VAL BEECH COL model VAL 99 COL name VAL AIRLINER,"COL description VAL Beech 99 Airliner
+",1,0.9999772833667335,BEECH 99,403.0,Beech 99 Airliner,"['make: BEECH', 'model: 99', 'name: AIRLINER']",['description: Beech 99 Airliner'],0.9999772833667335,['BEECH 99'],1.0,True
+COL make VAL BEECH COL model VAL 99 COL name VAL AIRLINER,"COL description VAL Beech C99
+",1,0.9890237647966957,BEECH 99,404.0,Beech C99,"['make: BEECH', 'model: 99', 'name: AIRLINER']",['description: Beech C99'],0.9986953840130689,"['BEECH 90', 'BEECH 95', 'BEECH 99']",3.0,False
+COL make VAL BEECH COL model VAL C12 COL name VAL SUPER KING AIR,"COL description VAL Beech 200 Super Kingair
+",1,0.4700959096961468,BEECH C12,406.0,Beech 200 Super Kingair,"['make: BEECH', 'model: C12', 'name: SUPER KING AIR']",['description: Beech 200 Super Kingair'],0.964107133037313,"['BEECH 200', 'BEECH C12']",2.0,False
+COL make VAL BEECH COL model VAL C12 COL name VAL SUPER KING AIR,"COL description VAL Beech King Air C-90
+",1,0.9730857415749176,BEECH C12,457.0,Beech King Air C-90,"['make: BEECH', 'model: C12', 'name: SUPER KING AIR']",['description: Beech King Air C-90'],0.9989321739918996,"['BEECH 90', 'BEECH C12']",2.0,False
+COL make VAL BEECH COL model VAL C12 COL name VAL SUPER KING AIR,"COL description VAL Beechcraft Super King Air
+",1,0.9484755052305897,BEECH C12,458.0,Beechcraft Super King Air,"['make: BEECH', 'model: C12', 'name: SUPER KING AIR']",['description: Beechcraft Super King Air'],0.9484755052305897,['BEECH C12'],1.0,True
+COL make VAL BEECH COL model VAL RU21 COL name VAL UTE,"
+",1,0.834903789394107,BEECH RU21,,,"['make: BEECH', 'model: RU21', 'name: UTE']",[],,,,False
+COL make VAL BELL COL model VAL 206,"COL description VAL Bell B-206A
+",1,0.9078519704753796,BELL 206,315.0,Bell B-206A,"['make: BELL', 'model: 206']",['description: Bell B-206A'],0.9078519704753796,['BELL 206'],1.0,True
+COL make VAL BELL COL model VAL 212,"COL description VAL Bell 212 Twin Two Twelve
+",1,0.39181121098979765,BELL 212,345.0,Bell 212 Twin Two Twelve,"['make: BELL', 'model: 212']",['description: Bell 212 Twin Two Twelve'],0.39181121098979765,['BELL 212'],1.0,True
+COL make VAL BELL COL model VAL 407,"COL description VAL Bell Bht 407
+",1,0.8910285360671423,BELL 407,366.0,Bell Bht 407,"['make: BELL', 'model: 407']",['description: Bell Bht 407'],0.8910285360671423,['BELL 407'],1.0,True
+COL make VAL BELL COL model VAL 412,"COL description VAL Bell Bht 412
+",1,0.9680908504253573,BELL 412,368.0,Bell Bht 412,"['make: BELL', 'model: 412']",['description: Bell Bht 412'],0.9680908504253573,['BELL 412'],1.0,True
+COL make VAL BOEING COL model VAL 377,"COL description VAL Boeing B737 Max 800
+",1,0.9932949730577837,BOEING 377,838.0,Boeing B737 Max 800,"['make: BOEING', 'model: 377']",['description: Boeing B737 Max 800'],0.9932949730577837,"['BOEING 377', 'BOEING 737', 'BOEING HPB377']",3.0,True
+COL make VAL BOEING COL model VAL 377,"COL description VAL Boeing B737 Max 900
+",1,0.9888846220132929,BOEING 377,839.0,Boeing B737 Max 900,"['make: BOEING', 'model: 377']",['description: Boeing B737 Max 900'],0.9888846220132929,"['BOEING 377', 'BOEING 737', 'BOEING HPB377']",3.0,True
+COL make VAL BOEING COL model VAL 717,"COL description VAL Boeing 717-200
+",1,0.9999044190259909,BOEING 717,608.0,Boeing 717-200,"['make: BOEING', 'model: 717']",['description: Boeing 717-200'],0.9999044190259909,['BOEING 717'],1.0,True
+COL make VAL BOEING COL model VAL 727,"COL description VAL Boeing 727-100
+",1,0.9996840347192559,BOEING 727,710.0,Boeing 727-100,"['make: BOEING', 'model: 727']",['description: Boeing 727-100'],0.9996840347192559,['BOEING 727'],1.0,True
+COL make VAL BOEING COL model VAL 727,"COL description VAL Boeing 727-200/231A
+",1,0.9914318744992567,BOEING 727,715.0,Boeing 727-200/231A,"['make: BOEING', 'model: 727']",['description: Boeing 727-200/231A'],0.9914318744992567,['BOEING 727'],1.0,True
+COL make VAL BOEING COL model VAL 727,"COL description VAL Boeing B777-F
+",1,0.35802716908747095,BOEING 727,683.0,Boeing B777-F,"['make: BOEING', 'model: 727']",['description: Boeing B777-F'],0.9293025601804011,"['BOEING 727', 'BOEING 777', 'BOEING B17', 'BOEING C97']",4.0,False
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-100/200
+",1,0.9999564958676231,BOEING 737,620.0,Boeing 737-100/200,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-100/200'],0.9999564958676231,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-200C
+",1,0.9999743256525165,BOEING 737,621.0,Boeing 737-200C,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-200C'],0.9999743256525165,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-300
+",1,0.9999709163093901,BOEING 737,619.0,Boeing 737-300,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-300'],0.9999709163093901,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-400
+",1,0.9999729147269073,BOEING 737,617.0,Boeing 737-400,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-400'],0.9999729147269073,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-500
+",1,0.9999741390435806,BOEING 737,616.0,Boeing 737-500,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-500'],0.9999741390435806,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-700/700LR/Max 7
+",1,0.9999390516242729,BOEING 737,612.0,Boeing 737-700/700LR/Max 7,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-700/700LR/Max 7'],0.9999390516242729,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-800
+",1,0.9999717999906892,BOEING 737,614.0,Boeing 737-800,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-800'],0.9999717999906892,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-900
+",1,0.9999786322581683,BOEING 737,634.0,Boeing 737-900,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-900'],0.9999786322581683,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing 737-900ER
+",1,0.9999719768326804,BOEING 737,888.0,Boeing 737-900ER,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing 737-900ER'],0.9999719768326804,['BOEING 737'],1.0,True
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing B737 Max 800
+",1,0.4191139249624782,BOEING 737,838.0,Boeing B737 Max 800,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing B737 Max 800'],0.9932949730577837,"['BOEING 377', 'BOEING 737', 'BOEING HPB377']",3.0,False
+COL make VAL BOEING COL model VAL 737 COL name VAL B-737-890,"COL description VAL Boeing B737 Max 900
+",1,0.602128772176002,BOEING 737,839.0,Boeing B737 Max 900,"['make: BOEING', 'model: 737', 'name: B-737-890']",['description: Boeing B737 Max 900'],0.9888846220132929,"['BOEING 377', 'BOEING 737', 'BOEING HPB377']",3.0,False
+COL make VAL BOEING COL model VAL 747 COL name VAL FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE,"COL description VAL Boeing 747-100
+",1,0.9999882825617779,BOEING 747,816.0,Boeing 747-100,"['make: BOEING', 'model: 747', 'name: FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE']",['description: Boeing 747-100'],0.9999882825617779,['BOEING 747'],1.0,True
+COL make VAL BOEING COL model VAL 747 COL name VAL FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE,"COL description VAL Boeing 747-200/300
+",1,0.9999867028523638,BOEING 747,817.0,Boeing 747-200/300,"['make: BOEING', 'model: 747', 'name: FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE']",['description: Boeing 747-200/300'],0.9999867028523638,['BOEING 747'],1.0,True
+COL make VAL BOEING COL model VAL 747 COL name VAL FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE,"COL description VAL Boeing 747-400
+",1,0.999985388959286,BOEING 747,819.0,Boeing 747-400,"['make: BOEING', 'model: 747', 'name: FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE']",['description: Boeing 747-400'],0.999985388959286,['BOEING 747'],1.0,True
+COL make VAL BOEING COL model VAL 747 COL name VAL FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE,"COL description VAL Boeing 747-400F
+",1,0.9999835098618297,BOEING 747,820.0,Boeing 747-400F,"['make: BOEING', 'model: 747', 'name: FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE']",['description: Boeing 747-400F'],0.9999835098618297,['BOEING 747'],1.0,True
+COL make VAL BOEING COL model VAL 747 COL name VAL FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE,"COL description VAL Boeing 747C
+",1,0.9999863495645189,BOEING 747,818.0,Boeing 747C,"['make: BOEING', 'model: 747', 'name: FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE']",['description: Boeing 747C'],0.9999863495645189,['BOEING 747'],1.0,True
+COL make VAL BOEING COL model VAL 747 COL name VAL FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE,"COL description VAL Boeing 747SP
+",1,0.999987350125678,BOEING 747,822.0,Boeing 747SP,"['make: BOEING', 'model: 747', 'name: FREIGHTER ADVANCED SUPERJET SUPERJET CONVERTIBLE']",['description: Boeing 747SP'],0.999987350125678,['BOEING 747'],1.0,True
+COL make VAL BOEING COL model VAL 757,"COL description VAL Boeing 757-200
+",1,0.9998697351134023,BOEING 757,622.0,Boeing 757-200,"['make: BOEING', 'model: 757']",['description: Boeing 757-200'],0.9998697351134023,['BOEING 757'],1.0,True
+COL make VAL BOEING COL model VAL 757,"COL description VAL Boeing 757-300
+",1,0.9998821240267961,BOEING 757,623.0,Boeing 757-300,"['make: BOEING', 'model: 757']",['description: Boeing 757-300'],0.9998821240267961,['BOEING 757'],1.0,True
+COL make VAL BOEING COL model VAL 767,"COL description VAL Boeing 767-200/ER/EM
+",1,0.9995203322111816,BOEING 767,625.0,Boeing 767-200/ER/EM,"['make: BOEING', 'model: 767']",['description: Boeing 767-200/ER/EM'],0.9995203322111816,['BOEING 767'],1.0,True
+COL make VAL BOEING COL model VAL 767,"COL description VAL Boeing 767-300/300ER
+",1,0.999541992704902,BOEING 767,626.0,Boeing 767-300/300ER,"['make: BOEING', 'model: 767']",['description: Boeing 767-300/300ER'],0.999541992704902,['BOEING 767'],1.0,True
+COL make VAL BOEING COL model VAL 767,"COL description VAL Boeing 767-400/ER
+",1,0.9993213617943372,BOEING 767,624.0,Boeing 767-400/ER,"['make: BOEING', 'model: 767']",['description: Boeing 767-400/ER'],0.9993213617943372,['BOEING 767'],1.0,True
+COL make VAL BOEING COL model VAL 777,"COL description VAL Boeing B777-F
+",1,0.6991099198530601,BOEING 777,683.0,Boeing B777-F,"['make: BOEING', 'model: 777']",['description: Boeing B777-F'],0.9293025601804011,"['BOEING 727', 'BOEING 777', 'BOEING B17', 'BOEING C97']",4.0,False
+COL make VAL BOEING COL model VAL 787 COL name VAL DREAMLINER,"COL description VAL B787-800 Dreamliner
+",1,0.9929985489216646,BOEING 787,887.0,B787-800 Dreamliner,"['make: BOEING', 'model: 787', 'name: DREAMLINER']",['description: B787-800 Dreamliner'],0.9929985489216646,['BOEING 787'],1.0,True
+COL make VAL BOEING COL model VAL 787 COL name VAL DREAMLINER,"COL description VAL B787-900 Dreamliner
+",1,0.9986718543337783,BOEING 787,889.0,B787-900 Dreamliner,"['make: BOEING', 'model: 787', 'name: DREAMLINER']",['description: B787-900 Dreamliner'],0.9986718543337783,['BOEING 787'],1.0,True
+COL make VAL BOEING COL model VAL 787 COL name VAL DREAMLINER,"COL description VAL Boeing 787-10 Dreamliner
+",1,0.9999367924751712,BOEING 787,837.0,Boeing 787-10 Dreamliner,"['make: BOEING', 'model: 787', 'name: DREAMLINER']",['description: Boeing 787-10 Dreamliner'],0.9999367924751712,['BOEING 787'],1.0,True
+COL make VAL BOEING COL model VAL B17,"COL description VAL Boeing B777-F
+",1,0.9293025601804011,BOEING B17,683.0,Boeing B777-F,"['make: BOEING', 'model: B17']",['description: Boeing B777-F'],0.9293025601804011,"['BOEING 727', 'BOEING 777', 'BOEING B17', 'BOEING C97']",4.0,True
+COL make VAL BOEING COL model VAL C97 COL name VAL STRATO-FREIGHTER,"COL description VAL Boeing B777-F
+",1,0.6789168527180913,BOEING C97,683.0,Boeing B777-F,"['make: BOEING', 'model: C97', 'name: STRATO-FREIGHTER']",['description: Boeing B777-F'],0.9293025601804011,"['BOEING 727', 'BOEING 777', 'BOEING B17', 'BOEING C97']",4.0,False
+COL make VAL BOEING COL model VAL HPB377 COL name VAL STRATO-FREIGHTER,"COL description VAL Boeing B737 Max 800
+",1,0.4999186061329879,BOEING HPB377,838.0,Boeing B737 Max 800,"['make: BOEING', 'model: HPB377', 'name: STRATO-FREIGHTER']",['description: Boeing B737 Max 800'],0.9932949730577837,"['BOEING 377', 'BOEING 737', 'BOEING HPB377']",3.0,False
+COL make VAL BOEING COL model VAL HPB377 COL name VAL STRATO-FREIGHTER,"COL description VAL Boeing B737 Max 900
+",1,0.35160677071960156,BOEING HPB377,839.0,Boeing B737 Max 900,"['make: BOEING', 'model: HPB377', 'name: STRATO-FREIGHTER']",['description: Boeing B737 Max 900'],0.9888846220132929,"['BOEING 377', 'BOEING 737', 'BOEING HPB377']",3.0,False
+COL make VAL BOMBARDIER COL model VAL BD500,"COL description VAL A200-100 BD-500-1A10
+",1,0.9913880843534321,BOMBARDIER BD500,723.0,A200-100 BD-500-1A10,"['make: BOMBARDIER', 'model: BD500']",['description: A200-100 BD-500-1A10'],0.9913880843534321,['BOMBARDIER BD500'],1.0,True
+COL make VAL BOMBARDIER COL model VAL BD500,"COL description VAL A220-300 BD-500-1A11
+",1,0.9112315795590227,BOMBARDIER BD500,724.0,A220-300 BD-500-1A11,"['make: BOMBARDIER', 'model: BD500']",['description: A220-300 BD-500-1A11'],0.9112315795590227,['BOMBARDIER BD500'],1.0,True
+COL make VAL BOMBARDIER COL model VAL CL600 2D15 COL name VAL CRJ 705ER,"COL description VAL Bombardier CRJ 705
+",1,0.5005763654838177,BOMBARDIER CL600 2D15,657.0,Bombardier CRJ 705,"['make: BOMBARDIER', 'model: CL600 2D15', 'name: CRJ 705ER']",['description: Bombardier CRJ 705'],0.5005763654838177,['BOMBARDIER CL600 2D15'],1.0,True
+COL make VAL BRITTEN NORMAN COL model VAL BN2 COL name VAL ISLANDER,"COL description VAL Pilatus Britten-Norman BN2/A Islander
+",1,0.9988430769405742,BRITTEN NORMAN BN2,131.0,Pilatus Britten-Norman BN2/A Islander,"['make: BRITTEN NORMAN', 'model: BN2', 'name: ISLANDER']",['description: Pilatus Britten-Norman BN2/A Islander'],0.9988430769405742,"['BRITTEN NORMAN BN2', 'BRITTEN NORMAN BN2A']",2.0,True
+COL make VAL BRITTEN NORMAN COL model VAL BN2A COL name VAL ISLANDER,"COL description VAL Pilatus Britten-Norman BN2/A Islander
+",1,0.8904306568030746,BRITTEN NORMAN BN2A,131.0,Pilatus Britten-Norman BN2/A Islander,"['make: BRITTEN NORMAN', 'model: BN2A', 'name: ISLANDER']",['description: Pilatus Britten-Norman BN2/A Islander'],0.9988430769405742,"['BRITTEN NORMAN BN2', 'BRITTEN NORMAN BN2A']",2.0,False
+COL make VAL BRITTEN NORMAN COL model VAL BN2A COL name VAL ISLANDER,"COL description VAL Pilatus Britten-Norman BN2A Trislander
+",1,0.521836284963602,BRITTEN NORMAN BN2A,201.0,Pilatus Britten-Norman BN2A Trislander,"['make: BRITTEN NORMAN', 'model: BN2A', 'name: ISLANDER']",['description: Pilatus Britten-Norman BN2A Trislander'],0.9999917458980642,['BRITTEN NORMAN BN2A'],1.0,False
+COL make VAL BRITTEN NORMAN COL model VAL BN2A COL name VAL TRISLANDER,"COL description VAL Pilatus Britten-Norman BN2A Trislander
+",1,0.9999917458980642,BRITTEN NORMAN BN2A,201.0,Pilatus Britten-Norman BN2A Trislander,"['make: BRITTEN NORMAN', 'model: BN2A', 'name: TRISLANDER']",['description: Pilatus Britten-Norman BN2A Trislander'],0.9999917458980642,['BRITTEN NORMAN BN2A'],1.0,True
+COL make VAL CANADAIR COL model VAL CL600 1A11 COL name VAL CHALLENGER,"COL description VAL Canadair CL-600 Challenger
+",1,0.9796207634507972,CANADAIR CL600 1A11,652.0,Canadair CL-600 Challenger,"['make: CANADAIR', 'model: CL600 1A11', 'name: CHALLENGER']",['description: Canadair CL-600 Challenger'],0.9796207634507972,"['CANADAIR CL600 1A11', 'CANADAIR CL600 2A12']",2.0,True
+COL make VAL CANADAIR COL model VAL CL600 2A12 COL name VAL CHALLENGER,"COL description VAL Canadair CL-600 Challenger
+",1,0.8474565127421516,CANADAIR CL600 2A12,652.0,Canadair CL-600 Challenger,"['make: CANADAIR', 'model: CL600 2A12', 'name: CHALLENGER']",['description: Canadair CL-600 Challenger'],0.9796207634507972,"['CANADAIR CL600 1A11', 'CANADAIR CL600 2A12']",2.0,False
+COL make VAL CASA COL model VAL C212,"COL description VAL Casa 235
+",1,0.6775045244126242,CASA C212,413.0,Casa 235,"['make: CASA', 'model: C212']",['description: Casa 235'],0.6775045244126242,['CASA C212'],1.0,True
+COL make VAL CASA COL model VAL C212,"COL description VAL Casa/Nurtanio C212 Aviocar
+",1,0.7867984705821413,CASA C212,412.0,Casa/Nurtanio C212 Aviocar,"['make: CASA', 'model: C212']",['description: Casa/Nurtanio C212 Aviocar'],0.7867984705821413,['CASA C212'],1.0,True
+COL make VAL CESSNA COL model VAL 172 COL name VAL SKYHAWK SKYHAWK SP CUTLASS,"COL description VAL Cessna 172 Skyhawk
+",1,0.999977306470228,CESSNA 172,36.0,Cessna 172 Skyhawk,"['make: CESSNA', 'model: 172', 'name: SKYHAWK SKYHAWK SP CUTLASS']",['description: Cessna 172 Skyhawk'],0.999977306470228,['CESSNA 172'],1.0,True
+COL make VAL CESSNA COL model VAL 180 COL name VAL SKYWAGON,"COL description VAL Cessna 180
+",1,0.9998765298019154,CESSNA 180,30.0,Cessna 180,"['make: CESSNA', 'model: 180', 'name: SKYWAGON']",['description: Cessna 180'],0.9998765298019154,['CESSNA 180'],1.0,True
+COL make VAL CESSNA COL model VAL 180 COL name VAL SKYWAGON,"COL description VAL Cessna 180A/B
+",1,0.9991526183833379,CESSNA 180,31.0,Cessna 180A/B,"['make: CESSNA', 'model: 180', 'name: SKYWAGON']",['description: Cessna 180A/B'],0.9991526183833379,['CESSNA 180'],1.0,True
+COL make VAL CESSNA COL model VAL 182 COL name VAL SKYLANE,"COL description VAL Cessna 182 Skylane
+",1,0.9998939914754496,CESSNA 182,39.0,Cessna 182 Skylane,"['make: CESSNA', 'model: 182', 'name: SKYLANE']",['description: Cessna 182 Skylane'],0.9998939914754496,['CESSNA 182'],1.0,True
+COL make VAL CESSNA COL model VAL 207 COL name VAL SKYWAGON,"COL description VAL Cessna C206/207/209/210 Stationair
+",1,0.9691911044890521,CESSNA 207,35.0,Cessna C206/207/209/210 Stationair,"['make: CESSNA', 'model: 207', 'name: SKYWAGON']",['description: Cessna C206/207/209/210 Stationair'],0.991086379709724,"['CESSNA 207', 'CESSNA 210']",2.0,False
+COL make VAL CESSNA COL model VAL 208 COL name VAL CARAVAN I,"COL description VAL Cessna 208 Caravan
+",1,0.9999642762574843,CESSNA 208,416.0,Cessna 208 Caravan,"['make: CESSNA', 'model: 208', 'name: CARAVAN I']",['description: Cessna 208 Caravan'],0.9999642762574843,['CESSNA 208'],1.0,True
+COL make VAL CESSNA COL model VAL 210 COL name VAL CENTURION,"COL description VAL Cessna C206/207/209/210 Stationair
+",1,0.991086379709724,CESSNA 210,35.0,Cessna C206/207/209/210 Stationair,"['make: CESSNA', 'model: 210', 'name: CENTURION']",['description: Cessna C206/207/209/210 Stationair'],0.991086379709724,"['CESSNA 207', 'CESSNA 210']",2.0,True
+COL make VAL CESSNA COL model VAL 402 COL name VAL BUSINESS LINER,"COL description VAL Cessna C-402/402A/402B
+",1,0.9999406135304214,CESSNA 402,125.0,Cessna C-402/402A/402B,"['make: CESSNA', 'model: 402', 'name: BUSINESS LINER']",['description: Cessna C-402/402A/402B'],0.9999406135304214,"['CESSNA 402', 'CESSNA 404']",2.0,True
+COL make VAL CESSNA COL model VAL 404 COL name VAL TITAN,"COL description VAL Cessna C-402/402A/402B
+",1,0.493712637447789,CESSNA 404,125.0,Cessna C-402/402A/402B,"['make: CESSNA', 'model: 404', 'name: TITAN']",['description: Cessna C-402/402A/402B'],0.9999406135304214,"['CESSNA 402', 'CESSNA 404']",2.0,False
+COL make VAL CESSNA COL model VAL 408 COL name VAL SKYCOURIER,"COL description VAL Cessna Skycourier 408
+",1,0.9999654281143882,CESSNA 408,421.0,Cessna Skycourier 408,"['make: CESSNA', 'model: 408', 'name: SKYCOURIER']",['description: Cessna Skycourier 408'],0.9999654281143882,['CESSNA 408'],1.0,True
+COL make VAL CESSNA COL model VAL 421 COL name VAL GOLDEN EAGLE,"COL description VAL Cessna C-421
+",1,0.9997451047860514,CESSNA 421,121.0,Cessna C-421,"['make: CESSNA', 'model: 421', 'name: GOLDEN EAGLE']",['description: Cessna C-421'],0.9997451047860514,"['CESSNA 421', 'CESSNA 425', 'CESSNA 441']",3.0,True
+COL make VAL CESSNA COL model VAL 425 COL name VAL CONQUEST I,"COL description VAL Cessna C-421
+",1,0.9441534557845684,CESSNA 425,121.0,Cessna C-421,"['make: CESSNA', 'model: 425', 'name: CONQUEST I']",['description: Cessna C-421'],0.9997451047860514,"['CESSNA 421', 'CESSNA 425', 'CESSNA 441']",3.0,False
+COL make VAL CESSNA COL model VAL 441 COL name VAL CONQUEST II,"COL description VAL Cessna C-421
+",1,0.9991864849390589,CESSNA 441,121.0,Cessna C-421,"['make: CESSNA', 'model: 441', 'name: CONQUEST II']",['description: Cessna C-421'],0.9997451047860514,"['CESSNA 421', 'CESSNA 425', 'CESSNA 441']",3.0,False
+COL make VAL CESSNA COL model VAL 441 COL name VAL CONQUEST II,"COL description VAL Cessna C-441
+",1,0.9999814882720947,CESSNA 441,418.0,Cessna C-441,"['make: CESSNA', 'model: 441', 'name: CONQUEST II']",['description: Cessna C-441'],0.9999814882720947,"['CESSNA 441', 'CESSNA C145']",2.0,True
+COL make VAL CESSNA COL model VAL 510 COL name VAL CITATION MUSTANG,"COL description VAL Cessna 510 Mustang/560XL Citation Excel
+",1,0.9982306278497605,CESSNA 510,685.0,Cessna 510 Mustang/560XL Citation Excel,"['make: CESSNA', 'model: 510', 'name: CITATION MUSTANG']",['description: Cessna 510 Mustang/560XL Citation Excel'],0.9982306278497605,"['CESSNA 510', 'CESSNA 560']",2.0,True
+COL make VAL CESSNA COL model VAL 550 COL name VAL CITATION II,"COL description VAL Cessna Citation X Model 650/550B/550XL
+",1,0.9939832548484299,CESSNA 550,646.0,Cessna Citation X Model 650/550B/550XL,"['make: CESSNA', 'model: 550', 'name: CITATION II']",['description: Cessna Citation X Model 650/550B/550XL'],0.9991615977039423,"['CESSNA 550', 'CESSNA 650']",2.0,False
+COL make VAL CESSNA COL model VAL 550,"COL description VAL Cessna Citation X Model 650/550B/550XL
+",1,0.9395676650831135,CESSNA 550,646.0,Cessna Citation X Model 650/550B/550XL,"['make: CESSNA', 'model: 550']",['description: Cessna Citation X Model 650/550B/550XL'],0.9991615977039423,"['CESSNA 550', 'CESSNA 650']",2.0,False
+COL make VAL CESSNA COL model VAL 560 COL name VAL CITATION V,"COL description VAL Cessna 510 Mustang/560XL Citation Excel
+",1,0.7213516890293584,CESSNA 560,685.0,Cessna 510 Mustang/560XL Citation Excel,"['make: CESSNA', 'model: 560', 'name: CITATION V']",['description: Cessna 510 Mustang/560XL Citation Excel'],0.9982306278497605,"['CESSNA 510', 'CESSNA 560']",2.0,False
+COL make VAL CESSNA COL model VAL 650 COL name VAL CITATION,"COL description VAL Cessna Citation X Model 650/550B/550XL
+",1,0.9991615977039423,CESSNA 650,646.0,Cessna Citation X Model 650/550B/550XL,"['make: CESSNA', 'model: 650', 'name: CITATION']",['description: Cessna Citation X Model 650/550B/550XL'],0.9991615977039423,"['CESSNA 550', 'CESSNA 650']",2.0,True
+COL make VAL CESSNA COL model VAL 680 COL name VAL SOVEREIGN,"COL description VAL Cessna CE-680 Citation Sovereign
+",1,0.9994743610530264,CESSNA 680,653.0,Cessna CE-680 Citation Sovereign,"['make: CESSNA', 'model: 680', 'name: SOVEREIGN']",['description: Cessna CE-680 Citation Sovereign'],0.9994743610530264,['CESSNA 680'],1.0,True
+COL make VAL CESSNA COL model VAL 680 COL name VAL LATITUDE,"COL description VAL Cessna CE-680 Citation Sovereign
+",1,0.991443728529081,CESSNA 680,653.0,Cessna CE-680 Citation Sovereign,"['make: CESSNA', 'model: 680', 'name: LATITUDE']",['description: Cessna CE-680 Citation Sovereign'],0.9994743610530264,['CESSNA 680'],1.0,False
+COL make VAL CESSNA COL model VAL C145,"COL description VAL Cessna C-441
+",1,0.404355247641523,CESSNA C145,418.0,Cessna C-441,"['make: CESSNA', 'model: C145']",['description: Cessna C-441'],0.9999814882720947,"['CESSNA 441', 'CESSNA C145']",2.0,False
+COL make VAL CONVAIR COL model VAL 340 COL name VAL CONVAIR,"COL description VAL Convair CV-340/440
+",1,0.9417192213077034,CONVAIR 340,143.0,Convair CV-340/440,"['make: CONVAIR', 'model: 340', 'name: CONVAIR']",['description: Convair CV-340/440'],0.9977624025212504,"['CONVAIR 340', 'CONVAIR 440']",2.0,False
+COL make VAL CONVAIR COL model VAL 440 COL name VAL 580 CONVAIR,"COL description VAL Convair CV-340/440
+",1,0.9977624025212504,CONVAIR 440,143.0,Convair CV-340/440,"['make: CONVAIR', 'model: 440', 'name: 580 CONVAIR']",['description: Convair CV-340/440'],0.9977624025212504,"['CONVAIR 340', 'CONVAIR 440']",2.0,True
+COL make VAL CURTISS WRIGHT COL model VAL C46 COL name VAL COMMANDO,"COL description VAL Curtiss C46/20t/A/D/F/R Commando
+",1,0.9999326314986391,CURTISS WRIGHT C46,150.0,Curtiss C46/20t/A/D/F/R Commando,"['make: CURTISS WRIGHT', 'model: C46', 'name: COMMANDO']",['description: Curtiss C46/20t/A/D/F/R Commando'],0.9999326314986391,['CURTISS WRIGHT C46'],1.0,True
+COL make VAL DASSAULT COL model VAL FALCON 2000,"COL description VAL Dassault Falcon 2000
+",1,0.9999695160472246,DASSAULT FALCON 2000,774.0,Dassault Falcon 2000,"['make: DASSAULT', 'model: FALCON 2000']",['description: Dassault Falcon 2000'],0.9999695160472246,"['DASSAULT FALCON 2000', 'DASSAULT FALCON 2000EX']",2.0,True
+COL make VAL DASSAULT COL model VAL FALCON 2000,"COL description VAL Dassault Falcon 2000EX/2000lxs
+",1,0.8224467485425243,DASSAULT FALCON 2000,682.0,Dassault Falcon 2000EX/2000lxs,"['make: DASSAULT', 'model: FALCON 2000']",['description: Dassault Falcon 2000EX/2000lxs'],0.9999704328990822,"['DASSAULT FALCON 2000', 'DASSAULT FALCON 2000EX']",2.0,False
+COL make VAL DASSAULT COL model VAL FALCON 2000EX COL name VAL FALCON 2000,"COL description VAL Dassault Falcon 2000
+",1,0.9997336629636083,DASSAULT FALCON 2000EX,774.0,Dassault Falcon 2000,"['make: DASSAULT', 'model: FALCON 2000EX', 'name: FALCON 2000']",['description: Dassault Falcon 2000'],0.9999695160472246,"['DASSAULT FALCON 2000', 'DASSAULT FALCON 2000EX']",2.0,False
+COL make VAL DASSAULT COL model VAL FALCON 2000EX COL name VAL FALCON 2000,"COL description VAL Dassault Falcon 2000EX/2000lxs
+",1,0.9999704328990822,DASSAULT FALCON 2000EX,682.0,Dassault Falcon 2000EX/2000lxs,"['make: DASSAULT', 'model: FALCON 2000EX', 'name: FALCON 2000']",['description: Dassault Falcon 2000EX/2000lxs'],0.9999704328990822,"['DASSAULT FALCON 2000', 'DASSAULT FALCON 2000EX']",2.0,True
+COL make VAL DASSAULT COL model VAL FALCON 7X,"COL description VAL Dassault Falcon 7X
+",1,0.9730520713662874,DASSAULT FALCON 7X,775.0,Dassault Falcon 7X,"['make: DASSAULT', 'model: FALCON 7X']",['description: Dassault Falcon 7X'],0.9730520713662874,['DASSAULT FALCON 7X'],1.0,True
+COL make VAL DASSAULT COL model VAL FALCON 900EX,"COL description VAL Dassault Falcon 900/900EX
+",1,0.9999739784269404,DASSAULT FALCON 900EX,770.0,Dassault Falcon 900/900EX,"['make: DASSAULT', 'model: FALCON 900EX']",['description: Dassault Falcon 900/900EX'],0.9999739784269404,"['DASSAULT FALCON 900EX', 'DASSAULT MYSTERE FALCON 900']",2.0,True
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 20 COL name VAL MYSTERE-FALCON,"COL description VAL Dassault-Breguet Mystere-Falcon
+",1,0.7582111964635758,DASSAULT MYSTERE FALCON 20,681.0,Dassault-Breguet Mystere-Falcon,"['make: DASSAULT', 'model: MYSTERE FALCON 20', 'name: MYSTERE-FALCON']",['description: Dassault-Breguet Mystere-Falcon'],0.9336158972430086,"['DASSAULT MYSTERE FALCON 20', 'DASSAULT MYSTERE FALCON 50', 'DASSAULT MYSTERE FALCON 900']",3.0,False
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 50 COL name VAL MYSTERE-FALCON,"COL description VAL Dassault Falcon 50
+",1,0.9999730996285746,DASSAULT MYSTERE FALCON 50,771.0,Dassault Falcon 50,"['make: DASSAULT', 'model: MYSTERE FALCON 50', 'name: MYSTERE-FALCON']",['description: Dassault Falcon 50'],0.9999730996285746,['DASSAULT MYSTERE FALCON 50'],1.0,True
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 50 COL name VAL FALCON 50,"COL description VAL Dassault Falcon 50
+",1,0.9965647508725081,DASSAULT MYSTERE FALCON 50,771.0,Dassault Falcon 50,"['make: DASSAULT', 'model: MYSTERE FALCON 50', 'name: FALCON 50']",['description: Dassault Falcon 50'],0.9999730996285746,['DASSAULT MYSTERE FALCON 50'],1.0,False
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 50 COL name VAL FALCON 50,"COL description VAL Dassault-Breguet Mystere-Falcon
+",1,0.9336158972430086,DASSAULT MYSTERE FALCON 50,681.0,Dassault-Breguet Mystere-Falcon,"['make: DASSAULT', 'model: MYSTERE FALCON 50', 'name: FALCON 50']",['description: Dassault-Breguet Mystere-Falcon'],0.9336158972430086,"['DASSAULT MYSTERE FALCON 20', 'DASSAULT MYSTERE FALCON 50', 'DASSAULT MYSTERE FALCON 900']",3.0,True
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 900 COL name VAL MYSTERE-FALCON,"COL description VAL Dassault Falcon 900/900EX
+",1,0.9566607998156813,DASSAULT MYSTERE FALCON 900,770.0,Dassault Falcon 900/900EX,"['make: DASSAULT', 'model: MYSTERE FALCON 900', 'name: MYSTERE-FALCON']",['description: Dassault Falcon 900/900EX'],0.9999739784269404,"['DASSAULT FALCON 900EX', 'DASSAULT MYSTERE FALCON 900']",2.0,False
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 900 COL name VAL MYSTERE-FALCON,"COL description VAL Dassault-Breguet Mystere-Falcon
+",1,0.8089899614825198,DASSAULT MYSTERE FALCON 900,681.0,Dassault-Breguet Mystere-Falcon,"['make: DASSAULT', 'model: MYSTERE FALCON 900', 'name: MYSTERE-FALCON']",['description: Dassault-Breguet Mystere-Falcon'],0.9336158972430086,"['DASSAULT MYSTERE FALCON 20', 'DASSAULT MYSTERE FALCON 50', 'DASSAULT MYSTERE FALCON 900']",3.0,False
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 900,"COL description VAL Dassault Falcon 900/900EX
+",1,0.3995280234744837,DASSAULT MYSTERE FALCON 900,770.0,Dassault Falcon 900/900EX,"['make: DASSAULT', 'model: MYSTERE FALCON 900']",['description: Dassault Falcon 900/900EX'],0.9999739784269404,"['DASSAULT FALCON 900EX', 'DASSAULT MYSTERE FALCON 900']",2.0,False
+COL make VAL DASSAULT COL model VAL MYSTERE FALCON 900,"COL description VAL Dassault-Breguet Mystere-Falcon
+",1,0.41617727425835216,DASSAULT MYSTERE FALCON 900,681.0,Dassault-Breguet Mystere-Falcon,"['make: DASSAULT', 'model: MYSTERE FALCON 900']",['description: Dassault-Breguet Mystere-Falcon'],0.9336158972430086,"['DASSAULT MYSTERE FALCON 20', 'DASSAULT MYSTERE FALCON 50', 'DASSAULT MYSTERE FALCON 900']",3.0,False
+COL make VAL DE HAVILLAND COL model VAL DHC2 COL name VAL BEAVER TURBO BEAVER,"COL description VAL De Havilland DHC2 Beaver
+",1,0.9999877867082633,DE HAVILLAND DHC2,40.0,De Havilland DHC2 Beaver,"['make: DE HAVILLAND', 'model: DHC2', 'name: BEAVER TURBO BEAVER']",['description: De Havilland DHC2 Beaver'],0.9999877867082633,['DE HAVILLAND DHC2'],1.0,True
+COL make VAL DE HAVILLAND COL model VAL DHC3 COL name VAL OTTER,"COL description VAL De Havilland DHC3 Otter
+",1,0.9999862007720447,DE HAVILLAND DHC3,42.0,De Havilland DHC3 Otter,"['make: DE HAVILLAND', 'model: DHC3', 'name: OTTER']",['description: De Havilland DHC3 Otter'],0.9999862007720447,['DE HAVILLAND DHC3'],1.0,True
+COL make VAL DE HAVILLAND COL model VAL DHC6 COL name VAL TWIN OTTER,"COL description VAL De Havilland Twin Otter DHC-6
+",1,0.9999420508136453,DE HAVILLAND DHC6,485.0,De Havilland Twin Otter DHC-6,"['make: DE HAVILLAND', 'model: DHC6', 'name: TWIN OTTER']",['description: De Havilland Twin Otter DHC-6'],0.9999420508136453,['DE HAVILLAND DHC6'],1.0,True
+COL make VAL DE HAVILLAND COL model VAL DHC6 COL name VAL TWIN OTTER,"COL description VAL DHC-6-400 Twin Otter
+",1,0.9999515567952462,DE HAVILLAND DHC6,395.0,DHC-6-400 Twin Otter,"['make: DE HAVILLAND', 'model: DHC6', 'name: TWIN OTTER']",['description: DHC-6-400 Twin Otter'],0.9999515567952462,['DE HAVILLAND DHC6'],1.0,True
+COL make VAL DE HAVILLAND COL model VAL DHC8 COL name VAL DASH 8,"COL description VAL De Havilland DHC8-100 Dash-8
+",1,0.9998946910037472,DE HAVILLAND DHC8,483.0,De Havilland DHC8-100 Dash-8,"['make: DE HAVILLAND', 'model: DHC8', 'name: DASH 8']",['description: De Havilland DHC8-100 Dash-8'],0.9998946910037472,['DE HAVILLAND DHC8'],1.0,True
+COL make VAL DE HAVILLAND COL model VAL DHC8 COL name VAL DASH 8,"COL description VAL De Havilland DHC8-200Q Dash-8
+",1,0.9999670049158326,DE HAVILLAND DHC8,491.0,De Havilland DHC8-200Q Dash-8,"['make: DE HAVILLAND', 'model: DHC8', 'name: DASH 8']",['description: De Havilland DHC8-200Q Dash-8'],0.9999670049158326,['DE HAVILLAND DHC8'],1.0,True
+COL make VAL DE HAVILLAND COL model VAL DHC8 COL name VAL DASH 8,"COL description VAL De Havilland DHC8-300 Dash 8
+",1,0.9999601369021787,DE HAVILLAND DHC8,484.0,De Havilland DHC8-300 Dash 8,"['make: DE HAVILLAND', 'model: DHC8', 'name: DASH 8']",['description: De Havilland DHC8-300 Dash 8'],0.9999601369021787,['DE HAVILLAND DHC8'],1.0,True
+COL make VAL DE HAVILLAND COL model VAL DHC8 COL name VAL DASH 8,"COL description VAL De Havilland DHC8-400 Dash-8
+",1,0.99982860341454,DE HAVILLAND DHC8,482.0,De Havilland DHC8-400 Dash-8,"['make: DE HAVILLAND', 'model: DHC8', 'name: DASH 8']",['description: De Havilland DHC8-400 Dash-8'],0.99982860341454,['DE HAVILLAND DHC8'],1.0,True
+COL make VAL DORNIER COL model VAL 228,"COL description VAL Dornier 228
+",1,0.9996975626571822,DORNIER 228,448.0,Dornier 228,"['make: DORNIER', 'model: 228']",['description: Dornier 228'],0.9996975626571822,['DORNIER 228'],1.0,True
+COL make VAL DORNIER COL model VAL 328,"COL description VAL Dornier 328
+",1,0.9993662207492927,DORNIER 328,449.0,Dornier 328,"['make: DORNIER', 'model: 328']",['description: Dornier 328'],0.9993662207492927,['DORNIER 328'],1.0,True
+COL make VAL DORNIER COL model VAL 328,"COL description VAL Dornier 328 Jet
+",1,0.9993125595787609,DORNIER 328,632.0,Dornier 328 Jet,"['make: DORNIER', 'model: 328']",['description: Dornier 328 Jet'],0.9993125595787609,['DORNIER 328'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC6,"COL description VAL McDonnell Douglas DC-6
+",1,0.9997481138865946,DOUGLAS DC6,216.0,McDonnell Douglas DC-6,"['make: DOUGLAS', 'model: DC6']",['description: McDonnell Douglas DC-6'],0.9997481138865946,['DOUGLAS DC6'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC6,"COL description VAL McDonnell Douglas DC-6A
+",1,0.9999079261151922,DOUGLAS DC6,218.0,McDonnell Douglas DC-6A,"['make: DOUGLAS', 'model: DC6']",['description: McDonnell Douglas DC-6A'],0.9999079261151922,['DOUGLAS DC6'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC8,"COL description VAL McDonnell Douglas DC-8-61
+",1,0.999592967641806,DOUGLAS DC8,851.0,McDonnell Douglas DC-8-61,"['make: DOUGLAS', 'model: DC8']",['description: McDonnell Douglas DC-8-61'],0.999592967641806,['DOUGLAS DC8'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC8,"COL description VAL McDonnell Douglas DC-8-62
+",1,0.9997383972185574,DOUGLAS DC8,854.0,McDonnell Douglas DC-8-62,"['make: DOUGLAS', 'model: DC8']",['description: McDonnell Douglas DC-8-62'],0.9997383972185574,['DOUGLAS DC8'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC8,"COL description VAL McDonnell Douglas DC-8-63F
+",1,0.9995004345986509,DOUGLAS DC8,852.0,McDonnell Douglas DC-8-63F,"['make: DOUGLAS', 'model: DC8']",['description: McDonnell Douglas DC-8-63F'],0.9995004345986509,['DOUGLAS DC8'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC8,"COL description VAL McDonnell Douglas DC-8-71
+",1,0.9997505203392996,DOUGLAS DC8,860.0,McDonnell Douglas DC-8-71,"['make: DOUGLAS', 'model: DC8']",['description: McDonnell Douglas DC-8-71'],0.9997505203392996,['DOUGLAS DC8'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC8,"COL description VAL McDonnell Douglas DC-8-72
+",1,0.9997702153234422,DOUGLAS DC8,862.0,McDonnell Douglas DC-8-72,"['make: DOUGLAS', 'model: DC8']",['description: McDonnell Douglas DC-8-72'],0.9997702153234422,['DOUGLAS DC8'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC8,"COL description VAL McDonnell Douglas DC-8-73
+",1,0.9997154466511227,DOUGLAS DC8,864.0,McDonnell Douglas DC-8-73,"['make: DOUGLAS', 'model: DC8']",['description: McDonnell Douglas DC-8-73'],0.9997154466511227,['DOUGLAS DC8'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC8,"COL description VAL McDonnell Douglas DC-8-73F
+",1,0.9996684384287251,DOUGLAS DC8,865.0,McDonnell Douglas DC-8-73F,"['make: DOUGLAS', 'model: DC8']",['description: McDonnell Douglas DC-8-73F'],0.9996684384287251,['DOUGLAS DC8'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC9,"COL description VAL McDonnell Douglas DC9 Super 87
+",1,0.8778746265478085,DOUGLAS DC9,654.0,McDonnell Douglas DC9 Super 87,"['make: DOUGLAS', 'model: DC9']",['description: McDonnell Douglas DC9 Super 87'],0.8778746265478085,['DOUGLAS DC9'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC9,"COL description VAL McDonnell Douglas DC-9-15F
+",1,0.9999113451634564,DOUGLAS DC9,635.0,McDonnell Douglas DC-9-15F,"['make: DOUGLAS', 'model: DC9']",['description: McDonnell Douglas DC-9-15F'],0.9999113451634564,['DOUGLAS DC9'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC9,"COL description VAL McDonnell Douglas DC-9-30
+",1,0.999898616119125,DOUGLAS DC9,640.0,McDonnell Douglas DC-9-30,"['make: DOUGLAS', 'model: DC9']",['description: McDonnell Douglas DC-9-30'],0.999898616119125,['DOUGLAS DC9'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC9,"COL description VAL McDonnell Douglas DC-9-40
+",1,0.9998386961646876,DOUGLAS DC9,645.0,McDonnell Douglas DC-9-40,"['make: DOUGLAS', 'model: DC9']",['description: McDonnell Douglas DC-9-40'],0.9998386961646876,['DOUGLAS DC9'],1.0,True
+COL make VAL DOUGLAS COL model VAL DC9,"COL description VAL McDonnell Douglas DC-9-50
+",1,0.999848107379959,DOUGLAS DC9,650.0,McDonnell Douglas DC-9-50,"['make: DOUGLAS', 'model: DC9']",['description: McDonnell Douglas DC-9-50'],0.999848107379959,['DOUGLAS DC9'],1.0,True
+COL make VAL EMBRAER COL model VAL EMB120 COL name VAL BRASILIA,"COL description VAL Embraer EMB-120 Brasilia
+",1,0.9951405941002751,EMBRAER EMB120,461.0,Embraer EMB-120 Brasilia,"['make: EMBRAER', 'model: EMB120', 'name: BRASILIA']",['description: Embraer EMB-120 Brasilia'],0.9951405941002751,['EMBRAER EMB120'],1.0,True
+COL make VAL EMBRAER COL model VAL EMB135,"COL description VAL Embraer-135
+",1,0.4827093537951118,EMBRAER EMB135,674.0,Embraer-135,"['make: EMBRAER', 'model: EMB135']",['description: Embraer-135'],0.4827093537951118,['EMBRAER EMB135'],1.0,True
+COL make VAL EMBRAER COL model VAL EMB145,"COL description VAL Embraer-Emb-170
+",1,0.6356032753965152,EMBRAER EMB145,677.0,Embraer-Emb-170,"['make: EMBRAER', 'model: EMB145']",['description: Embraer-Emb-170'],0.6356032753965152,['EMBRAER EMB145'],1.0,True
+COL make VAL EMBRAER COL model VAL ERJ190 COL name VAL ERJ190100IGW,"COL description VAL Embraer 190
+",1,0.9692172386788339,EMBRAER ERJ190,678.0,Embraer 190,"['make: EMBRAER', 'model: ERJ190', 'name: ERJ190100IGW']",['description: Embraer 190'],0.9692172386788339,['EMBRAER ERJ190'],1.0,True
+COL make VAL EUROCOPTER COL model VAL BO105 COL name VAL LIFT SHIP,"COL description VAL Air Bus Euro Bo-105
+",1,0.9995523510026308,EUROCOPTER BO105,370.0,Air Bus Euro Bo-105,"['make: EUROCOPTER', 'model: BO105', 'name: LIFT SHIP']",['description: Air Bus Euro Bo-105'],0.9999103411847611,['EUROCOPTER BO105'],1.0,False
+COL make VAL EUROCOPTER COL model VAL BO105,"COL description VAL Air Bus Euro Bo-105
+",1,0.9999103411847611,EUROCOPTER BO105,370.0,Air Bus Euro Bo-105,"['make: EUROCOPTER', 'model: BO105']",['description: Air Bus Euro Bo-105'],0.9999103411847611,['EUROCOPTER BO105'],1.0,True
+COL make VAL FOKKER COL model VAL F27 COL name VAL FRIENDSHIP,"COL description VAL Fokker Friendship F-27/Fairchild F-27/A/B/F/J
+",1,0.9991896584036455,FOKKER F27,450.0,Fokker Friendship F-27/Fairchild F-27/A/B/F/J,"['make: FOKKER', 'model: F27', 'name: FRIENDSHIP']",['description: Fokker Friendship F-27/Fairchild F-27/A/B/F/J'],0.9991896584036455,['FOKKER F27'],1.0,True
+COL make VAL FOKKER COL model VAL F27,"COL description VAL Fokker Friendship F-27/Fairchild F-27/A/B/F/J
+",1,0.9863072931250215,FOKKER F27,450.0,Fokker Friendship F-27/Fairchild F-27/A/B/F/J,"['make: FOKKER', 'model: F27']",['description: Fokker Friendship F-27/Fairchild F-27/A/B/F/J'],0.9991896584036455,['FOKKER F27'],1.0,False
+COL make VAL GULFSTREAM COL model VAL G1159A COL name VAL G-III,"COL description VAL Gulfstream Aerospace G-III/G-IV
+",1,0.7173638998983194,GULFSTREAM G1159A,641.0,Gulfstream Aerospace G-III/G-IV,"['make: GULFSTREAM', 'model: G1159A', 'name: G-III']",['description: Gulfstream Aerospace G-III/G-IV'],0.9949917821681671,"['GULFSTREAM G1159A', 'GULFSTREAM GIV']",2.0,False
+COL make VAL GULFSTREAM COL model VAL GIV COL name VAL G-IV,"COL description VAL Gulfstream Aerospace G-III/G-IV
+",1,0.9949917821681671,GULFSTREAM GIV,641.0,Gulfstream Aerospace G-III/G-IV,"['make: GULFSTREAM', 'model: GIV', 'name: G-IV']",['description: Gulfstream Aerospace G-III/G-IV'],0.9949917821681671,"['GULFSTREAM G1159A', 'GULFSTREAM GIV']",2.0,True
+COL make VAL GULFSTREAM COL model VAL GIV COL name VAL G400,"COL description VAL Gulfstream Aerospace G-III/G-IV
+",1,0.9780433870042315,GULFSTREAM GIV,641.0,Gulfstream Aerospace G-III/G-IV,"['make: GULFSTREAM', 'model: GIV', 'name: G400']",['description: Gulfstream Aerospace G-III/G-IV'],0.9949917821681671,"['GULFSTREAM G1159A', 'GULFSTREAM GIV']",2.0,False
+COL make VAL GULFSTREAM COL model VAL GULFSTREAM 200,"COL description VAL Gulfstream G200
+",1,0.9908576027646095,GULFSTREAM GULFSTREAM 200,648.0,Gulfstream G200,"['make: GULFSTREAM', 'model: GULFSTREAM 200']",['description: Gulfstream G200'],0.9908576027646095,['GULFSTREAM GULFSTREAM 200'],1.0,True
+COL make VAL GULFSTREAM COL model VAL GULFSTREAM G150,"COL description VAL Gulfstream G150
+",1,0.9999887188321357,GULFSTREAM GULFSTREAM G150,651.0,Gulfstream G150,"['make: GULFSTREAM', 'model: GULFSTREAM G150']",['description: Gulfstream G150'],0.9999887188321357,['GULFSTREAM GULFSTREAM G150'],1.0,True
+COL make VAL GULFSTREAM COL model VAL GULFSTREAM G280,"COL description VAL Gulfstream Aerospace Gulfstream G280
+",1,0.9999678157385943,GULFSTREAM GULFSTREAM G280,752.0,Gulfstream Aerospace Gulfstream G280,"['make: GULFSTREAM', 'model: GULFSTREAM G280']",['description: Gulfstream Aerospace Gulfstream G280'],0.9999678157385943,['GULFSTREAM GULFSTREAM G280'],1.0,True
+COL make VAL GULFSTREAM COL model VAL GV,"COL description VAL Gulfstream III/V/ G-V Exec/ G-5/550
+",1,0.46072082955583266,GULFSTREAM GV,667.0,Gulfstream III/V/ G-V Exec/ G-5/550,"['make: GULFSTREAM', 'model: GV']",['description: Gulfstream III/V/ G-V Exec/ G-5/550'],0.9960205952927882,['GULFSTREAM GV'],1.0,False
+COL make VAL GULFSTREAM COL model VAL GV COL name VAL G550,"COL description VAL Gulfstream III/V/ G-V Exec/ G-5/550
+",1,0.9960205952927882,GULFSTREAM GV,667.0,Gulfstream III/V/ G-V Exec/ G-5/550,"['make: GULFSTREAM', 'model: GV', 'name: G550']",['description: Gulfstream III/V/ G-V Exec/ G-5/550'],0.9960205952927882,['GULFSTREAM GV'],1.0,True
+COL make VAL GULFSTREAM COL model VAL GVI COL name VAL GULFSTREAM GVI G650,"COL description VAL Gulfstream G450
+",1,0.6992297646919775,GULFSTREAM GVI,671.0,Gulfstream G450,"['make: GULFSTREAM', 'model: GVI', 'name: GULFSTREAM GVI G650']",['description: Gulfstream G450'],0.6992297646919775,['GULFSTREAM GVI'],1.0,True
+COL make VAL GULFSTREAM COL model VAL GVI COL name VAL GULFSTREAM GVI G650,"COL description VAL Gulfstream G650
+",1,0.9892665691311379,GULFSTREAM GVI,750.0,Gulfstream G650,"['make: GULFSTREAM', 'model: GVI', 'name: GULFSTREAM GVI G650']",['description: Gulfstream G650'],0.9892665691311379,['GULFSTREAM GVI'],1.0,True
+COL make VAL HAWKER COL model VAL 4000,"COL description VAL Hawker Beechcraft Hawker 4000
+",1,0.9873032449852696,HAWKER 4000,495.0,Hawker Beechcraft Hawker 4000,"['make: HAWKER', 'model: 4000']",['description: Hawker Beechcraft Hawker 4000'],0.9992641660069308,['HAWKER 4000'],1.0,False
+COL make VAL HAWKER COL model VAL 4000 COL name VAL HAWKER,"COL description VAL Hawker Beechcraft Hawker 4000
+",1,0.9992641660069308,HAWKER 4000,495.0,Hawker Beechcraft Hawker 4000,"['make: HAWKER', 'model: 4000', 'name: HAWKER']",['description: Hawker Beechcraft Hawker 4000'],0.9992641660069308,['HAWKER 4000'],1.0,True
+COL make VAL HAWKER COL model VAL HAWKER 800,"COL description VAL Raytheon Beechcraft Hawker 800XP
+",1,0.9768126896973437,HAWKER HAWKER 800,684.0,Raytheon Beechcraft Hawker 800XP,"['make: HAWKER', 'model: HAWKER 800']",['description: Raytheon Beechcraft Hawker 800XP'],0.9768126896973437,['HAWKER HAWKER 800'],1.0,True
+COL make VAL HAWKER COL model VAL HAWKER 900,"COL description VAL Raytheon Beechcraft Hawker 900XP
+",1,0.9784860826349554,HAWKER HAWKER 900,672.0,Raytheon Beechcraft Hawker 900XP,"['make: HAWKER', 'model: HAWKER 900']",['description: Raytheon Beechcraft Hawker 900XP'],0.9879480800208743,['HAWKER HAWKER 900'],1.0,False
+COL make VAL HAWKER COL model VAL HAWKER 900 COL name VAL HAWKER 900XP,"COL description VAL Raytheon Beechcraft Hawker 900XP
+",1,0.9879480800208743,HAWKER HAWKER 900,672.0,Raytheon Beechcraft Hawker 900XP,"['make: HAWKER', 'model: HAWKER 900', 'name: HAWKER 900XP']",['description: Raytheon Beechcraft Hawker 900XP'],0.9879480800208743,['HAWKER HAWKER 900'],1.0,True
+COL make VAL HAWKER SIDDELEY COL model VAL HS125,"COL description VAL Hawker Siddeley 125
+",1,0.9570411847984067,HAWKER SIDDELEY HS125,665.0,Hawker Siddeley 125,"['make: HAWKER SIDDELEY', 'model: HS125']",['description: Hawker Siddeley 125'],0.9570411847984067,['HAWKER SIDDELEY HS125'],1.0,True
+COL make VAL HELIO COL model VAL H250,"COL description VAL Helio H-250/295/395
+",1,0.9048800042767517,HELIO H250,34.0,Helio H-250/295/395,"['make: HELIO', 'model: H250']",['description: Helio H-250/295/395'],0.9048800042767517,['HELIO H250'],1.0,True
+COL make VAL IAI COL model VAL 1124 COL name VAL WESTWIND 2 WESTWIND 1,"COL description VAL 1124A Westwind II
+",1,0.9999642225948209,IAI 1124,643.0,1124A Westwind II,"['make: IAI', 'model: 1124', 'name: WESTWIND 2 WESTWIND 1']",['description: 1124A Westwind II'],0.9999642225948209,['IAI 1124'],1.0,True
+COL make VAL LEARJET COL model VAL 24 COL name VAL LEARJET,"COL description VAL Gates Learjet Lear-24
+",1,0.9997719713738307,LEARJET 24,661.0,Gates Learjet Lear-24,"['make: LEARJET', 'model: 24', 'name: LEARJET']",['description: Gates Learjet Lear-24'],0.9997719713738307,['LEARJET 24'],1.0,True
+COL make VAL LEARJET COL model VAL 31 COL name VAL LEARJET,"COL description VAL Gates Learjet Lear-31/35/36
+",1,0.9665523610165239,LEARJET 31,663.0,Gates Learjet Lear-31/35/36,"['make: LEARJET', 'model: 31', 'name: LEARJET']",['description: Gates Learjet Lear-31/35/36'],0.9665523610165239,"['LEARJET 31', 'LEARJET 35', 'LEARJET 36']",3.0,True
+COL make VAL LEARJET COL model VAL 35 COL name VAL LEARJET,"COL description VAL Gates Learjet Lear-31/35/36
+",1,0.9055486983477847,LEARJET 35,663.0,Gates Learjet Lear-31/35/36,"['make: LEARJET', 'model: 35', 'name: LEARJET']",['description: Gates Learjet Lear-31/35/36'],0.9665523610165239,"['LEARJET 31', 'LEARJET 35', 'LEARJET 36']",3.0,False
+COL make VAL LEARJET COL model VAL 36 COL name VAL LEARJET,"COL description VAL Gates Learjet Lear-31/35/36
+",1,0.700054011474177,LEARJET 36,663.0,Gates Learjet Lear-31/35/36,"['make: LEARJET', 'model: 36', 'name: LEARJET']",['description: Gates Learjet Lear-31/35/36'],0.9665523610165239,"['LEARJET 31', 'LEARJET 35', 'LEARJET 36']",3.0,False
+COL make VAL LEARJET COL model VAL 45 COL name VAL LEARJET,"COL description VAL Learjet45
+",1,0.9990975159364857,LEARJET 45,686.0,Learjet45,"['make: LEARJET', 'model: 45', 'name: LEARJET']",['description: Learjet45'],0.9990975159364857,['LEARJET 45'],1.0,True
+COL make VAL LEARJET COL model VAL 60,"COL description VAL Bombardier (Gates) Learjet 60
+",1,0.9991009939646149,LEARJET 60,659.0,Bombardier (Gates) Learjet 60,"['make: LEARJET', 'model: 60']",['description: Bombardier (Gates) Learjet 60'],0.9991009939646149,['LEARJET 60'],1.0,True
+COL make VAL LOCKHEED COL model VAL 1329 COL name VAL JETSTAR JETSTAR II,"COL description VAL Lockheed Jetstar
+",1,0.47507438404364827,LOCKHEED 1329,870.0,Lockheed Jetstar,"['make: LOCKHEED', 'model: 1329', 'name: JETSTAR JETSTAR II']",['description: Lockheed Jetstar'],0.47507438404364827,['LOCKHEED 1329'],1.0,True
+COL make VAL LOCKHEED COL model VAL 382 COL name VAL HERCULES,"COL description VAL Lockheed L100-30/L-382E
+",1,0.999942240271096,LOCKHEED 382,556.0,Lockheed L100-30/L-382E,"['make: LOCKHEED', 'model: 382', 'name: HERCULES']",['description: Lockheed L100-30/L-382E'],0.999942240271096,['LOCKHEED 382'],1.0,True
+COL make VAL MCDONNELL DOUGLAS COL model VAL DC10,"COL description VAL McDonnell Douglas DC-10-10
+",1,0.999949421454184,MCDONNELL DOUGLAS DC10,730.0,McDonnell Douglas DC-10-10,"['make: MCDONNELL DOUGLAS', 'model: DC10']",['description: McDonnell Douglas DC-10-10'],0.999949421454184,['MCDONNELL DOUGLAS DC10'],1.0,True
+COL make VAL MCDONNELL DOUGLAS COL model VAL DC10,"COL description VAL McDonnell Douglas DC-10-30
+",1,0.9998995139274135,MCDONNELL DOUGLAS DC10,732.0,McDonnell Douglas DC-10-30,"['make: MCDONNELL DOUGLAS', 'model: DC10']",['description: McDonnell Douglas DC-10-30'],0.9998995139274135,['MCDONNELL DOUGLAS DC10'],1.0,True
+COL make VAL MCDONNELL DOUGLAS COL model VAL DC10,"COL description VAL McDonnell Douglas DC-10-30CF
+",1,0.9998029773500958,MCDONNELL DOUGLAS DC10,735.0,McDonnell Douglas DC-10-30CF,"['make: MCDONNELL DOUGLAS', 'model: DC10']",['description: McDonnell Douglas DC-10-30CF'],0.9998029773500958,['MCDONNELL DOUGLAS DC10'],1.0,True
+COL make VAL MCDONNELL DOUGLAS COL model VAL DC10,"COL description VAL McDonnell Douglas DC-10-40
+",1,0.9998541560615427,MCDONNELL DOUGLAS DC10,733.0,McDonnell Douglas DC-10-40,"['make: MCDONNELL DOUGLAS', 'model: DC10']",['description: McDonnell Douglas DC-10-40'],0.9998541560615427,['MCDONNELL DOUGLAS DC10'],1.0,True
+COL make VAL MCDONNELL DOUGLAS COL model VAL MD11,"COL description VAL McDonnell Douglas MD-11
+",1,0.9998371334299027,MCDONNELL DOUGLAS MD11,,McDonnell Douglas MD-11,"['make: MCDONNELL DOUGLAS', 'model: MD11']",['description: McDonnell Douglas MD-11'],,,,False
+COL make VAL MCDONNELL DOUGLAS COL model VAL MD90,"COL description VAL McDonnell Douglas MD-90
+",1,0.9999188010957505,MCDONNELL DOUGLAS MD90,656.0,McDonnell Douglas MD-90,"['make: MCDONNELL DOUGLAS', 'model: MD90']",['description: McDonnell Douglas MD-90'],0.9999188010957505,['MCDONNELL DOUGLAS MD90'],1.0,True
+COL make VAL MCKINNON COL model VAL G21 COL name VAL TURBO GOOSE,"COL description VAL Grumman G-21A (Goose)
+",1,0.9950070601155837,MCKINNON G21,170.0,Grumman G-21A (Goose),"['make: MCKINNON', 'model: G21', 'name: TURBO GOOSE']",['description: Grumman G-21A (Goose)'],0.9950070601155837,['MCKINNON G21'],1.0,True
+COL make VAL PIAGGIO COL model VAL P180,"COL description VAL Piaggio P180 Avanti
+",1,0.9997968569803171,PIAGGIO P180,425.0,Piaggio P180 Avanti,"['make: PIAGGIO', 'model: P180']",['description: Piaggio P180 Avanti'],0.9997968569803171,['PIAGGIO P180'],1.0,True
+COL make VAL PILATUS COL model VAL PC12,"COL description VAL Pilatus PC-12
+",1,0.9997364690022318,PILATUS PC12,479.0,Pilatus PC-12,"['make: PILATUS', 'model: PC12']",['description: Pilatus PC-12'],0.9997364690022318,['PILATUS PC12'],1.0,True
+COL make VAL PIPER COL model VAL PA18 COL name VAL SUPER CUB,"COL description VAL Piper PA-18 (Super-Cub)
+",1,0.9998401453948293,PIPER PA18,80.0,Piper PA-18 (Super-Cub),"['make: PIPER', 'model: PA18', 'name: SUPER CUB']",['description: Piper PA-18 (Super-Cub)'],0.9998401453948293,['PIPER PA18'],1.0,True
+COL make VAL PIPER COL model VAL PA23 COL name VAL AZTEC APACHE,"COL description VAL Piper PA-23-250 (Aztec/Apache)
+",1,0.9889308415817063,PIPER PA23,190.0,Piper PA-23-250 (Aztec/Apache),"['make: PIPER', 'model: PA23', 'name: AZTEC APACHE']",['description: Piper PA-23-250 (Aztec/Apache)'],0.9889308415817063,['PIPER PA23'],1.0,True
+COL make VAL PIPER COL model VAL PA30 COL name VAL TWIN COMANCHE,"COL description VAL Piper PA-30/31T Cheyenne II XL
+",1,0.47725707136210194,PIPER PA30,476.0,Piper PA-30/31T Cheyenne II XL,"['make: PIPER', 'model: PA30', 'name: TWIN COMANCHE']",['description: Piper PA-30/31T Cheyenne II XL'],0.9999893338561507,"['PIPER PA30', 'PIPER PA31T']",2.0,False
+COL make VAL PIPER COL model VAL PA31 COL name VAL CHIEFTAIN NAVAJO NAVAJO C/R,"COL description VAL Piper PA-31 (Navajo)/T-1020
+",1,0.48024579741550627,PIPER PA31,194.0,Piper PA-31 (Navajo)/T-1020,"['make: PIPER', 'model: PA31', 'name: CHIEFTAIN NAVAJO NAVAJO C/R']",['description: Piper PA-31 (Navajo)/T-1020'],0.48024579741550627,['PIPER PA31'],1.0,True
+COL make VAL PIPER COL model VAL PA31T COL name VAL CHEYENNE IIXL CHEYENNE/CHEYENNE II CHEYENNE I/IA,"COL description VAL Piper PA-30/31T Cheyenne II XL
+",1,0.9999893338561507,PIPER PA31T,476.0,Piper PA-30/31T Cheyenne II XL,"['make: PIPER', 'model: PA31T', 'name: CHEYENNE IIXL CHEYENNE/CHEYENNE II CHEYENNE I/IA']",['description: Piper PA-30/31T Cheyenne II XL'],0.9999893338561507,"['PIPER PA30', 'PIPER PA31T']",2.0,True
+COL make VAL PIPER COL model VAL PA31T COL name VAL CHEYENNE/CHEYENNE II,"COL description VAL Piper PA-30/31T Cheyenne II XL
+",1,0.9999671952503653,PIPER PA31T,476.0,Piper PA-30/31T Cheyenne II XL,"['make: PIPER', 'model: PA31T', 'name: CHEYENNE/CHEYENNE II']",['description: Piper PA-30/31T Cheyenne II XL'],0.9999893338561507,"['PIPER PA30', 'PIPER PA31T']",2.0,False
+COL make VAL PIPER COL model VAL PA32 COL name VAL CHEROKEE SIX 300 SARATOGA CHEROKEE SIX 260 TURBO SARATOGA,"COL description VAL Piper PA-32 (Cherokee 6)
+",1,0.9996311690596111,PIPER PA32,79.0,Piper PA-32 (Cherokee 6),"['make: PIPER', 'model: PA32', 'name: CHEROKEE SIX 300 SARATOGA CHEROKEE SIX 260 TURBO SARATOGA']",['description: Piper PA-32 (Cherokee 6)'],0.9996311690596111,"['PIPER PA32', 'PIPER PA32S']",2.0,True
+COL make VAL PIPER COL model VAL PA32S COL name VAL CHEROKEE SIX SEAPLAN,"COL description VAL Piper PA-32 (Cherokee 6)
+",1,0.43144069356173337,PIPER PA32S,79.0,Piper PA-32 (Cherokee 6),"['make: PIPER', 'model: PA32S', 'name: CHEROKEE SIX SEAPLAN']",['description: Piper PA-32 (Cherokee 6)'],0.9996311690596111,"['PIPER PA32', 'PIPER PA32S']",2.0,False
+COL make VAL PIPER COL model VAL PA34 COL name VAL SENECA II SENECA III SENECA,"COL description VAL Piper PA-34/39 (Twin Commanche)
+",1,0.9917859531713227,PIPER PA34,195.0,Piper PA-34/39 (Twin Commanche),"['make: PIPER', 'model: PA34', 'name: SENECA II SENECA III SENECA']",['description: Piper PA-34/39 (Twin Commanche)'],0.9917859531713227,"['PIPER PA34', 'PIPER PA39']",2.0,True
+COL make VAL PIPER COL model VAL PA39 COL name VAL TWIN COMANCHE C/R,"COL description VAL Piper PA-34/39 (Twin Commanche)
+",1,0.7015911609138478,PIPER PA39,195.0,Piper PA-34/39 (Twin Commanche),"['make: PIPER', 'model: PA39', 'name: TWIN COMANCHE C/R']",['description: Piper PA-34/39 (Twin Commanche)'],0.9917859531713227,"['PIPER PA34', 'PIPER PA39']",2.0,False
+COL make VAL QUEST COL model VAL KODIAK 100,"COL description VAL Quest Kodiak 100
+",1,0.9999813383788682,QUEST KODIAK 100,422.0,Quest Kodiak 100,"['make: QUEST', 'model: KODIAK 100']",['description: Quest Kodiak 100'],0.9999813383788682,['QUEST KODIAK 100'],1.0,True
+COL make VAL ROBINSON COL model VAL R44,"COL description VAL Robinson R44
+",1,0.9999690352124001,ROBINSON R44,360.0,Robinson R44,"['make: ROBINSON', 'model: R44']",['description: Robinson R44'],0.9999690352124001,['ROBINSON R44'],1.0,True
+COL make VAL SAAB COL model VAL 2000,"COL description VAL Saab 2000
+",1,0.9995141503404438,SAAB 2000,432.0,Saab 2000,"['make: SAAB', 'model: 2000']",['description: Saab 2000'],0.9995141503404438,['SAAB 2000'],1.0,True
+COL make VAL SAAB COL model VAL 340,"COL description VAL Saab-Fairchild 340/A
+",1,0.7280148112629389,SAAB 340,459.0,Saab-Fairchild 340/A,"['make: SAAB', 'model: 340']",['description: Saab-Fairchild 340/A'],0.7280148112629389,['SAAB 340'],1.0,True
+COL make VAL SAAB COL model VAL 340,"COL description VAL Saab-Fairchild 340/B
+",1,0.8629290707383316,SAAB 340,456.0,Saab-Fairchild 340/B,"['make: SAAB', 'model: 340']",['description: Saab-Fairchild 340/B'],0.8629290707383316,['SAAB 340'],1.0,True
+COL make VAL SHORT COL model VAL SC7 COL name VAL SKYVAN,"COL description VAL Shorts Harland SC-7 Skyvan
+",1,0.9999812952163392,SHORT SC7,486.0,Shorts Harland SC-7 Skyvan,"['make: SHORT', 'model: SC7', 'name: SKYVAN']",['description: Shorts Harland SC-7 Skyvan'],0.9999812952163392,['SHORT SC7'],1.0,True
+COL make VAL SIKORSKY COL model VAL S76,"COL description VAL Sikorsky S-76
+",1,0.9995564126646374,SIKORSKY S76,390.0,Sikorsky S-76,"['make: SIKORSKY', 'model: S76']",['description: Sikorsky S-76'],0.9995564126646374,['SIKORSKY S76'],1.0,True
+COL make VAL SIKORSKY COL model VAL S76 COL name VAL SPIRIT,"COL description VAL Sikorsky S-76
+",1,0.9995019390971419,SIKORSKY S76,390.0,Sikorsky S-76,"['make: SIKORSKY', 'model: S76', 'name: SPIRIT']",['description: Sikorsky S-76'],0.9995564126646374,['SIKORSKY S76'],1.0,False
+COL make VAL SUD AVIATION COL model VAL SE210 COL name VAL CARAVELLE,"COL description VAL Aerospatiale Caravelle SE-210
+",1,0.9995487688378195,SUD AVIATION SE210,680.0,Aerospatiale Caravelle SE-210,"['make: SUD AVIATION', 'model: SE210', 'name: CARAVELLE']",['description: Aerospatiale Caravelle SE-210'],0.9995487688378195,['SUD AVIATION SE210'],1.0,True
+COL make VAL TECNAM COL model VAL P2012,"COL description VAL P2012 Traveler
+",1,0.9999599647421797,TECNAM P2012,102.0,P2012 Traveler,"['make: TECNAM', 'model: P2012']",['description: P2012 Traveler'],0.9999599647421797,['TECNAM P2012'],1.0,True
