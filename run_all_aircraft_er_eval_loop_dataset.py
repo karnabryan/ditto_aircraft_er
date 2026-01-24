@@ -69,21 +69,61 @@ aircraft_er/baseline_lh_3
 aircraft_er/baseline_lh_b""".split('\n')
 
 
+dataset = "aircraft_er/make_model_union"
+
 eval_dataset = "ditto_aircraft/baseline_eval_only_random_sample"
-eval_dataset = "ditto_aircraft/baseline_eval_only_canadair"
+eval_dataset = "ditto_aircraft/eval_make_model_wildlife"
+
+eval_datasets = """ditto_aircraft/make_model_cictt
+ditto_aircraft/make_model_faa
+ditto_aircraft/make_model_reg
+ditto_aircraft/make_model_doc8643
+ditto_aircraft/make_model_doc8643_code
+ditto_aircraft/make_model_doc8643_description
+ditto_aircraft/make_model_doc8643_with_drops
+ditto_aircraft/make_model_bts""".split('\n')
+
+eval_datasets = """aircraft_er/make_model_cictt""".split('\n')
+
+eval_datasets = """ditto_aircraft/make_model_cictt
+ditto_aircraft/make_model_faa
+ditto_aircraft/make_model_reg
+ditto_aircraft/make_model_doc8643
+ditto_aircraft/make_model_doc8643_code
+ditto_aircraft/make_model_doc8643_description
+ditto_aircraft/make_model_doc8643_with_drops
+ditto_aircraft/make_model_bts""".split('\n')
 
 lms = ['distilbert', 'distilbert']
-
+lms = ['distilbert']
 lms = ['distilbert','distilbert','distilbert','distilbert']
-lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert'] #, 'distilbert', 'distilbert', 'distilbert']
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert'] #, 'distilbert', 'distilbert']
 
 
-for dataset, lm in zip(datasets, lms):
-    print(dataset)
+for eval_dataset, lm in zip(eval_datasets, lms):
+    print(eval_dataset)
 
 
-for dataset, lm in zip(datasets, lms):
+for eval_dataset, lm in zip(eval_datasets, lms):
     batch_size, max_len, epochs = 64, 64, 20
+
+    #string variables for matcher.py
+    input_path = f"data/{eval_dataset}/test.txt"
+    dataset_name = dataset.rsplit("/", 1)[-1] 
+    eval_dataset_name = eval_dataset.rsplit("/", 1)[-1] 
+    output_path = f"aircraft_er_predictions/{eval_dataset_name}_model_{dataset_name}_predictions_test.tsv"
+    #Run Matcher
+    cmd = """python matcher.py \
+    --task %s \
+    --input_path  %s \
+    --output_path  %s \
+    --checkpoint_path results_ditto \
+    --lm %s \
+    --max_len %d \
+    --use_gpu""" % (dataset, input_path, output_path, lm, max_len)
+    print(cmd)
+    os.system(cmd)
+
 
     #string variables for matcher.py
     input_path = f"data/{eval_dataset}/all_pairs.txt"
@@ -101,4 +141,5 @@ for dataset, lm in zip(datasets, lms):
     --use_gpu""" % (dataset, input_path, output_path, lm, max_len)
     print(cmd)
     os.system(cmd)
+
 

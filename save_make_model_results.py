@@ -11,6 +11,10 @@ run_names = ["make_model_cictt", "make_model_cictt_no_lh","make_model_faa","make
              "make_model_doc8643_with_drops" ,"make_model_doc8643_with_drops_no_lh", 
              "make_model_doc8643_code" , "make_model_doc8643_description"]
 
+run_names = ["make_model_union"]
+run_names = ["make_model_bts"]
+
+
 # global_append_filename is the name of the text file that stores metrics over all runs
 global_append_filename = "append_metrics_make_model"
 

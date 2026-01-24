@@ -251,3 +251,72 @@ Confusion matrix:
 
 [[8178   39]
  [  39  793]]
+
+Run name:  make_model_union
+Predictions file created: 2026-01-23 11:21:57 
+
+Accuracy: 0.9962144808088552
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     18721
+           1       0.99      0.98      0.98      2148
+
+    accuracy                           1.00     20869
+   macro avg       0.99      0.99      0.99     20869
+weighted avg       1.00      1.00      1.00     20869
+
+
+Confusion matrix:
+
+
+[[18692    29]
+ [   50  2098]]
+
+Run name:  make_model_bts
+Predictions file created: 2026-01-23 11:51:56 
+
+Accuracy: 0.9867986798679867
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       275
+           1       0.88      1.00      0.93        28
+
+    accuracy                           0.99       303
+   macro avg       0.94      0.99      0.96       303
+weighted avg       0.99      0.99      0.99       303
+
+
+Confusion matrix:
+
+
+[[271   4]
+ [  0  28]]
+
+Run name:  make_model_bts
+Predictions file created: 2026-01-23 14:59:51 
+
+Accuracy: 0.9916782246879334
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       655
+           1       0.94      0.97      0.96        66
+
+    accuracy                           0.99       721
+   macro avg       0.97      0.98      0.98       721
+weighted avg       0.99      0.99      0.99       721
+
+
+Confusion matrix:
+
+
+[[651   4]
+ [  2  64]]

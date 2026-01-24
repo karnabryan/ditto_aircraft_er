@@ -46,17 +46,19 @@ aircraft_er/make_model_doc8643_with_drops_no_lh
 aircraft_er/make_model_doc8643_code
 aircraft_er/make_model_doc8643_description""".split('\n')
 
-datasets = """aircraft_er/make_model_doc8643_code
-aircraft_er/make_model_doc8643_description""".split('\n')
-
+datasets = """aircraft_er/make_model_reg_no_lh
+aircraft_er/make_model_union""".split('\n')
+datasets = """aircraft_er/make_model_union""".split('\n')
+datasets = """aircraft_er/make_model_bts""".split('\n')
 lms = ['distilbert', 'distilbert', 'distilbert', 'distilbert']
 
 
-lms = ['distilbert']
+
 
 
 lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert', 'distilbert','distilbert', 'distilbert']
 lms = ['distilbert', 'distilbert']
+lms = ['distilbert']
 log_path = "run_timings.csv"
 file_exists = os.path.exists(log_path)
 

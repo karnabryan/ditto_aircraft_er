@@ -5,29 +5,40 @@ from pathlib import Path
 from datetime import datetime
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-# run_names is the array of the model runs to be evaluated
-baseline_run_names = ["baseline", "baseline_lh","baseline_lh_0","baseline_lh_1", "baseline_lh_b", "baseline_lh_2", "baseline_lh_3"]
-baseline_run_names = ["make_model_cictt"]
+# run_name is the model run
+model_name = "make_model_union"
 
-# data_name is the evaluation dataset (eval data_name dataset against run_name model.pt)
+# data_names are the evaluation datasets (eval data_name dataset against run_name model.pt)
 ####data_name = "baseline_eval_only_random_sample"
 data_name = "baseline_eval_only_canadair"
 
-data_name = "make_model_bts"
+
+data_names = ["make_model_cictt", "make_model_faa", "make_model_reg", "make_model_doc8643", "make_model_doc8643_code", "make_model_doc8643_description", "make_model_doc8643_with_drops", "make_model_bts"]
 
 # predict_dir is the path of the model predictions (*_predictions_test.tsv and *_predictions_all.tsv json files)
 predict_dir = Path("aircraft_er_predictions")
 
+global_append_filename = "datasets_vs_union_model"
+
 #Process each run_name
-for baseline_run_name in baseline_run_names:
+for data_name in data_names:
+
+    run_name = data_name + "_model_" + model_name
 
     # json filenames for the run_name
-    run_name = data_name + "_model_" + baseline_run_name
+    predict_test_path = predict_dir / f"{run_name}_predictions_test.tsv"
     predict_all_path  = predict_dir / f"{run_name}_predictions_all.tsv"
     print(predict_all_path)
     
     # timestamps from the prediction filename
+    test_run_ts = datetime.fromtimestamp(predict_test_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
     all_run_ts = datetime.fromtimestamp(predict_all_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+
+    # Read predictions from predictions json files - test predictions only
+    records_test = []
+    with open(predict_test_path) as f:
+        for line in f:
+            records_test.append(json.loads(line))
 
     # Read predictions from predictions json files - all predictions (no test set for eval only)
     records = []
@@ -37,14 +48,43 @@ for baseline_run_name in baseline_run_names:
 
     # Create pandas dataframes with predictions
     df_all = pd.DataFrame(records)
-    print('records: ', len(df_all))
+    df_test = pd.DataFrame(records_test)
+    print('records: ', len(df_test))
+    #print('records: ', df_test.iloc[0])
 
     # Read original ground truth data for test and all_pairs
+    gold_test = pd.read_csv("data/ditto_aircraft/" + data_name + "/test.txt", sep="\t", header=None, names=["left", "right", "gold"])
     gold_all = pd.read_csv("data/ditto_aircraft/" + data_name + "/all_pairs.txt", sep="\t", header=None, names=["left", "right", "gold"])
-    print('gold: ',len(gold_all))
+    print('gold: ',len(gold_test))
 
     # Add ground truth column ("gold") to predicitons dataframes
     df_all["gold"] = gold_all["gold"]
+    df_test["gold"] = gold_test["gold"]
+
+
+    # Create y_true and y_pred for scikit learn accuracy score, classification report, 
+    # and confusion matrix printouts (test set only)
+    y_true_test = df_test["gold"]
+    y_pred_test = df_test["match"]
+
+
+    # Save metrics to individual file for each run
+    with open("aircraft_er_predictions/" + run_name + "_metrics_test.txt", "w") as f:
+        print("Accuracy:", accuracy_score(y_true_test, y_pred_test), file=f)
+        print("\nClassification report:\n", file=f)
+        print(classification_report(y_true_test, y_pred_test), file=f)
+        print("\nConfusion matrix:\n", file=f)
+        print(confusion_matrix(y_true_test, y_pred_test), file=f)
+
+    # Append run metrics to global file
+    with open("aircraft_er_predictions/" + global_append_filename + "_test.txt", "a") as f:
+        print("\nRun name: ", run_name, file=f)
+        print("Predictions file created:", test_run_ts, "\n", file=f)
+        print("Accuracy:", accuracy_score(y_true_test, y_pred_test), file=f)
+        print("\nClassification report:\n", file=f)
+        print(classification_report(y_true_test, y_pred_test), file=f)
+        print("\nConfusion matrix:\n\n", file=f)
+        print(confusion_matrix(y_true_test, y_pred_test), file=f)    
 
     # Create y_true and y_pred for scikit learn accuracy score, classification report, 
     # and confusion matrix printouts 
@@ -60,7 +100,7 @@ for baseline_run_name in baseline_run_names:
         print(confusion_matrix(y_true, y_pred), file=f)
 
     # Append run metrics to global file
-    with open("aircraft_er_predictions/append_baseline_eval_metrics_all.txt", "a") as f:
+    with open("aircraft_er_predictions/" + global_append_filename + "_test.txt", "a") as f:
         print("Run name: ", run_name, file=f)
         print("Predictions file created: ", all_run_ts, "\n", file=f)
         print("Accuracy:", accuracy_score(y_true, y_pred), file=f)

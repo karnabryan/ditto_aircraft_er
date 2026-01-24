@@ -174,6 +174,25 @@
     "testset": "data/ditto_aircraft/make_model_doc8643_with_drops_no_lh/valid.txt"
   },
 
+  {
+    "name": "aircraft_er/make_model_union",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_union/train.txt",
+    "validset": "data/ditto_aircraft/make_model_union/test.txt",
+    "testset": "data/ditto_aircraft/make_model_union/valid.txt"
+  },
+
+  {
+    "name": "aircraft_er/make_model_bts",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/make_model_bts/train.txt",
+    "validset": "data/ditto_aircraft/make_model_bts/test.txt",
+    "testset": "data/ditto_aircraft/make_model_bts/valid.txt"
+  },
+
+
 
   {
     "name": "aircraft_er/cictt_registry",
