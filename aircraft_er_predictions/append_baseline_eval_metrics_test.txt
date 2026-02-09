@@ -1,0 +1,177 @@
+Run name:  cictt_registry_no_lh_model_union_no_lh
+Run name:  cictt_registry_no_lh_model_union_no_lh
+Predictions file created:  2026-02-08 09:27:17 
+
+Accuracy: 0.9985166872682324
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.99      0.99      0.99       368
+
+    accuracy                           1.00      4045
+   macro avg       1.00      0.99      1.00      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3675    2]
+ [   4  364]]
+Run name:  baseline_model_union_no_lh
+Predictions file created:  2026-02-08 09:28:17 
+
+Accuracy: 0.9987639060568603
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.99      0.99      0.99       368
+
+    accuracy                           1.00      4045
+   macro avg       1.00      1.00      1.00      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3675    2]
+ [   3  365]]
+Run name:  baseline_model_union_no_lh
+Predictions file created:  2026-02-08 09:28:17 
+
+Accuracy: 0.9987639060568603
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.99      0.99      0.99       368
+
+    accuracy                           1.00      4045
+   macro avg       1.00      1.00      1.00      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3675    2]
+ [   3  365]]
+Run name:  baseline_model_union_no_lh
+Predictions file created:  2026-02-08 09:28:17 
+
+Accuracy: 0.9987639060568603
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.99      0.99      0.99       368
+
+    accuracy                           1.00      4045
+   macro avg       1.00      1.00      1.00      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3675    2]
+ [   3  365]]
+Run name:  baseline_model_union_no_lh_v2
+Predictions file created:  2026-02-08 11:55:23 
+
+Accuracy: 0.9987639060568603
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.99      0.99      0.99       368
+
+    accuracy                           1.00      4045
+   macro avg       1.00      1.00      1.00      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3675    2]
+ [   3  365]]
+Run name:  cictt_registry_no_lh_model_union_no_lh_v2
+Predictions file created:  2026-02-08 11:56:13 
+
+Accuracy: 0.9957972805933251
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.97      0.98      0.98       368
+
+    accuracy                           1.00      4045
+   macro avg       0.98      0.99      0.99      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3666   11]
+ [   6  362]]
+Run name:  cictt_registry_no_lh_model_union_no_lh_v2
+Predictions file created:  2026-02-08 12:42:31 
+
+Accuracy: 0.9957972805933251
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.97      0.98      0.98       368
+
+    accuracy                           1.00      4045
+   macro avg       0.98      0.99      0.99      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3666   11]
+ [   6  362]]
+Run name:  baseline_model_union_no_lh_v2
+Predictions file created:  2026-02-08 12:43:00 
+
+Accuracy: 0.9987639060568603
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.99      0.99      0.99       368
+
+    accuracy                           1.00      4045
+   macro avg       1.00      1.00      1.00      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3675    2]
+ [   3  365]]

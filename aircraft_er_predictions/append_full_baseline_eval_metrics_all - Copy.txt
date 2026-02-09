@@ -1,0 +1,179 @@
+Run name:  baseline_eval_only_model_baseline
+Predictions file created:  2026-01-22 00:09:43 
+
+Accuracy: 0.9890336799642542
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99   8986394
+           1       0.42      0.11      0.17     95504
+
+    accuracy                           0.99   9081898
+   macro avg       0.70      0.55      0.58   9081898
+weighted avg       0.98      0.99      0.99   9081898
+
+
+Confusion matrix:
+
+
+[[8972231   14163]
+ [  85432   10072]]
+Run name:  baseline_eval_only_model_baseline
+Predictions file created:  2026-01-22 00:09:43 
+
+Accuracy: 0.9890336799642542
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99   8986394
+           1       0.42      0.11      0.17     95504
+
+    accuracy                           0.99   9081898
+   macro avg       0.70      0.55      0.58   9081898
+weighted avg       0.98      0.99      0.99   9081898
+
+
+Confusion matrix:
+
+
+[[8972231   14163]
+ [  85432   10072]]
+Run name: baseline_eval_only_model_baseline
+Predictions file created: 2026-02-06 22:15:34 
+
+Records: 9081898
+Confusion counts: {'TN': 8971146, 'FP': 15248, 'FN': 84330, 'TP': 11174}
+Accuracy: 0.9890355518196747
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.991     0.998     0.994 8986394.0
+           1      0.423     0.117     0.183   95504.0
+
+    accuracy                          0.989 9081898.0
+   macro avg      0.707     0.558     0.589 9081898.0
+weighted avg      0.985     0.989     0.986 9081898.0
+
+
+Confusion matrix:
+
+
+[[8971146   15248]
+ [  84330   11174]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_model_baseline_lh_0
+Predictions file created: 2026-02-06 23:35:51 
+
+Records: 9081898
+Confusion counts: {'TN': 8973478, 'FP': 12916, 'FN': 41454, 'TP': 54050}
+Accuracy: 0.9940133659285757
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.995     0.999     0.997 8986394.0
+           1      0.807     0.566     0.665   95504.0
+
+    accuracy                          0.994 9081898.0
+   macro avg      0.901     0.782     0.831 9081898.0
+weighted avg      0.993     0.994     0.993 9081898.0
+
+
+Confusion matrix:
+
+
+[[8973478   12916]
+ [  41454   54050]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_model_baseline_lh_1
+Predictions file created: 2026-02-07 00:55:30 
+
+Records: 9081898
+Confusion counts: {'TN': 8947018, 'FP': 39376, 'FN': 11679, 'TP': 83825}
+Accuracy: 0.994378377735579
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.999     0.996     0.997 8986394.0
+           1      0.680     0.878     0.767   95504.0
+
+    accuracy                          0.994 9081898.0
+   macro avg      0.840     0.937     0.882 9081898.0
+weighted avg      0.995     0.994     0.995 9081898.0
+
+
+Confusion matrix:
+
+
+[[8947018   39376]
+ [  11679   83825]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_model_baseline_lh_2
+Predictions file created: 2026-02-07 02:15:26 
+
+Records: 9081898
+Confusion counts: {'TN': 8979284, 'FP': 7110, 'FN': 83374, 'TP': 12130}
+Accuracy: 0.9900368843605158
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.991     0.999     0.995 8986394.0
+           1      0.630     0.127     0.211   95504.0
+
+    accuracy                          0.990 9081898.0
+   macro avg      0.811     0.563     0.603 9081898.0
+weighted avg      0.987     0.990     0.987 9081898.0
+
+
+Confusion matrix:
+
+
+[[8979284    7110]
+ [  83374   12130]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_model_baseline_lh_3
+Predictions file created: 2026-02-07 03:36:09 
+
+Records: 9081898
+Confusion counts: {'TN': 8983606, 'FP': 2788, 'FN': 88806, 'TP': 6698}
+Accuracy: 0.9899146632124695
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.990     1.000     0.995 8986394.0
+           1      0.706     0.070     0.128   95504.0
+
+    accuracy                          0.990 9081898.0
+   macro avg      0.848     0.535     0.561 9081898.0
+weighted avg      0.987     0.990     0.986 9081898.0
+
+
+Confusion matrix:
+
+
+[[8983606    2788]
+ [  88806    6698]]
+
+------------------------------------------------------------
+

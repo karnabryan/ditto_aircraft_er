@@ -1,18 +1,20 @@
-Accuracy: 0.9890336799642542
+Records: 9081898
+Confusion counts: {'TN': 8971146, 'FP': 15248, 'FN': 84330, 'TP': 11174}
+Accuracy: 0.9890355518196747
 
 Classification report:
 
               precision    recall  f1-score   support
 
-           0       0.99      1.00      0.99   8986394
-           1       0.42      0.11      0.17     95504
+           0      0.991     0.998     0.994 8986394.0
+           1      0.423     0.117     0.183   95504.0
 
-    accuracy                           0.99   9081898
-   macro avg       0.70      0.55      0.58   9081898
-weighted avg       0.98      0.99      0.99   9081898
+    accuracy                          0.989 9081898.0
+   macro avg      0.707     0.558     0.589 9081898.0
+weighted avg      0.985     0.989     0.986 9081898.0
 
 
 Confusion matrix:
 
-[[8972231   14163]
- [  85432   10072]]
+[[8971146   15248]
+ [  84330   11174]]

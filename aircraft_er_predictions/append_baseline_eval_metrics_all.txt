@@ -233,3 +233,47 @@ Confusion matrix:
 
 [[6550    0]
  [ 649    6]]
+Run name:  baseline_model_union_no_lh
+Predictions file created:  2026-02-08 08:51:08 
+
+Accuracy: 0.9991829256214717
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     36710
+           1       0.99      1.00      1.00      3678
+
+    accuracy                           1.00     40388
+   macro avg       1.00      1.00      1.00     40388
+weighted avg       1.00      1.00      1.00     40388
+
+
+Confusion matrix:
+
+
+[[36690    20]
+ [   13  3665]]
+Run name:  cictt_registry_no_lh_model_union_no_lh
+Predictions file created:  2026-02-08 08:49:52 
+
+Accuracy: 0.9990810649711901
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     36700
+           1       1.00      0.99      0.99      3564
+
+    accuracy                           1.00     40264
+   macro avg       1.00      1.00      1.00     40264
+weighted avg       1.00      1.00      1.00     40264
+
+
+Confusion matrix:
+
+
+[[36683    17]
+ [   20  3544]]

@@ -320,3 +320,210 @@ Confusion matrix:
 
 [[651   4]
  [  2  64]]
+
+Run name:  make_model_union
+Predictions file created: 2026-01-24 13:52:02 
+
+Accuracy: 0.9953524129014222
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     25755
+           1       0.98      0.97      0.98      2862
+
+    accuracy                           1.00     28617
+   macro avg       0.99      0.99      0.99     28617
+weighted avg       1.00      1.00      1.00     28617
+
+
+Confusion matrix:
+
+
+[[25701    54]
+ [   79  2783]]
+
+Run name:  make_model_cictt_no_lh
+Predictions file created: 2026-02-08 13:59:12 
+
+Accuracy: 1.0
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3970
+           1       1.00      1.00      1.00       400
+
+    accuracy                           1.00      4370
+   macro avg       1.00      1.00      1.00      4370
+weighted avg       1.00      1.00      1.00      4370
+
+
+Confusion matrix:
+
+
+[[3970    0]
+ [   0  400]]
+
+Run name:  make_model_faa_no_lh
+Predictions file created: 2026-02-08 14:16:46 
+
+Accuracy: 0.9970067348465952
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3642
+           1       0.99      0.98      0.98       367
+
+    accuracy                           1.00      4009
+   macro avg       0.99      0.99      0.99      4009
+weighted avg       1.00      1.00      1.00      4009
+
+
+Confusion matrix:
+
+
+[[3637    5]
+ [   7  360]]
+
+Run name:  make_model_reg_no_lh
+Predictions file created: 2026-02-08 14:33:34 
+
+Accuracy: 0.9982539286605139
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3642
+           1       0.99      0.99      0.99       367
+
+    accuracy                           1.00      4009
+   macro avg       0.99      1.00      0.99      4009
+weighted avg       1.00      1.00      1.00      4009
+
+
+Confusion matrix:
+
+
+[[3638    4]
+ [   3  364]]
+
+Run name:  make_model_doc8643_no_lh
+Predictions file created: 2026-02-08 15:12:51 
+
+Accuracy: 0.9954691126091281
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      8217
+           1       0.97      0.98      0.98       832
+
+    accuracy                           1.00      9049
+   macro avg       0.99      0.99      0.99      9049
+weighted avg       1.00      1.00      1.00      9049
+
+
+Confusion matrix:
+
+
+[[8196   21]
+ [  20  812]]
+
+Run name:  make_model_doc8643_with_drops
+Predictions file created: 2026-02-08 15:45:05 
+
+Accuracy: 0.9946018893387314
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      6578
+           1       0.98      0.97      0.98       832
+
+    accuracy                           0.99      7410
+   macro avg       0.99      0.98      0.99      7410
+weighted avg       0.99      0.99      0.99      7410
+
+
+Confusion matrix:
+
+
+[[6564   14]
+ [  26  806]]
+
+Run name:  make_model_doc8643_code
+Predictions file created: 2026-02-08 15:50:35 
+
+Accuracy: 0.9561538461538461
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98      1181
+           1       0.74      0.80      0.77       119
+
+    accuracy                           0.96      1300
+   macro avg       0.86      0.89      0.87      1300
+weighted avg       0.96      0.96      0.96      1300
+
+
+Confusion matrix:
+
+
+[[1148   33]
+ [  24   95]]
+
+Run name:  make_model_doc8643_description
+Predictions file created: 2026-02-08 16:28:35 
+
+Accuracy: 0.9913802630124876
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      8217
+           1       0.95      0.95      0.95       832
+
+    accuracy                           0.99      9049
+   macro avg       0.97      0.97      0.97      9049
+weighted avg       0.99      0.99      0.99      9049
+
+
+Confusion matrix:
+
+
+[[8178   39]
+ [  39  793]]
+
+Run name:  make_model_union
+Predictions file created: 2026-02-08 18:25:42 
+
+Accuracy: 0.994840495815768
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     28869
+           1       0.98      0.97      0.97      2917
+
+    accuracy                           0.99     31786
+   macro avg       0.99      0.98      0.98     31786
+weighted avg       0.99      0.99      0.99     31786
+
+
+Confusion matrix:
+
+
+[[28800    69]
+ [   95  2822]]

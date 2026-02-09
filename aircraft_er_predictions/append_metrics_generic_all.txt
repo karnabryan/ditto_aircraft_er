@@ -61,3 +61,91 @@ Confusion matrix:
 
 [[30850    73]
  [  228  5690]]
+Run name:  cictt_registry_no_lh
+Predictions file created:  2026-02-07 21:54:48 
+
+Accuracy: 0.9986340154977151
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     36700
+           1       0.99      0.99      0.99      3564
+
+    accuracy                           1.00     40264
+   macro avg       1.00      1.00      1.00     40264
+weighted avg       1.00      1.00      1.00     40264
+
+
+Confusion matrix:
+
+
+[[36667    33]
+ [   22  3542]]
+Run name:  faa_registry_no_lh
+Predictions file created:  2026-02-07 22:09:30 
+
+Accuracy: 0.998217159836573
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     36707
+           1       0.99      0.99      0.99      3678
+
+    accuracy                           1.00     40385
+   macro avg       0.99      1.00      0.99     40385
+weighted avg       1.00      1.00      1.00     40385
+
+
+Confusion matrix:
+
+
+[[36659    48]
+ [   24  3654]]
+Run name:  union_no_lh
+Predictions file created:  2026-02-07 22:44:09 
+
+Accuracy: 0.9991320736001587
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     73410
+           1       0.99      1.00      1.00      7242
+
+    accuracy                           1.00     80652
+   macro avg       1.00      1.00      1.00     80652
+weighted avg       1.00      1.00      1.00     80652
+
+
+Confusion matrix:
+
+
+[[73373    37]
+ [   33  7209]]
+Run name:  union_no_lh_v2
+Predictions file created:  2026-02-08 11:18:10 
+
+Accuracy: 0.9982074643656278
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     73535
+           1       0.99      0.99      0.99      7356
+
+    accuracy                           1.00     80891
+   macro avg       0.99      1.00      0.99     80891
+weighted avg       1.00      1.00      1.00     80891
+
+
+Confusion matrix:
+
+
+[[73447    88]
+ [   57  7299]]

@@ -1,0 +1,391 @@
+
+Run name:  baseline
+Predictions file created: 2026-02-05 20:15:54 
+
+Accuracy: 0.9980222496909765
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3677
+           1       0.98      0.99      0.99       368
+
+    accuracy                           1.00      4045
+   macro avg       0.99      1.00      0.99      4045
+weighted avg       1.00      1.00      1.00      4045
+
+
+Confusion matrix:
+
+
+[[3671    6]
+ [   2  366]]
+
+Run name:  baseline_lh_1
+Predictions file created: 2026-02-05 20:32:14 
+
+Accuracy: 0.9698996655518395
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98      1426
+           1       0.89      0.98      0.93       368
+
+    accuracy                           0.97      1794
+   macro avg       0.94      0.97      0.96      1794
+weighted avg       0.97      0.97      0.97      1794
+
+
+Confusion matrix:
+
+
+[[1381   45]
+ [   9  359]]
+
+Run name:  baseline_lh_1
+Predictions file created: 2026-02-05 20:32:14 
+
+Accuracy: 0.9698996655518395
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98      1426
+           1       0.89      0.98      0.93       368
+
+    accuracy                           0.97      1794
+   macro avg       0.94      0.97      0.96      1794
+weighted avg       0.97      0.97      0.97      1794
+
+
+Confusion matrix:
+
+
+[[1381   45]
+ [   9  359]]
+
+Run name:  baseline_lh_1
+Predictions file created: 2026-02-05 20:32:14 
+
+Accuracy: 0.9698996655518395
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98      1426
+           1       0.89      0.98      0.93       368
+
+    accuracy                           0.97      1794
+   macro avg       0.94      0.97      0.96      1794
+weighted avg       0.97      0.97      0.97      1794
+
+
+Confusion matrix:
+
+
+[[1381   45]
+ [   9  359]]
+
+Run name:  baseline_lh_2
+Predictions file created: 2026-02-05 21:15:12 
+
+Accuracy: 0.9927350864627034
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00      9405
+           1       0.86      0.96      0.91       368
+
+    accuracy                           0.99      9773
+   macro avg       0.93      0.98      0.95      9773
+weighted avg       0.99      0.99      0.99      9773
+
+
+Confusion matrix:
+
+
+[[9348   57]
+ [  14  354]]
+
+Run name:  baseline_lh_3
+Predictions file created: 2026-02-05 22:44:51 
+
+Accuracy: 0.9955983360742963
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     20306
+           1       0.84      0.93      0.88       368
+
+    accuracy                           1.00     20674
+   macro avg       0.92      0.96      0.94     20674
+weighted avg       1.00      1.00      1.00     20674
+
+
+Confusion matrix:
+
+
+[[20240    66]
+ [   25   343]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]
+
+Run name:  baseline_lh_0
+Predictions file created: 2026-02-05 20:24:15 
+
+Accuracy: 0.9929270946681176
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1547
+           1       0.98      0.98      0.98       291
+
+    accuracy                           0.99      1838
+   macro avg       0.99      0.99      0.99      1838
+weighted avg       0.99      0.99      0.99      1838
+
+
+Confusion matrix:
+
+
+[[1541    6]
+ [   7  284]]

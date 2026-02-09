@@ -222,6 +222,43 @@
     "testset": "data/ditto_aircraft/union/valid.txt"
   },
 
+  {
+    "name": "aircraft_er/cictt_registry_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/cictt_registry_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/cictt_registry_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/cictt_registry_no_lh/valid.txt"
+  },
+
+  {
+    "name": "aircraft_er/faa_registry_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/faa_registry_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/faa_registry_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/faa_registry_no_lh/valid.txt"
+  },
+
+  
+  {
+    "name": "aircraft_er/union_no_lh",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/union_no_lh/train.txt",
+    "validset": "data/ditto_aircraft/union_no_lh/test.txt",
+    "testset": "data/ditto_aircraft/union_no_lh/valid.txt"
+  },
+
+  
+  {
+    "name": "aircraft_er/union_no_lh_v2",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/union_no_lh_v2/train.txt",
+    "validset": "data/ditto_aircraft/union_no_lh_v2/test.txt",
+    "testset": "data/ditto_aircraft/union_no_lh_v2/valid.txt"
+  },
 
 
 

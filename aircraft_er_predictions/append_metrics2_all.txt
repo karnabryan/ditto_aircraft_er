@@ -1,0 +1,176 @@
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9749107939339875
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98     14258
+           1       0.90      0.99      0.94      3678
+
+    accuracy                           0.97     17936
+   macro avg       0.95      0.98      0.96     17936
+weighted avg       0.98      0.97      0.98     17936
+
+
+Confusion matrix:
+
+
+[[13829   429]
+ [   21  3657]]
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9749107939339875
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98     14258
+           1       0.90      0.99      0.94      3678
+
+    accuracy                           0.97     17936
+   macro avg       0.95      0.98      0.96     17936
+weighted avg       0.98      0.97      0.98     17936
+
+
+Confusion matrix:
+
+
+[[13829   429]
+ [   21  3657]]
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9749107939339875
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98     14258
+           1       0.90      0.99      0.94      3678
+
+    accuracy                           0.97     17936
+   macro avg       0.95      0.98      0.96     17936
+weighted avg       0.98      0.97      0.98     17936
+
+
+Confusion matrix:
+
+
+[[13829   429]
+ [   21  3657]]
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9749107939339875
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98     14258
+           1       0.90      0.99      0.94      3678
+
+    accuracy                           0.97     17936
+   macro avg       0.95      0.98      0.96     17936
+weighted avg       0.98      0.97      0.98     17936
+
+
+Confusion matrix:
+
+
+[[13829   429]
+ [   21  3657]]
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9749107939339875
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98     14258
+           1       0.90      0.99      0.94      3678
+
+    accuracy                           0.97     17936
+   macro avg       0.95      0.98      0.96     17936
+weighted avg       0.98      0.97      0.98     17936
+
+
+Confusion matrix:
+
+
+[[13829   429]
+ [   21  3657]]
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9790923282783229
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.986     0.988     0.987     14258
+           1      0.951     0.946     0.949      3678
+
+    accuracy                          0.979     17936
+   macro avg      0.969     0.967     0.968     17936
+weighted avg      0.979     0.979     0.979     17936
+
+
+Confusion matrix:
+
+
+[[14080   178]
+ [  197  3481]]
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9749107939339875
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98     14258
+           1       0.90      0.99      0.94      3678
+
+    accuracy                           0.97     17936
+   macro avg       0.95      0.98      0.96     17936
+weighted avg       0.98      0.97      0.98     17936
+
+
+Confusion matrix:
+
+
+[[13829   429]
+ [   21  3657]]
+Run name:  baseline_lh_1
+Predictions file created:  2026-02-05 16:28:45 
+
+Accuracy: 0.9790923282783229
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.986     0.988     0.987     14258
+           1      0.951     0.946     0.949      3678
+
+    accuracy                          0.979     17936
+   macro avg      0.969     0.967     0.968     17936
+weighted avg      0.979     0.979     0.979     17936
+
+
+Confusion matrix:
+
+
+[[14080   178]
+ [  197  3481]]

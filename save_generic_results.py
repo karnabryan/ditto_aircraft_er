@@ -6,7 +6,9 @@ from datetime import datetime
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # run_names is the array of the model runs to be evaluated
-run_names = ["cictt_registry", "faa_registry", "union"]
+run_names = ["cictt_registry_no_lh", "faa_registry_no_lh", "union_no_lh"]
+run_names = ["union_no_lh_v2"]
+
 
 # global_append_filename is the name of the text file that stores metrics over all runs
 global_append_filename = "append_metrics_generic"

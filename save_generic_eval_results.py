@@ -7,13 +7,13 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 
 # run_names is the array of the model runs to be evaluated
 baseline_run_names = ["baseline", "baseline_lh","baseline_lh_0","baseline_lh_1", "baseline_lh_b", "baseline_lh_2", "baseline_lh_3"]
-baseline_run_names = ["make_model_cictt"]
+baseline_run_names = ["union_no_lh"]
 
 # data_name is the evaluation dataset (eval data_name dataset against run_name model.pt)
 ####data_name = "baseline_eval_only_random_sample"
 data_name = "baseline_eval_only_canadair"
 
-data_name = "make_model_bts"
+data_name = "cictt_registry_no_lh"
 
 # predict_dir is the path of the model predictions (*_predictions_test.tsv and *_predictions_all.tsv json files)
 predict_dir = Path("aircraft_er_predictions")
@@ -21,7 +21,7 @@ predict_dir = Path("aircraft_er_predictions")
 #Process each run_name
 for baseline_run_name in baseline_run_names:
 
-    # json filenames for the run_name
+    # json filenames for the run_namesa
     run_name = data_name + "_model_" + baseline_run_name
     predict_all_path  = predict_dir / f"{run_name}_predictions_all.tsv"
     print(predict_all_path)

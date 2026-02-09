@@ -14,7 +14,9 @@ data_name = "baseline_eval_only_canadair"
 
 
 data_names = ["make_model_cictt", "make_model_faa", "make_model_reg", "make_model_doc8643", "make_model_doc8643_code", "make_model_doc8643_description", "make_model_doc8643_with_drops", "make_model_bts"]
-
+data_names = ["make_model_cictt_no_lh","make_model_faa_no_lh",
+             "make_model_reg_no_lh", "make_model_doc8643_no_lh",
+             "make_model_doc8643_code", "make_model_doc8643_description"]
 # predict_dir is the path of the model predictions (*_predictions_test.tsv and *_predictions_all.tsv json files)
 predict_dir = Path("aircraft_er_predictions")
 

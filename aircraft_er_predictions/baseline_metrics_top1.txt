@@ -1,0 +1,19 @@
+TOP-1 rows: 3678
+Accuracy: 0.0
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      0.000     0.000     0.000    3678.0
+           1      0.000     0.000     0.000       0.0
+
+    accuracy                          0.000    3678.0
+   macro avg      0.000     0.000     0.000    3678.0
+weighted avg      0.000     0.000     0.000    3678.0
+
+
+Confusion matrix:
+
+[[   0 3678]
+ [   0    0]]

@@ -7,9 +7,11 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 
 # run_names is the array of the model runs to be evaluated
 run_names = ["baseline", "baseline_lh","baseline_lh_0","baseline_lh_1", "baseline_lh_b", "baseline_lh_2", "baseline_lh_3"]
+run_names = ["baseline_lh_0"]
+run_names = ["baseline", "baseline_lh_0","baseline_lh_1", "baseline_lh_2", "baseline_lh_3"]
 
 # global_append_filename is the name of the text file that stores metrics over all runs
-global_append_filename = "append_metrics"
+global_append_filename = "append_metrics_20260207"
 
 # predict_dir is the path of the model predictions (*_predictions_test.tsv and *_predictions_all.tsv json files)
 predict_dir = Path("aircraft_er_predictions")
@@ -63,7 +65,7 @@ for run_name in run_names:
         print(confusion_matrix(y_true_test, y_pred_test), file=f)
 
     # Append run metrics to global file
-    with open("aircraft_er_predictions/", global_append_filename, "_test.txt", "a") as f:
+    with open("aircraft_er_predictions/" + global_append_filename + "_test.txt", "a") as f:
         print("\nRun name: ", run_name, file=f)
         print("Predictions file created:", test_run_ts, "\n", file=f)
         print("Accuracy:", accuracy_score(y_true_test, y_pred_test), file=f)
@@ -86,7 +88,7 @@ for run_name in run_names:
         print(confusion_matrix(y_true, y_pred), file=f)
     
     # Save metrics to individual file for each run
-    with open("aircraft_er_predictions/", global_append_filename, "_all.txt", "a") as f:
+    with open("aircraft_er_predictions/" + global_append_filename + "_all.txt", "a") as f:
         print("Run name: ", run_name, file=f)
         print("Predictions file created: ", all_run_ts, "\n", file=f)
         print("Accuracy:", accuracy_score(y_true, y_pred), file=f)
@@ -131,3 +133,87 @@ for run_name in run_names:
     # Save aligned parsed data to dataframe and write to file
     aligned = pd.DataFrame(parsed)
     aligned.to_csv("aircraft_er_predictions/" + run_name + "_aligned_errors_review.csv", index=False)
+
+    # This has the left_ids and right_ids included
+    pairs_with_id_path = f"data/ditto_aircraft/{run_name}/all_pairs_with_id.txt"
+    pairs_with_id = pd.read_csv(pairs_with_id_path)
+
+
+    df_all["left_id"] = pairs_with_id["left_id"] 
+    df_all["right_id"] = pairs_with_id["right_id"] 
+
+
+    cand = df_all[df_all["match"] == 1].sort_values("match_confidence", ascending=False)
+    best = cand.drop_duplicates(subset=["right_id"], keep="first")
+
+    # Evaluate links (recordlinkage-style)
+    true_links = set(df_all.loc[df_all["gold"]==1, ["left_id","right_id"]].itertuples(index=False, name=None))
+    pred_links = set(best[["left_id","right_id"]].itertuples(index=False, name=None))
+
+    tp = len(pred_links & true_links)
+    n_pred = len(pred_links)
+    n_true = len(true_links)
+    fp = n_pred - tp
+    fn = n_true - tp
+    coverage = n_pred / n_true
+
+    precision = tp / n_pred if n_pred else 0.0
+    recall = tp / n_true if n_true else 0.0
+    f1 = (2*precision*recall/(precision+recall)) if (precision+recall) else 0.0
+
+
+    # Agregating by right_id shows stats for each right_id
+    #df_agg_right = (
+    #    df_all.groupby('right_id', as_index=False)
+    #    .agg({'right':         'first',                          
+    #            'TP':           'sum',
+    #            'TN':           'sum',
+    #            'FP':           'sum',
+    #            'FN':           'sum',                    
+    #            'left':        lambda s: pd.unique(s.dropna()).tolist(),
+    #    })
+    #)
+    # Agregating by right_id shows stats for each right_id
+    df_agg_right = (
+        df_all.groupby('right_id', as_index=False)
+        .agg({'right':         'first',                                      
+                'left_id':        lambda s: pd.unique(s.dropna()).tolist(),
+        })
+    )
+
+    df_agg_right["left_len"] = df_agg_right["left_id"].apply(len)
+
+    # Calculate the maximum match confidence only for classified matches
+    df_agg_max_conf_right = (df_all[df_all["match"]==1].groupby('right_id', as_index=False)
+                                .agg({'match_confidence':         'max',
+                                      'left_id':                  'min'                          
+                                    }))
+    
+    # Merge exhaustive right rows with merged right rows
+    df_all_merged_right = df_all.merge(
+        df_agg_right, on="right_id", how="left", suffixes=("", "_agg"))
+    
+    # Merge max match confidence score
+    df_all_merged_right = df_all_merged_right.merge(
+        df_agg_max_conf_right,
+        on="right_id",
+        how="left",
+        suffixes=("", "_maxmin"))
+
+    # A best (top 1) match is when there is a match and the match has the maximum confidence
+    df_all_merged_right["best"] = ((df_all_merged_right["match"]==1) & (df_all_merged_right["match_confidence"] == df_all_merged_right["match_confidence_maxmin"]) & (df_all_merged_right["left_id"] == df_all_merged_right["left_id_maxmin"])).astype(int)
+
+    #All Data -compare best match (top 1) with gold
+
+    y_true = df_all_merged_right["gold"]
+    y_pred = df_all_merged_right["best"]
+
+
+
+
+    with open("aircraft_er_predictions/" + global_append_filename + "_all.txt", "a") as f: 
+        print("\nBEST MATCH\n", file=f)
+        print({"precision":precision, "recall":recall, "f1":f1, "coverage":coverage, "TP":tp, "FP":fp, "FN":fn, "n_pred":n_pred}, file=f)
+        print("\nAccuracy:", accuracy_score(y_true, y_pred),file=f)
+        print("\nClassification report:\n", classification_report(y_true, y_pred,digits=3),file=f)
+        print("\nConfusion matrix:\n", confusion_matrix(y_true, y_pred),file=f)

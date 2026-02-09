@@ -53,8 +53,47 @@ aircraft_er/baseline_2""".split('\n')
 lms = ['distilbert', 'distilbert', 'distilbert']
 
 
-datasets = """aircraft_er/make_model_bts""".split('\n')
+datasets = """aircraft_er/make_model_union""".split('\n')
 lms = ['distilbert']
+
+datasets = """aircraft_er/baseline_lh_1""".split('\n')
+lms = ['distilbert']
+
+
+datasets = """aircraft_er/baseline
+aircraft_er/baseline_lh_0
+aircraft_er/baseline_lh_1
+aircraft_er/baseline_lh_2
+aircraft_er/baseline_lh_3
+aircraft_er/cictt_registry
+aircraft_er/faa_registry
+aircraft_er/union""".split('\n')
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert']
+
+datasets = """aircraft_er/baseline
+aircraft_er/baseline_lh_0
+aircraft_er/baseline_lh_1
+aircraft_er/baseline_lh_2
+aircraft_er/baseline_lh_3""".split('\n')
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert']
+
+datasets = """aircraft_er/cictt_registry_no_lh
+aircraft_er/faa_registry_no_lh
+aircraft_er/union_no_lh""".split('\n')
+lms = ['distilbert', 'distilbert', 'distilbert']
+
+datasets = """aircraft_er/union_no_lh_v2""".split('\n')
+lms = ['distilbert']
+
+datasets = """aircraft_er/make_model_cictt_no_lh
+aircraft_er/make_model_faa_no_lh
+aircraft_er/make_model_reg_no_lh
+aircraft_er/make_model_doc8643_no_lh
+aircraft_er/make_model_doc8643_with_drops
+aircraft_er/make_model_doc8643_code
+aircraft_er/make_model_doc8643_description
+aircraft_er/make_model_union""".split('\n')
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert']
 
 
 

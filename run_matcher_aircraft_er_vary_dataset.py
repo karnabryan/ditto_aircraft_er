@@ -69,8 +69,6 @@ aircraft_er/baseline_lh_3
 aircraft_er/baseline_lh_b""".split('\n')
 
 
-dataset = "aircraft_er/make_model_union"
-
 eval_dataset = "ditto_aircraft/baseline_eval_only_random_sample"
 eval_dataset = "ditto_aircraft/eval_make_model_wildlife"
 
@@ -78,13 +76,12 @@ eval_dataset = "ditto_aircraft/eval_make_model_wildlife"
 
 eval_datasets = """aircraft_er/make_model_cictt""".split('\n')
 
-eval_datasets = """ditto_aircraft/make_model_cictt
-ditto_aircraft/make_model_faa
-ditto_aircraft/make_model_reg
-ditto_aircraft/make_model_doc8643
+eval_datasets = """ditto_aircraft/make_model_cictt_no_lh
+ditto_aircraft/make_model_faa_no_lh
+ditto_aircraft/make_model_reg_no_lh
+ditto_aircraft/make_model_doc8643_no_lh
 ditto_aircraft/make_model_doc8643_code
-ditto_aircraft/make_model_doc8643_description
-ditto_aircraft/make_model_doc8643_with_drops""".split('\n')
+ditto_aircraft/make_model_doc8643_description""".split('\n')
 
 
 eval_datasets = """ditto_aircraft/eval_make_model_aids
@@ -100,6 +97,14 @@ lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'dist
 lms = ['distilbert','distilbert','distilbert']
 lms = ['distilbert']
 
+dataset = "aircraft_er/make_model_union"
+eval_datasets = """ditto_aircraft/make_model_cictt_no_lh
+ditto_aircraft/make_model_faa_no_lh
+ditto_aircraft/make_model_reg_no_lh
+ditto_aircraft/make_model_doc8643_no_lh
+ditto_aircraft/make_model_doc8643_code
+ditto_aircraft/make_model_doc8643_description""".split('\n')
+lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert'] 
 
 for eval_dataset, lm in zip(eval_datasets, lms):
     print(eval_dataset)
