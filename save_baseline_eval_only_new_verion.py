@@ -3,18 +3,18 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime
-
 import numpy as np
+import pandas as pd
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 
 baseline_run_names = ["baseline", "baseline_lh_0", "baseline_lh_1", "baseline_lh_2", "baseline_lh_3"]
 
-data_name = "baseline_eval_only_canadair"
-predict_dir = Path("aircraft_er_predictions")
+data_name = "baseline_eval_only_exhaustive_new"
 
 gold_path = Path("data/ditto_aircraft") / data_name / "all_pairs.txt"
-
+# IDs aligned with gold_path (same order/rows as all_pairs.txt)
+ids_path = Path("data/ditto_aircraft") / data_name / "all_pairs_with_id.txt"
 # Optional: cap how many error rows you write (helps if errors are huge)
 MAX_ERROR_ROWS = None  # e.g. 200000
 
@@ -52,27 +52,59 @@ def sklearn_from_counts(tn, fp, fn, tp, digits=3):
     cm = confusion_matrix(y_true, y_pred, sample_weight=w, labels=[0, 1])
     return acc, report, cm
 
+def iter_ids(path):
+    """
+    Yield (left_id, right_id) from an all_pairs_with_id file aligned line-for-line.
+    Adjust column names if needed.
+    """
+    df = pd.read_csv(path, usecols=["left_id", "right_id"], dtype=str)
+    for row in df.itertuples(index=False):
+        yield row.left_id, row.right_id
+
+def as_p_match(match, match_conf):
+    """
+    Convert Ditto outputs to estimated P(match==1).
+    Ditto's match_confidence is confidence in the predicted class.
+    """
+    mc = float(match_conf)
+    m = int(match)
+    return mc if m == 1 else (1.0 - mc)
 
 for baseline_run_name in baseline_run_names:
     run_name = f"{data_name}_model_{baseline_run_name}"
+    predict_all_path = Path(f"{run_name}_predictions_all.tsv")
+    predict_dir = Path("aircraft_er_predictions")
     predict_all_path = predict_dir / f"{run_name}_predictions_all.tsv"
     print(predict_all_path)
 
     all_run_ts = datetime.fromtimestamp(predict_all_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
 
     # Output paths
-    metrics_path = predict_dir / f"{run_name}_eval_metrics_all.txt"
-    append_path = predict_dir / "append_full_baseline_eval_metrics_all.txt"
-    errors_path = predict_dir / f"{run_name}_errors_review.csv"
-    aligned_path = predict_dir / f"{run_name}_aligned_errors_review.csv"
+    metrics_path = f"{run_name}_eval_metrics_all.txt"
+    append_path = "append_full_baseline_eval_metrics_all.txt"
+    errors_path = f"{run_name}_errors_review.csv"
+    aligned_path = f"{run_name}_aligned_errors_review.csv"
+    # Output paths 
+    metrics_path = predict_dir / f"{run_name}_eval_metrics_all.txt" 
+    append_path = predict_dir / "append_full_baseline_eval_metrics_all.txt" 
+    errors_path = predict_dir / f"{run_name}_errors_review.csv" 
+    aligned_path = predict_dir / f"{run_name}_aligned_errors_review.csv"   
 
     # Running counts
     tn = fp = fn = tp = 0
     n = 0
     err_written = 0
+    
+    # --- TOP-1 accumulators (per right_id) ---
+    # For each right_id, keep the best-scoring candidate (highest p_match)
+    best_for_right = {}  # right_id -> dict(score, gold, left, right, match, conf)
+
+    # Track the gold true link existence per right_id (should be 1 for most setups)
+    gold_pos_seen = set()  # right_ids that have at least one gold==1 pair
 
     # Stream gold + predictions in lockstep
     gold_iter = iter_gold_labels(gold_path)
+    ids_iter = iter_ids(ids_path)
 
     with open(predict_all_path, "r", encoding="utf-8") as pred_f, \
          open(errors_path, "w", newline="", encoding="utf-8") as err_f, \
@@ -102,6 +134,42 @@ for baseline_run_name in baseline_run_names:
                 gold = next(gold_iter)
             except StopIteration:
                 raise RuntimeError("Gold file ended before predictions file. Are they aligned?")
+
+            y_pred = int(pred.get("match", 0))
+            y_true = int(gold)   # <-- ADD THIS LINE
+            
+            # ids aligned with this pair
+            left_id, right_id = next(ids_iter)
+
+            # track whether this right_id has a gold positive (for FN accounting)
+            if y_true == 1:
+                gold_pos_seen.add(right_id)
+
+            # --- TOP-1 update ---
+            # Mode A: use p_match ranking (recommended for "top-1")
+            score = as_p_match(y_pred, pred.get("match_confidence", 0.0))
+
+            # Mode B (if you prefer your original logic):
+            # only consider predicted matches; score = match_confidence; skip match==0
+            # if y_pred == 0:
+            #     score = None
+            # else:
+            #     score = float(pred.get("match_confidence", 0.0))
+
+            if score is not None:
+                cur = best_for_right.get(right_id)
+                if (cur is None) or (score > cur["score"]):
+                    best_for_right[right_id] = {
+                        "score": score,
+                        "gold": y_true,
+                        "left_id": left_id,
+                        "right_id": right_id,
+                        "left": pred.get("left", ""),
+                        "right": pred.get("right", ""),
+                        "match": y_pred,
+                        "match_confidence": pred.get("match_confidence", "")
+                    }
+
 
             y_pred = int(pred.get("match", 0))
             y_true = int(gold)
@@ -157,9 +225,32 @@ for baseline_run_name in baseline_run_names:
             raise RuntimeError("Gold file has MORE lines than predictions file. Are they aligned?")
         except StopIteration:
             pass
+        try:
+            next(ids_iter)
+            raise RuntimeError("IDs file has MORE lines than predictions file. Are they aligned?")
+        except StopIteration:
+            pass
+
+
 
     # sklearn-style metrics from counts
     acc, report, cm = sklearn_from_counts(tn, fp, fn, tp, digits=3)
+
+    # --- TOP-1 metrics (per right_id) ---
+    # Predicted links = one per right_id where we have a best candidate (depending on mode)
+    n_right_true = len(gold_pos_seen)  # right_ids that truly have a match in this evaluation
+    n_right_pred = len(best_for_right)
+
+    top1_tp = sum(1 for r in best_for_right.values() if r["gold"] == 1)
+    top1_fp = n_right_pred - top1_tp
+    top1_fn = n_right_true - top1_tp  # missed true rights (includes abstentions if mode B)
+
+    top1_precision = top1_tp / (top1_tp + top1_fp) if (top1_tp + top1_fp) else 0.0
+    top1_recall = top1_tp / (top1_tp + top1_fn) if (top1_tp + top1_fn) else 0.0
+    top1_f1 = (2 * top1_precision * top1_recall / (top1_precision + top1_recall)) if (top1_precision + top1_recall) else 0.0
+    top1_coverage = n_right_pred / n_right_true if n_right_true else 0.0
+
+
 
     # Save metrics per run
     with open(metrics_path, "w", encoding="utf-8") as f:
@@ -170,6 +261,19 @@ for baseline_run_name in baseline_run_names:
         print(report, file=f)
         print("\nConfusion matrix:\n", file=f)
         print(cm, file=f)
+        print("\nTOP-1 (per right_id) metrics:", file=f)
+        print({
+            "n_right_true": n_right_true,
+            "n_right_pred": n_right_pred,
+            "coverage": round(top1_coverage, 6),
+            "TP": top1_tp,
+            "FP": top1_fp,
+            "FN": top1_fn,
+            "precision": round(top1_precision, 6),
+            "recall": round(top1_recall, 6),
+            "f1": round(top1_f1, 6),
+        }, file=f)
+
 
     # Append to global file
     with open(append_path, "a", encoding="utf-8") as f:
@@ -183,5 +287,18 @@ for baseline_run_name in baseline_run_names:
         print("\nConfusion matrix:\n\n", file=f)
         print(cm, file=f)
         print("\n" + "-"*60 + "\n", file=f)
+        print("\nTOP-1 (per right_id) metrics:", file=f)
+        print({
+            "n_right_true": n_right_true,
+            "n_right_pred": n_right_pred,
+            "coverage": round(top1_coverage, 6),
+            "TP": top1_tp,
+            "FP": top1_fp,
+            "FN": top1_fn,
+            "precision": round(top1_precision, 6),
+            "recall": round(top1_recall, 6),
+            "f1": round(top1_f1, 6),
+        }, file=f)
+
 
     print(f"Done {run_name}: n={n}, errors_written={err_written}, cm={cm.tolist()}")

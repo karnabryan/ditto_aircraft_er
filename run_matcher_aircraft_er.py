@@ -87,13 +87,7 @@ lms = ['distilbert','distilbert','distilbert','distilbert']
 lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert'] #, 'distilbert', 'distilbert', 'distilbert']
 lms = ['distilbert','distilbert','distilbert','distilbert','distilbert']
 
-eval_dataset = "ditto_aircraft/baseline_eval_only_exhaustive_new"
 
-datasets = """aircraft_er/baseline
-aircraft_er/baseline_lh_0
-aircraft_er/baseline_lh_1
-aircraft_er/baseline_lh_2
-aircraft_er/baseline_lh_3""".split('\n')
 
 datasets = """aircraft_er/make_model_cictt_no_lh
 aircraft_er/make_model_faa_no_lh
@@ -102,9 +96,16 @@ aircraft_er/make_model_doc8643_no_lh
 aircraft_er/make_model_doc8643_code
 aircraft_er/make_model_doc8643_description""".split('\n')
 
-eval_dataset = "ditto_aircraft/make_model_union"
+datasets = """aircraft_er/baseline
+aircraft_er/baseline_lh_0
+aircraft_er/baseline_lh_1
+aircraft_er/baseline_lh_2
+aircraft_er/baseline_lh_3""".split('\n')
 
-lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert']
+eval_dataset = "ditto_aircraft/baseline_eval_only_exhaustive_new"
+
+
+lms = ['distilbert','distilbert', 'distilbert','distilbert', 'distilbert']
 
 for dataset, lm in zip(datasets, lms):
     print(dataset)

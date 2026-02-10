@@ -1241,3 +1241,288 @@ Confusion matrix:
 
 [[31182    28]
  [    0    10]]
+Run name: baseline_eval_only_exhaustive_new_model_baseline
+Predictions file created: 2026-02-09 02:04:40 
+
+Records: 10647169
+Confusion counts: {'TN': 10620499, 'FP': 23407, 'FN': 5, 'TP': 3258}
+Accuracy: 0.9978011056272329
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.998     0.999 10643906.0
+           1      0.122     0.998     0.218    3263.0
+
+    accuracy                          0.998 10647169.0
+   macro avg      0.561     0.998     0.608 10647169.0
+weighted avg      1.000     0.998     0.999 10647169.0
+
+
+Confusion matrix:
+
+
+[[10620499    23407]
+ [       5     3258]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_0
+Predictions file created: 2026-02-09 03:36:54 
+
+Records: 10647169
+Confusion counts: {'TN': 9883887, 'FP': 760019, 'FN': 5, 'TP': 3258}
+Accuracy: 0.9286172690599727
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.929     0.963 10643906.0
+           1      0.004     0.998     0.009    3263.0
+
+    accuracy                          0.929 10647169.0
+   macro avg      0.502     0.964     0.486 10647169.0
+weighted avg      1.000     0.929     0.963 10647169.0
+
+
+Confusion matrix:
+
+
+[[9883887  760019]
+ [      5    3258]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_1
+Predictions file created: 2026-02-09 05:09:04 
+
+Records: 10647169
+Confusion counts: {'TN': 10512961, 'FP': 130945, 'FN': 9, 'TP': 3254}
+Accuracy: 0.9877005803138844
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.988     0.994 10643906.0
+           1      0.024     0.997     0.047    3263.0
+
+    accuracy                          0.988 10647169.0
+   macro avg      0.512     0.992     0.521 10647169.0
+weighted avg      1.000     0.988     0.994 10647169.0
+
+
+Confusion matrix:
+
+
+[[10512961   130945]
+ [       9     3254]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_2
+Predictions file created: 2026-02-09 06:42:52 
+
+Records: 10647169
+Confusion counts: {'TN': 10628794, 'FP': 15112, 'FN': 33, 'TP': 3230}
+Accuracy: 0.9985775561560073
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.999     0.999 10643906.0
+           1      0.176     0.990     0.299    3263.0
+
+    accuracy                          0.999 10647169.0
+   macro avg      0.588     0.994     0.649 10647169.0
+weighted avg      1.000     0.999     0.999 10647169.0
+
+
+Confusion matrix:
+
+
+[[10628794    15112]
+ [      33     3230]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_3
+Predictions file created: 2026-02-09 08:15:10 
+
+Records: 10647169
+Confusion counts: {'TN': 10637922, 'FP': 5984, 'FN': 55, 'TP': 3208}
+Accuracy: 0.9994328069743235
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.999     1.000 10643906.0
+           1      0.349     0.983     0.515    3263.0
+
+    accuracy                          0.999 10647169.0
+   macro avg      0.674     0.991     0.757 10647169.0
+weighted avg      1.000     0.999     1.000 10647169.0
+
+
+Confusion matrix:
+
+
+[[10637922     5984]
+ [      55     3208]]
+
+------------------------------------------------------------
+
+Run name: baseline_eval_only_exhaustive_new_model_baseline
+Predictions file created: 2026-02-09 02:04:40 
+
+Records: 10647169
+Confusion counts: {'TN': 10620499, 'FP': 23407, 'FN': 5, 'TP': 3258}
+Accuracy: 0.9978011056272329
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.998     0.999 10643906.0
+           1      0.122     0.998     0.218    3263.0
+
+    accuracy                          0.998 10647169.0
+   macro avg      0.561     0.998     0.608 10647169.0
+weighted avg      1.000     0.998     0.999 10647169.0
+
+
+Confusion matrix:
+
+
+[[10620499    23407]
+ [       5     3258]]
+
+------------------------------------------------------------
+
+
+TOP-1 (per right_id) metrics:
+{'n_right_true': 3263, 'n_right_pred': 3263, 'coverage': 1.0, 'TP': 2886, 'FP': 377, 'FN': 377, 'precision': 0.884462, 'recall': 0.884462, 'f1': 0.884462}
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_0
+Predictions file created: 2026-02-09 03:36:54 
+
+Records: 10647169
+Confusion counts: {'TN': 9883887, 'FP': 760019, 'FN': 5, 'TP': 3258}
+Accuracy: 0.9286172690599727
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.929     0.963 10643906.0
+           1      0.004     0.998     0.009    3263.0
+
+    accuracy                          0.929 10647169.0
+   macro avg      0.502     0.964     0.486 10647169.0
+weighted avg      1.000     0.929     0.963 10647169.0
+
+
+Confusion matrix:
+
+
+[[9883887  760019]
+ [      5    3258]]
+
+------------------------------------------------------------
+
+
+TOP-1 (per right_id) metrics:
+{'n_right_true': 3263, 'n_right_pred': 3263, 'coverage': 1.0, 'TP': 1510, 'FP': 1753, 'FN': 1753, 'precision': 0.462764, 'recall': 0.462764, 'f1': 0.462764}
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_1
+Predictions file created: 2026-02-09 05:09:04 
+
+Records: 10647169
+Confusion counts: {'TN': 10512961, 'FP': 130945, 'FN': 9, 'TP': 3254}
+Accuracy: 0.9877005803138844
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.988     0.994 10643906.0
+           1      0.024     0.997     0.047    3263.0
+
+    accuracy                          0.988 10647169.0
+   macro avg      0.512     0.992     0.521 10647169.0
+weighted avg      1.000     0.988     0.994 10647169.0
+
+
+Confusion matrix:
+
+
+[[10512961   130945]
+ [       9     3254]]
+
+------------------------------------------------------------
+
+
+TOP-1 (per right_id) metrics:
+{'n_right_true': 3263, 'n_right_pred': 3263, 'coverage': 1.0, 'TP': 2016, 'FP': 1247, 'FN': 1247, 'precision': 0.617836, 'recall': 0.617836, 'f1': 0.617836}
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_2
+Predictions file created: 2026-02-09 06:42:52 
+
+Records: 10647169
+Confusion counts: {'TN': 10628794, 'FP': 15112, 'FN': 33, 'TP': 3230}
+Accuracy: 0.9985775561560073
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.999     0.999 10643906.0
+           1      0.176     0.990     0.299    3263.0
+
+    accuracy                          0.999 10647169.0
+   macro avg      0.588     0.994     0.649 10647169.0
+weighted avg      1.000     0.999     0.999 10647169.0
+
+
+Confusion matrix:
+
+
+[[10628794    15112]
+ [      33     3230]]
+
+------------------------------------------------------------
+
+
+TOP-1 (per right_id) metrics:
+{'n_right_true': 3263, 'n_right_pred': 3263, 'coverage': 1.0, 'TP': 2823, 'FP': 440, 'FN': 440, 'precision': 0.865155, 'recall': 0.865155, 'f1': 0.865155}
+Run name: baseline_eval_only_exhaustive_new_model_baseline_lh_3
+Predictions file created: 2026-02-09 08:15:10 
+
+Records: 10647169
+Confusion counts: {'TN': 10637922, 'FP': 5984, 'FN': 55, 'TP': 3208}
+Accuracy: 0.9994328069743235
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+           0      1.000     0.999     1.000 10643906.0
+           1      0.349     0.983     0.515    3263.0
+
+    accuracy                          0.999 10647169.0
+   macro avg      0.674     0.991     0.757 10647169.0
+weighted avg      1.000     0.999     1.000 10647169.0
+
+
+Confusion matrix:
+
+
+[[10637922     5984]
+ [      55     3208]]
+
+------------------------------------------------------------
+
+
+TOP-1 (per right_id) metrics:
+{'n_right_true': 3263, 'n_right_pred': 3263, 'coverage': 1.0, 'TP': 2917, 'FP': 346, 'FN': 346, 'precision': 0.893963, 'recall': 0.893963, 'f1': 0.893963}

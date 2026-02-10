@@ -1,4 +1,4 @@
-cictt_make,make,cictt_model,model,cictt_series,series,cictt_cert,cert,cictt_name,name,predicted,confidence,gold
+make_left,make_right,model_left,model_right,series_left,series_right,cert_left,cert_right,name_left,name_right,predicted,confidence,gold
 SHORT,,SD360,,,,,,,,0,0.9975621485415516,1
 EMBRAER,,ERJ170,,,,,,"SHORT WING VERSION, LONG WING VERSION, SC",,0,0.9532765387115351,1
 GULFSTREAM,,GVII,,,,,,,,1,0.8508447754628926,0

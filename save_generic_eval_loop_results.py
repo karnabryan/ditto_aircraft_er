@@ -17,6 +17,9 @@ data_names = ["make_model_cictt", "make_model_faa", "make_model_reg", "make_mode
 data_names = ["make_model_cictt_no_lh","make_model_faa_no_lh",
              "make_model_reg_no_lh", "make_model_doc8643_no_lh",
              "make_model_doc8643_code", "make_model_doc8643_description"]
+data_names = ["make_model_eval_aids", "make_model_eval_ntsb","make_model_eval_wildlife",
+              "make_model_eval_bts", "make_model_eval_block_make"]
+
 # predict_dir is the path of the model predictions (*_predictions_test.tsv and *_predictions_all.tsv json files)
 predict_dir = Path("aircraft_er_predictions")
 

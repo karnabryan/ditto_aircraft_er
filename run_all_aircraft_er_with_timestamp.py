@@ -95,6 +95,8 @@ aircraft_er/make_model_doc8643_description
 aircraft_er/make_model_union""".split('\n')
 lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'distilbert', 'distilbert', 'distilbert']
 
+datasets = """aircraft_er/make_model_bts""".split('\n')
+lms = ['distilbert']
 
 
 
