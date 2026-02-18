@@ -56,8 +56,7 @@ lms = ['distilbert', 'distilbert', 'distilbert']
 datasets = """aircraft_er/make_model_union""".split('\n')
 lms = ['distilbert']
 
-datasets = """aircraft_er/baseline_lh_1""".split('\n')
-lms = ['distilbert']
+
 
 
 datasets = """aircraft_er/baseline
@@ -98,7 +97,8 @@ lms = ['distilbert', 'distilbert','distilbert', 'distilbert','distilbert', 'dist
 datasets = """aircraft_er/make_model_bts""".split('\n')
 lms = ['distilbert']
 
-
+datasets = """aircraft_er/baseline_1""".split('\n')
+lms = ['distilbert']
 
 log_path = "run_timings.csv"
 file_exists = os.path.exists(log_path)

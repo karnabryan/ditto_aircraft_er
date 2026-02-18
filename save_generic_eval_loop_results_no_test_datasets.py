@@ -17,8 +17,11 @@ data_names = ["make_model_cictt", "make_model_faa", "make_model_reg", "make_mode
 data_names = ["make_model_cictt_no_lh","make_model_faa_no_lh",
              "make_model_reg_no_lh", "make_model_doc8643_no_lh",
              "make_model_doc8643_code", "make_model_doc8643_description"]
-data_names = ["eval_make_model_aids", "eval_make_model_ntsb","eval_make_model_wildlife",
-              "eval_make_model_bts", "eval_make_model_block_make"]
+data_names = ["eval_make_model_aids", "eval_make_model_ntsb","eval_make_model_wildlife"]
+data_names = ["eval_make_model_bts", "eval_make_model_block_make"]
+data_names = ["make_model_cictt_no_lh","make_model_faa_no_lh",
+             "make_model_reg_no_lh", "make_model_doc8643_no_lh",
+             "make_model_doc8643_code", "make_model_doc8643_description"]
 
 # predict_dir is the path of the model predictions (*_predictions_test.tsv and *_predictions_all.tsv json files)
 predict_dir = Path("aircraft_er_predictions")
@@ -60,6 +63,8 @@ for data_name in data_names:
     # and confusion matrix printouts 
     y_true = df_all["gold"]
     y_pred = df_all["match"]
+
+    
 
     # Save metrics to individual file for each run
     with open("aircraft_er_predictions/" + run_name + "_eval_metrics_all.txt", "w") as f:

@@ -1084,3 +1084,11 @@ aircraft_er/make_model_bts_lm=distilbert_dk=False_su=False 0.396954
 aircraft_er/make_model_bts_lm=distilbert_dk=False_su=False 3.755582
 aircraft_er/make_model_bts_lm=distilbert_dk=False_su=False 0.409356
 aircraft_er/make_model_bts_lm=distilbert_dk=False_su=False 0.378034
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.106782
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 21.438142
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.131727
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.002048
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.155730
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 21.955153
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.086930
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.071915
