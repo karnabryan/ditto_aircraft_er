@@ -1092,3 +1092,9 @@ aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.155730
 aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 21.955153
 aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.086930
 aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.071915
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.024465
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 1.958737
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.007360
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 1.982618
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 2.073204
+aircraft_er/baseline_1_lm=distilbert_dk=False_su=False 697.966222

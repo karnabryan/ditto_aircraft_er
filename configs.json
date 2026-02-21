@@ -16,6 +16,14 @@
     "testset": "data/ditto_aircraft/baseline/valid.txt"
   },
   {
+    "name": "aircraft_er/baseline_1_exhaustive",
+    "task_type": "classification",
+    "vocab": ["0", "1"],
+    "trainset": "data/ditto_aircraft/baseline/train.txt",
+    "validset": "data/ditto_aircraft/baseline/valid.txt",
+    "testset": "data/ditto_aircraft/baseline/test.txt"
+  },
+  {
     "name": "aircraft_er/baseline_lh",
     "task_type": "classification",
     "vocab": ["0", "1"],

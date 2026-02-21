@@ -101,6 +101,9 @@ eval_dataset = "ditto_aircraft/baseline"
 datasets = """aircraft_er/union_no_lh_v2""".split('\n')
 lms = ['distilbert']
 
+eval_dataset = "ditto_aircraft/baseline_1_exhaustive"
+datasets = """aircraft_er/baseline_1""".split('\n')
+
 for dataset, lm in zip(datasets, lms):
     print(dataset)
 

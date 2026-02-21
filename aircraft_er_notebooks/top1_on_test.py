@@ -9,7 +9,7 @@ import pandas as pd
 
 
 
-model_names = ["baseline"]
+model_names = ["baseline_1"]
 pred_dir = Path("../aircraft_er_predictions")
 data_dir = Path("../data/ditto_aircraft")
 
@@ -94,8 +94,8 @@ def top1_per_right_match1(df: pd.DataFrame, score_col="match_confidence") -> pd.
 for model_name in model_names:
     run_name = f"{model_name}_model_{model_name}"
     run_name = model_name
-    pred_path = pred_dir / f"{run_name}_predictions_all.tsv"
-    ids_path = data_dir / model_name / "all_pairs_with_id.txt"
+    pred_path = pred_dir / f"{run_name}_predictions_test.tsv"
+    ids_path = data_dir / model_name / "test_with_id.txt"
 
     print(f"\n=== {run_name} ===")
     print("Pred:", pred_path)
@@ -148,7 +148,7 @@ for model_name in model_names:
     df_top1 = pd.concat([df_top1.reset_index(drop=True), left_df, right_df], axis=1)
 
     # Save full top1 file for this eval set
-    out_top1 = pred_dir / f"{run_name}_top1.csv"
+    out_top1 = pred_dir / f"{run_name}_top1_test.csv"
     df_top1.to_csv(out_top1, index=False)
 
     # Random sample for manual labeling (from top1 only)

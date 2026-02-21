@@ -11,6 +11,8 @@ eval_names = ["eval_make_model_aids","eval_make_model_wildlife","eval_make_model
 "eval_make_model_bts_block_make"]
 eval_names= ["make_model_bts"]
 model_name = "make_model_bts"
+eval_names= ["baseline_1_exhaustive"]
+model_name = "baseline_1"
 pred_dir = Path("../aircraft_er_predictions")
 data_dir = Path("../data/ditto_aircraft")
 
@@ -94,9 +96,10 @@ def top1_per_right_match1(df: pd.DataFrame, score_col="match_confidence") -> pd.
 ### MAIN LOOP ###
 for eval_name in eval_names:
     run_name = f"{eval_name}_model_{model_name}"
-    run_name = eval_name
-    pred_path = pred_dir / f"{run_name}_predictions_all.tsv"
-    ids_path = data_dir / eval_name / "all_pairs_with_id.txt"
+    #run_name = eval_name
+    pred_path = pred_dir / f"{run_name}_predictions_test.tsv"
+
+    ids_path = data_dir / eval_name / "test_with_id.txt"
 
     print(f"\n=== {run_name} ===")
     print("Pred:", pred_path)
@@ -135,7 +138,7 @@ for eval_name in eval_names:
 
     # Compute top1 per fixed left_id
     df_top1 = top1_per_right_match1(df, score_col="match_confidence")
-    df_top1_left = top1_per_left_match1(df, score_col="match_confidence")
+    df_top1 = top1_per_left_match1(df, score_col="match_confidence")
 
     # Add a few parsed fields to make manual review easier
     # (works even if fields differ across datasets)
@@ -147,7 +150,7 @@ for eval_name in eval_names:
     df_top1 = pd.concat([df_top1.reset_index(drop=True), left_df, right_df], axis=1)
 
     # Save full top1 file for this eval set
-    out_top1 = pred_dir / f"{run_name}_top1_right.csv"
+    out_top1 = pred_dir / f"{run_name}_top1_left.csv"
     df_top1.to_csv(out_top1, index=False)
 
     # Random sample for manual labeling (from top1 only)
